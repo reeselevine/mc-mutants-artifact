@@ -159,11 +159,11 @@ def per_test_stats(dataset):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--action", required=True,  help="""Analysis to perform.
+    parser.add_argument("--action", required=True, help="""Analysis to perform.
                         mutation-score: returns the mutation scores and average mutant death rates for a dataset.
                         merge: combine test environments across multiple datasets
                         correation: show the correlation between the weak behaviors of tests in the dataset""")
-    parser.add_argument("--stats_path", help="Path to the stats to analyze. For the mutation-score and correlation actions, must be a file. For the merge action, must be a directory.")
+    parser.add_argument("--stats_path", required=True, help="Path to the stats to analyze. For the mutation-score and correlation actions, must be a file. For the merge action, must be a directory.")
     parser.add_argument("--rep", default="99.999", help="Level of reproducibility (merge action).")
     parser.add_argument("--budget", default="4", help="Time budget per test (seconds) (merge action)")
     args = parser.parse_args()
