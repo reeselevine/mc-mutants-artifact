@@ -1,7 +1,8 @@
 import json
-import math
+import os
 import matplotlib.pyplot as plt
 import numpy as np
+from analysis import *
 
 INTEL = "intel"
 AMD = "amd"
@@ -20,17 +21,10 @@ PTE = "pte"
 PTE_COLOR = "#e78ac3"
 environments = [SITE_BASELINE, SITE, PTE_BASELINE, PTE]
 
-REVERSING_PO = "reversing_po"
 REVERSING_PO_TESTS = 8
-WEAKENING_PO = "weakening_po"
 WEAKENING_PO_TESTS = 6
-WEAKENING_SW = "weakening_sw"
 WEAKENING_SW_TESTS = 18
-ALL = "all"
 ALL_TESTS = 32
-mutant_categories = [REVERSING_PO, WEAKENING_PO, WEAKENING_SW, ALL]
-CAUGHT = "caught"
-AVG_RATE = "avg_rate"
 
 def load_stats(stats_path):
     """
@@ -144,7 +138,7 @@ def mutation_score_subfigure(stats, mutant_type, num_tests, fig_name, per_device
     ax.set_ylabel("Mutation Score", fontsize=10)
     fig.legend(loc=(0.01, 0.87), fontsize=10, ncol=4)
     plt.tight_layout(rect=[0, 0, 1, .93])
-    plt.savefig("figure5{}.pdf".format(fig_name))
+    plt.savefig("figures/figure5{}.pdf".format(fig_name))
 
 def avg_mutant_death_rate_subfigure(stats, mutant_type, fig_name, per_device=True):
     site_baseline_rates = []
@@ -183,9 +177,10 @@ def avg_mutant_death_rate_subfigure(stats, mutant_type, fig_name, per_device=Tru
     ax.set_ylabel("Mutant Death Rate (sec)", fontsize=10)
     fig.legend(loc=(0.01, 0.87), fontsize=10, ncol=4)
     plt.tight_layout(rect=[0, 0, 1, .93])
-    plt.savefig("figure5{}.pdf".format(fig_name))
+    plt.savefig("figures/figure5{}.pdf".format(fig_name))
 
 def make_figures(stats):
+    os.mkdir("figures")
     mutation_score_subfigure(stats, REVERSING_PO, REVERSING_PO_TESTS, "a")
     avg_mutant_death_rate_subfigure(stats, REVERSING_PO, "b")
     mutation_score_subfigure(stats, WEAKENING_PO, WEAKENING_PO_TESTS, "c")
