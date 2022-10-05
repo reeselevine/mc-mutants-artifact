@@ -1,0 +1,215 @@
+{
+  "0": {
+    "Message Passing Single Instance": {
+      "seq": 99,
+      "interleaved": 201,
+      "weak": 0,
+      "durationSeconds": 2.395
+    },
+    "Message Passing Single Instance Barrier 1": {
+      "seq": 0,
+      "interleaved": 300,
+      "weak": 0,
+      "durationSeconds": 2.587
+    },
+    "Message Passing Single Instance Barrier 2": {
+      "seq": 282,
+      "interleaved": 18,
+      "weak": 0,
+      "durationSeconds": 2.634
+    },
+    "Message Passing Single Instance Coherency": {
+      "seq": 300,
+      "interleaved": 0,
+      "weak": 0,
+      "durationSeconds": 2.484
+    },
+    "Store Single Instance": {
+      "seq": 300,
+      "interleaved": 0,
+      "weak": 0,
+      "durationSeconds": 2.602
+    },
+    "Store Single Instance Barrier 1": {
+      "seq": 2,
+      "interleaved": 298,
+      "weak": 0,
+      "durationSeconds": 2.578
+    },
+    "Store Single Instance Barrier 2": {
+      "seq": 271,
+      "interleaved": 29,
+      "weak": 0,
+      "durationSeconds": 2.501
+    },
+    "Store Single Instance Coherency": {
+      "seq": 300,
+      "interleaved": 0,
+      "weak": 0,
+      "durationSeconds": 2.46
+    },
+    "Read Single Instance RMW": {
+      "seq": 296,
+      "interleaved": 4,
+      "weak": 0,
+      "durationSeconds": 2.45
+    },
+    "Read Single Instance RMW Barrier 1": {
+      "seq": 15,
+      "interleaved": 285,
+      "weak": 0,
+      "durationSeconds": 2.481
+    },
+    "Read Single Instance RMW Barrier 2": {
+      "seq": 9,
+      "interleaved": 291,
+      "weak": 0,
+      "durationSeconds": 2.496
+    },
+    "Read Single Instance Coherency": {
+      "seq": 291,
+      "interleaved": 9,
+      "weak": 0,
+      "durationSeconds": 2.438
+    },
+    "Load Buffer Single Instance": {
+      "seq": 295,
+      "interleaved": 5,
+      "weak": 0,
+      "durationSeconds": 2.487
+    },
+    "Load Buffer Single Instance Barrier 1": {
+      "seq": 0,
+      "interleaved": 300,
+      "weak": 0,
+      "durationSeconds": 2.503
+    },
+    "Load Buffer Single Instance Barrier 2": {
+      "seq": 288,
+      "interleaved": 12,
+      "weak": 0,
+      "durationSeconds": 2.462
+    },
+    "Load Buffer Single Instance Coherency": {
+      "seq": 300,
+      "interleaved": 0,
+      "weak": 0,
+      "durationSeconds": 2.372
+    },
+    "Store Buffer Single Instance RMW": {
+      "seq": 300,
+      "interleaved": 0,
+      "weak": 0,
+      "durationSeconds": 2.492
+    },
+    "Store Buffer Single Instance RMW Barrier 1": {
+      "seq": 66,
+      "interleaved": 234,
+      "weak": 0,
+      "durationSeconds": 2.465
+    },
+    "Store Buffer Single Instance RMW Barrier 2": {
+      "seq": 1,
+      "interleaved": 299,
+      "weak": 0,
+      "durationSeconds": 2.447
+    },
+    "Store Buffer Single Instance Coherency": {
+      "seq": 296,
+      "interleaved": 4,
+      "weak": 0,
+      "durationSeconds": 2.513
+    },
+    "2+2 Write Single Instance RMW": {
+      "seq": 299,
+      "interleaved": 1,
+      "weak": 0,
+      "durationSeconds": 2.504
+    },
+    "2+2 Write Single Instance RMW Barrier 1": {
+      "seq": 1,
+      "interleaved": 299,
+      "weak": 0,
+      "durationSeconds": 2.533
+    },
+    "2+2 Write Single Instance RMW Barrier 2": {
+      "seq": 77,
+      "interleaved": 223,
+      "weak": 0,
+      "durationSeconds": 2.415
+    },
+    "2+2 Write Single Instance Coherency": {
+      "seq": 300,
+      "interleaved": 0,
+      "weak": 0,
+      "durationSeconds": 2.49
+    },
+    "RR Mutations Single Instance": {
+      "seq": 135,
+      "interleaved": 0,
+      "weak": 165,
+      "durationSeconds": 2.488
+    },
+    "RR Mutations Single Instance RMW": {
+      "seq": 274,
+      "interleaved": 0,
+      "weak": 26,
+      "durationSeconds": 2.497
+    },
+    "RW Mutations Single Instance": {
+      "seq": 300,
+      "interleaved": 0,
+      "weak": 0,
+      "durationSeconds": 2.495
+    },
+    "RW Mutations Single Instance RMW": {
+      "seq": 300,
+      "interleaved": 0,
+      "weak": 0,
+      "durationSeconds": 2.395
+    },
+    "WR Mutations Single Instance": {
+      "seq": 298,
+      "interleaved": 0,
+      "weak": 2,
+      "durationSeconds": 2.464
+    },
+    "WR Mutations Single Instance RMW": {
+      "seq": 300,
+      "interleaved": 0,
+      "weak": 0,
+      "durationSeconds": 2.481
+    },
+    "WW Mutations Single Instance": {
+      "seq": 300,
+      "interleaved": 0,
+      "weak": 0,
+      "durationSeconds": 2.43
+    },
+    "WW Mutations Single Instance RMW": {
+      "seq": 300,
+      "interleaved": 0,
+      "weak": 0,
+      "durationSeconds": 2.509
+    },
+    "params": {
+      "testingWorkgroups": 32,
+      "maxWorkgroups": 32,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 425984,
+      "memStride": 4,
+      "stressLineSize": 1024,
+      "stressTargetLines": 13,
+      "memStressIterations": 680,
+      "preStressIterations": 59,
+      "stressStrategyBalancePct": 70,
+      "memStressStoreFirstPct": 15,
+      "memStressStoreSecondPct": 40,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 20
+    }
+  }
+}
