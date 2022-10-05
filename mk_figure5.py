@@ -1,8 +1,8 @@
 import json
-import os
 import matplotlib.pyplot as plt
 import numpy as np
 from analysis import *
+from os import mkdir
 
 INTEL = "intel"
 AMD = "amd"
@@ -180,7 +180,7 @@ def avg_mutant_death_rate_subfigure(stats, mutant_type, fig_name, per_device=Tru
     plt.savefig("figures/figure5{}.pdf".format(fig_name))
 
 def make_figures(stats):
-    os.mkdir("figures")
+    mkdir("figures")
     mutation_score_subfigure(stats, REVERSING_PO, REVERSING_PO_TESTS, "a")
     avg_mutant_death_rate_subfigure(stats, REVERSING_PO, "b")
     mutation_score_subfigure(stats, WEAKENING_PO, WEAKENING_PO_TESTS, "c")

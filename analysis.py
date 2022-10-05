@@ -1,5 +1,7 @@
 import argparse
 import json
+import math
+from os import listdir
 
 REVERSING_PO = "reversing_po"
 WEAKENING_PO = "weakening_po"
@@ -7,7 +9,26 @@ WEAKENING_SW = "weakening_sw"
 ALL = "all"
 CAUGHT = "caught"
 AVG_RATE = "avg_rate"
+VERY_LARGE_RATE = 10000000000
 
+class MaxReprTests:
+
+    def __init__(self, rep_tests, min_rate, test_iter):
+        self.rep_tests = rep_tests
+        self.min_rate = min_rate
+        self.test_iter = test_iter
+
+    def better_than(self, other):
+        if self.rep_tests == other.rep_tests:
+            return self.min_rate > other.min_rate
+        else:
+            return self.rep_tests > other.rep_tests
+
+class DeviceStats:
+
+    def __init__(self, device, data):
+        self.device = device
+        self.data = data
 
 def load_stats(stats_path):
     """
@@ -17,20 +38,62 @@ def load_stats(stats_path):
         dataset = json.loads(stats_file.read())
         return dataset
 
+def load_all_stats(stats_dir):
+    all_stats = []
+    for stats_file in listdir(stats_dir):
+        all_stats.append(DeviceStats(stats_file.split(".")[0], load_stats(stats_dir + "/" + stats_file)))
+    return all_stats
+
+def calculate_rate(stats, test_iter, test_key):
+    value = stats[test_iter][test_key]["weak"]
+    time = stats[test_iter][test_key]["durationSeconds"]
+    rate = round(value/time, 3)
+    return rate
+
+def get_ceiling_rate(reproducibility, time_budget):
+    num_weak_behaviors = math.ceil(-math.log(1 - reproducibility))
+    return num_weak_behaviors/time_budget
+
+def merge_test_environments(all_stats, ceiling_rate):
+    """
+    Merge environments on a per test basis, finding the one that maximizes the number of reproducible tests
+    """
+    initial_best = MaxReprTests(0, VERY_LARGE_RATE, 0)
+    tests = {}
+    for test_key in all_stats[0].data["0"]:
+        if test_key != "params":
+            tests[test_key] = initial_best
+    for test_iter in all_stats[0].data:
+        if test_iter != "randomSeed":
+            for test_key in tests.keys():
+                result = MaxReprTests(0, VERY_LARGE_RATE, test_iter)
+                for stats in all_stats:
+                    rate = calculate_rate(stats.data, test_iter, test_key)
+                    if rate >= ceiling_rate:
+                        result.rep_tests += 1
+                    if rate > 0:
+                        result.min_rate = min(result.min_rate, rate)
+                if result.better_than(tests[test_key]):
+                    tests[test_key] = result
+    rep_tests = 0
+    for (test_key, res) in tests.items():
+        for stats in all_stats:
+            if calculate_rate(stats.data, res.test_iter, test_key) >= ceiling_rate:
+                rep_tests += 1
+    return rep_tests
+
 def per_test_stats(dataset):
     """
     Finds the number of tests caught and the max rate of weak behaviors per test, for the given dataset
     """
     result = {}
-    for key in dataset:
-        if key != "randomSeed":
-            for testKey in dataset[key]:
-                if testKey != "params":
-                    value = dataset[key][testKey]["weak"]
-                    time = dataset[key][testKey]["durationSeconds"]
-                    rate = round(value/time, 3)
-                    if testKey not in result or result[testKey][1] < rate:
-                        result[testKey] = (key, rate)
+    for test_iter in dataset:
+        if test_iter != "randomSeed":
+            for test_key in dataset[test_iter]:
+                if test_key != "params":
+                    rate = calculate_rate(dataset, test_iter, test_key)
+                    if test_key not in result or result[test_key] < rate:
+                        result[test_key] = rate
     reversing_po_rates = []
     reversing_po_caught = 0
     weakening_po_rates = []
@@ -40,18 +103,18 @@ def per_test_stats(dataset):
     for key in result:
         # Not the cleanest checking the key name, but reversing po mutants have "mutations" in their name
         if "Mutations" in key:
-            reversing_po_rates.append(result[key][1])
-            if result[key][1] > 0:
+            reversing_po_rates.append(result[key])
+            if result[key]> 0:
                 reversing_po_caught += 1
         # Weakening po mutants have "coherency" in their name
         elif "Coherency" in key:
-            weakening_po_rates.append(result[key][1])
-            if result[key][1] > 0:
+            weakening_po_rates.append(result[key])
+            if result[key] > 0:
                 weakening_po_caught += 1
         # if it's not one of the two mutants above, it must be a weakening sw mutant
         else:
-            weakening_sw_rates.append(result[key][1])
-            if result[key][1] > 0:
+            weakening_sw_rates.append(result[key])
+            if result[key] > 0:
                 weakening_sw_caught += 1
     all_rates = reversing_po_rates + weakening_po_rates + weakening_sw_rates
     to_return = dict()
@@ -67,11 +130,18 @@ def main():
                         mut-score: returns the mutation scores and average mutant death rates for a dataset.
                         merge: combine test environments across multiple datasets""")
     parser.add_argument("--stats_path", help="Path to the stats to analyze. For the mut-score action, must be a file. For the merge action, must be a directory.")
+    parser.add_argument("--rep", default="99.999", help="Level of reproducibility (merge action).")
+    parser.add_argument("--budget", default="4", help="Time budget per test (seconds) (merge action)")
     args = parser.parse_args()
     if args.action == "mut-score":
         stats = load_stats(args.stats_path)
         result = per_test_stats(stats)[0]
         print(json.dumps(result, indent=4))
+    elif args.action == "merge":
+        all_stats = load_all_stats(args.stats_path)
+        ceiling_rate = get_ceiling_rate(float(args.rep)/100, float(args.budget))
+        rep_tests = merge_test_environments(all_stats, ceiling_rate)
+        print("Number of Reproducible Tests: {}".format(rep_tests))
 
 if __name__ == "__main__":
     main()
