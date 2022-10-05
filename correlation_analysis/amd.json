@@ -1,0 +1,6753 @@
+{
+  "0": {
+    "Message Passing Default": {
+      "seq": 14088117,
+      "interleaved": 16738,
+      "weak": 745,
+      "durationSeconds": 2.848
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 13569748,
+      "interleaved": 535848,
+      "weak": 4,
+      "durationSeconds": 2.851
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 13711444,
+      "interleaved": 394139,
+      "weak": 17,
+      "durationSeconds": 2.804
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 13763562,
+      "interleaved": 342013,
+      "weak": 25,
+      "durationSeconds": 2.783
+    },
+    "params": {
+      "testingWorkgroups": 551,
+      "maxWorkgroups": 736,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 131072,
+      "memStride": 5,
+      "stressLineSize": 1024,
+      "stressTargetLines": 4,
+      "memStressIterations": 360,
+      "preStressIterations": 30,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "1": {
+    "Message Passing Default": {
+      "seq": 21954062,
+      "interleaved": 35880,
+      "weak": 458,
+      "durationSeconds": 2.846
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 18601065,
+      "interleaved": 3389334,
+      "weak": 1,
+      "durationSeconds": 2.784
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 19057034,
+      "interleaved": 2933366,
+      "weak": 0,
+      "durationSeconds": 2.779
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 19932305,
+      "interleaved": 2058085,
+      "weak": 10,
+      "durationSeconds": 2.821
+    },
+    "params": {
+      "testingWorkgroups": 859,
+      "maxWorkgroups": 919,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 128,
+      "memStride": 3,
+      "stressLineSize": 4,
+      "stressTargetLines": 1,
+      "memStressIterations": 666,
+      "preStressIterations": 115,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "2": {
+    "Message Passing Default": {
+      "seq": 9325635,
+      "interleaved": 17631,
+      "weak": 734,
+      "durationSeconds": 2.71
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 8849657,
+      "interleaved": 494277,
+      "weak": 66,
+      "durationSeconds": 2.56
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 8909304,
+      "interleaved": 434582,
+      "weak": 114,
+      "durationSeconds": 2.574
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 8938405,
+      "interleaved": 405469,
+      "weak": 126,
+      "durationSeconds": 2.584
+    },
+    "params": {
+      "testingWorkgroups": 365,
+      "maxWorkgroups": 796,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 65536,
+      "memStride": 6,
+      "stressLineSize": 128,
+      "stressTargetLines": 16,
+      "memStressIterations": 812,
+      "preStressIterations": 68,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "3": {
+    "Message Passing Default": {
+      "seq": 23384026,
+      "interleaved": 14028,
+      "weak": 346,
+      "durationSeconds": 3.551
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 22601015,
+      "interleaved": 797333,
+      "weak": 52,
+      "durationSeconds": 3.615
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 22716660,
+      "interleaved": 681698,
+      "weak": 42,
+      "durationSeconds": 3.511
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 22896855,
+      "interleaved": 501393,
+      "weak": 152,
+      "durationSeconds": 3.338
+    },
+    "params": {
+      "testingWorkgroups": 914,
+      "maxWorkgroups": 945,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 9216,
+      "memStride": 6,
+      "stressLineSize": 32,
+      "stressTargetLines": 9,
+      "memStressIterations": 963,
+      "preStressIterations": 118,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "4": {
+    "Message Passing Default": {
+      "seq": 7180307,
+      "interleaved": 12803,
+      "weak": 490,
+      "durationSeconds": 2.268
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 6568399,
+      "interleaved": 625188,
+      "weak": 13,
+      "durationSeconds": 2.183
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 6706889,
+      "interleaved": 486682,
+      "weak": 29,
+      "durationSeconds": 2.213
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 6660370,
+      "interleaved": 533144,
+      "weak": 86,
+      "durationSeconds": 2.295
+    },
+    "params": {
+      "testingWorkgroups": 281,
+      "maxWorkgroups": 713,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 512,
+      "memStride": 5,
+      "stressLineSize": 16,
+      "stressTargetLines": 1,
+      "memStressIterations": 735,
+      "preStressIterations": 89,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "5": {
+    "Message Passing Default": {
+      "seq": 14141679,
+      "interleaved": 14247,
+      "weak": 874,
+      "durationSeconds": 2.848
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 13725906,
+      "interleaved": 430786,
+      "weak": 108,
+      "durationSeconds": 2.836
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 13775451,
+      "interleaved": 381213,
+      "weak": 136,
+      "durationSeconds": 2.833
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 13800538,
+      "interleaved": 356051,
+      "weak": 211,
+      "durationSeconds": 2.902
+    },
+    "params": {
+      "testingWorkgroups": 553,
+      "maxWorkgroups": 649,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 122880,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 15,
+      "memStressIterations": 449,
+      "preStressIterations": 73,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "6": {
+    "Message Passing Default": {
+      "seq": 14957878,
+      "interleaved": 17632,
+      "weak": 490,
+      "durationSeconds": 2.904
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 14415908,
+      "interleaved": 560079,
+      "weak": 13,
+      "durationSeconds": 2.84
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 14527012,
+      "interleaved": 448964,
+      "weak": 24,
+      "durationSeconds": 2.824
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 14645589,
+      "interleaved": 330275,
+      "weak": 136,
+      "durationSeconds": 2.888
+    },
+    "params": {
+      "testingWorkgroups": 585,
+      "maxWorkgroups": 816,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 10240,
+      "memStride": 4,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 547,
+      "preStressIterations": 128,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "7": {
+    "Message Passing Default": {
+      "seq": 504220,
+      "interleaved": 21535,
+      "weak": 11845,
+      "durationSeconds": 1.959
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 284441,
+      "interleaved": 252948,
+      "weak": 211,
+      "durationSeconds": 1.912
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 362860,
+      "interleaved": 172274,
+      "weak": 2466,
+      "durationSeconds": 1.916
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 329558,
+      "interleaved": 207345,
+      "weak": 697,
+      "durationSeconds": 1.848
+    },
+    "params": {
+      "testingWorkgroups": 21,
+      "maxWorkgroups": 213,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 24576,
+      "memStride": 1,
+      "stressLineSize": 256,
+      "stressTargetLines": 3,
+      "memStressIterations": 779,
+      "preStressIterations": 104,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "8": {
+    "Message Passing Default": {
+      "seq": 22923984,
+      "interleaved": 13135,
+      "weak": 481,
+      "durationSeconds": 3.146
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 22078288,
+      "interleaved": 859259,
+      "weak": 53,
+      "durationSeconds": 3.489
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 22199729,
+      "interleaved": 737822,
+      "weak": 49,
+      "durationSeconds": 3.513
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 22374353,
+      "interleaved": 563121,
+      "weak": 126,
+      "durationSeconds": 3.678
+    },
+    "params": {
+      "testingWorkgroups": 896,
+      "maxWorkgroups": 1022,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 8192,
+      "memStride": 5,
+      "stressLineSize": 16,
+      "stressTargetLines": 16,
+      "memStressIterations": 1004,
+      "preStressIterations": 106,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "9": {
+    "Message Passing Default": {
+      "seq": 3304531,
+      "interleaved": 19684,
+      "weak": 3785,
+      "durationSeconds": 1.966
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 2844734,
+      "interleaved": 483025,
+      "weak": 241,
+      "durationSeconds": 1.983
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 2899016,
+      "interleaved": 428532,
+      "weak": 452,
+      "durationSeconds": 1.992
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 2946071,
+      "interleaved": 381311,
+      "weak": 618,
+      "durationSeconds": 2.022
+    },
+    "params": {
+      "testingWorkgroups": 130,
+      "maxWorkgroups": 413,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 4096,
+      "memStride": 4,
+      "stressLineSize": 128,
+      "stressTargetLines": 1,
+      "memStressIterations": 205,
+      "preStressIterations": 114,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "10": {
+    "Message Passing Default": {
+      "seq": 3481576,
+      "interleaved": 24857,
+      "weak": 767,
+      "durationSeconds": 2.105
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 2548767,
+      "interleaved": 958432,
+      "weak": 1,
+      "durationSeconds": 2.017
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 2564981,
+      "interleaved": 942212,
+      "weak": 7,
+      "durationSeconds": 2.095
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 2583262,
+      "interleaved": 923896,
+      "weak": 42,
+      "durationSeconds": 2.039
+    },
+    "params": {
+      "testingWorkgroups": 137,
+      "maxWorkgroups": 576,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 28672,
+      "memStride": 7,
+      "stressLineSize": 64,
+      "stressTargetLines": 14,
+      "memStressIterations": 638,
+      "preStressIterations": 22,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "11": {
+    "Message Passing Default": {
+      "seq": 2649489,
+      "interleaved": 34410,
+      "weak": 4101,
+      "durationSeconds": 1.875
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 1563478,
+      "interleaved": 1124481,
+      "weak": 41,
+      "durationSeconds": 1.96
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 1656167,
+      "interleaved": 1031762,
+      "weak": 71,
+      "durationSeconds": 1.944
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 1574593,
+      "interleaved": 1113242,
+      "weak": 165,
+      "durationSeconds": 1.967
+    },
+    "params": {
+      "testingWorkgroups": 105,
+      "maxWorkgroups": 704,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 65536,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 8,
+      "memStressIterations": 113,
+      "preStressIterations": 2,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "12": {
+    "Message Passing Default": {
+      "seq": 16825719,
+      "interleaved": 17605,
+      "weak": 1476,
+      "durationSeconds": 2.694
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 16350753,
+      "interleaved": 493916,
+      "weak": 131,
+      "durationSeconds": 2.405
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 16398496,
+      "interleaved": 446220,
+      "weak": 84,
+      "durationSeconds": 2.764
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 16518889,
+      "interleaved": 325580,
+      "weak": 331,
+      "durationSeconds": 2.831
+    },
+    "params": {
+      "testingWorkgroups": 658,
+      "maxWorkgroups": 707,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 2,
+      "stressLineSize": 256,
+      "stressTargetLines": 4,
+      "memStressIterations": 673,
+      "preStressIterations": 128,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "13": {
+    "Message Passing Default": {
+      "seq": 4891506,
+      "interleaved": 21534,
+      "weak": 2160,
+      "durationSeconds": 2.041
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 4328433,
+      "interleaved": 586698,
+      "weak": 69,
+      "durationSeconds": 2.04
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 4594266,
+      "interleaved": 320648,
+      "weak": 286,
+      "durationSeconds": 2.023
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 4517191,
+      "interleaved": 397709,
+      "weak": 300,
+      "durationSeconds": 2.048
+    },
+    "params": {
+      "testingWorkgroups": 192,
+      "maxWorkgroups": 307,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 212992,
+      "memStride": 4,
+      "stressLineSize": 512,
+      "stressTargetLines": 13,
+      "memStressIterations": 269,
+      "preStressIterations": 89,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "14": {
+    "Message Passing Default": {
+      "seq": 11458527,
+      "interleaved": 9776,
+      "weak": 497,
+      "durationSeconds": 2.912
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 10951872,
+      "interleaved": 516883,
+      "weak": 45,
+      "durationSeconds": 2.847
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 11008313,
+      "interleaved": 460447,
+      "weak": 40,
+      "durationSeconds": 2.835
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 11107460,
+      "interleaved": 361181,
+      "weak": 159,
+      "durationSeconds": 2.854
+    },
+    "params": {
+      "testingWorkgroups": 448,
+      "maxWorkgroups": 862,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 4,
+      "stressLineSize": 8,
+      "stressTargetLines": 16,
+      "memStressIterations": 402,
+      "preStressIterations": 103,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "15": {
+    "Message Passing Default": {
+      "seq": 21701034,
+      "interleaved": 7222,
+      "weak": 544,
+      "durationSeconds": 3.331
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 21459189,
+      "interleaved": 249533,
+      "weak": 78,
+      "durationSeconds": 3.34
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 21508971,
+      "interleaved": 199732,
+      "weak": 97,
+      "durationSeconds": 3.292
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 21499809,
+      "interleaved": 208887,
+      "weak": 104,
+      "durationSeconds": 3.46
+    },
+    "params": {
+      "testingWorkgroups": 848,
+      "maxWorkgroups": 943,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 14336,
+      "memStride": 5,
+      "stressLineSize": 32,
+      "stressTargetLines": 14,
+      "memStressIterations": 782,
+      "preStressIterations": 84,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "16": {
+    "Message Passing Default": {
+      "seq": 24781180,
+      "interleaved": 21212,
+      "weak": 4008,
+      "durationSeconds": 3.001
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 23749685,
+      "interleaved": 1055420,
+      "weak": 1295,
+      "durationSeconds": 3.007
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 23817841,
+      "interleaved": 987391,
+      "weak": 1168,
+      "durationSeconds": 3.061
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 23924960,
+      "interleaved": 879430,
+      "weak": 2010,
+      "durationSeconds": 2.969
+    },
+    "params": {
+      "testingWorkgroups": 969,
+      "maxWorkgroups": 999,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 81920,
+      "memStride": 1,
+      "stressLineSize": 512,
+      "stressTargetLines": 5,
+      "memStressIterations": 666,
+      "preStressIterations": 86,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "17": {
+    "Message Passing Default": {
+      "seq": 21314586,
+      "interleaved": 35509,
+      "weak": 305,
+      "durationSeconds": 2.985
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 18103840,
+      "interleaved": 3246560,
+      "weak": 0,
+      "durationSeconds": 3
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 18424563,
+      "interleaved": 2925837,
+      "weak": 0,
+      "durationSeconds": 2.855
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 19291625,
+      "interleaved": 2058765,
+      "weak": 10,
+      "durationSeconds": 2.895
+    },
+    "params": {
+      "testingWorkgroups": 834,
+      "maxWorkgroups": 927,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 3840,
+      "memStride": 4,
+      "stressLineSize": 8,
+      "stressTargetLines": 15,
+      "memStressIterations": 728,
+      "preStressIterations": 93,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "18": {
+    "Message Passing Default": {
+      "seq": 20872324,
+      "interleaved": 16435,
+      "weak": 841,
+      "durationSeconds": 3.24
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 19994156,
+      "interleaved": 895326,
+      "weak": 118,
+      "durationSeconds": 3.268
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 20177705,
+      "interleaved": 711757,
+      "weak": 138,
+      "durationSeconds": 3.203
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 20257296,
+      "interleaved": 632047,
+      "weak": 257,
+      "durationSeconds": 3.149
+    },
+    "params": {
+      "testingWorkgroups": 816,
+      "maxWorkgroups": 844,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 57344,
+      "memStride": 3,
+      "stressLineSize": 128,
+      "stressTargetLines": 14,
+      "memStressIterations": 18,
+      "preStressIterations": 108,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "19": {
+    "Message Passing Default": {
+      "seq": 13588829,
+      "interleaved": 29660,
+      "weak": 711,
+      "durationSeconds": 2.782
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 12518850,
+      "interleaved": 1100348,
+      "weak": 2,
+      "durationSeconds": 2.811
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 12678494,
+      "interleaved": 940704,
+      "weak": 2,
+      "durationSeconds": 2.752
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 12784020,
+      "interleaved": 835172,
+      "weak": 8,
+      "durationSeconds": 2.824
+    },
+    "params": {
+      "testingWorkgroups": 532,
+      "maxWorkgroups": 699,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 262144,
+      "memStride": 4,
+      "stressLineSize": 512,
+      "stressTargetLines": 16,
+      "memStressIterations": 527,
+      "preStressIterations": 18,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "20": {
+    "Message Passing Default": {
+      "seq": 3300798,
+      "interleaved": 25527,
+      "weak": 1675,
+      "durationSeconds": 2.147
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 2568657,
+      "interleaved": 759307,
+      "weak": 36,
+      "durationSeconds": 2.074
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 2725379,
+      "interleaved": 602529,
+      "weak": 92,
+      "durationSeconds": 2.127
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 2703569,
+      "interleaved": 624293,
+      "weak": 138,
+      "durationSeconds": 2.146
+    },
+    "params": {
+      "testingWorkgroups": 130,
+      "maxWorkgroups": 168,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 2048,
+      "memStride": 6,
+      "stressLineSize": 16,
+      "stressTargetLines": 4,
+      "memStressIterations": 219,
+      "preStressIterations": 103,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "21": {
+    "Message Passing Default": {
+      "seq": 21935133,
+      "interleaved": 27670,
+      "weak": 1997,
+      "durationSeconds": 2.838
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 21418830,
+      "interleaved": 545928,
+      "weak": 42,
+      "durationSeconds": 2.828
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 21595985,
+      "interleaved": 368699,
+      "weak": 116,
+      "durationSeconds": 2.808
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 21553674,
+      "interleaved": 410909,
+      "weak": 217,
+      "durationSeconds": 2.825
+    },
+    "params": {
+      "testingWorkgroups": 858,
+      "maxWorkgroups": 939,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 2816,
+      "memStride": 1,
+      "stressLineSize": 8,
+      "stressTargetLines": 11,
+      "memStressIterations": 975,
+      "preStressIterations": 16,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "22": {
+    "Message Passing Default": {
+      "seq": 16745552,
+      "interleaved": 21606,
+      "weak": 842,
+      "durationSeconds": 2.851
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 16380645,
+      "interleaved": 387316,
+      "weak": 39,
+      "durationSeconds": 2.889
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 16492345,
+      "interleaved": 275591,
+      "weak": 64,
+      "durationSeconds": 2.878
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 16500333,
+      "interleaved": 267533,
+      "weak": 134,
+      "durationSeconds": 2.888
+    },
+    "params": {
+      "testingWorkgroups": 655,
+      "maxWorkgroups": 722,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 28672,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 14,
+      "memStressIterations": 633,
+      "preStressIterations": 124,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "23": {
+    "Message Passing Default": {
+      "seq": 11013666,
+      "interleaved": 19745,
+      "weak": 189,
+      "durationSeconds": 2.676
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 9757243,
+      "interleaved": 1276357,
+      "weak": 0,
+      "durationSeconds": 2.243
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 10008753,
+      "interleaved": 1024847,
+      "weak": 0,
+      "durationSeconds": 2.791
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 10027784,
+      "interleaved": 1005809,
+      "weak": 7,
+      "durationSeconds": 2.79
+    },
+    "params": {
+      "testingWorkgroups": 431,
+      "maxWorkgroups": 848,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 2560,
+      "memStride": 7,
+      "stressLineSize": 16,
+      "stressTargetLines": 5,
+      "memStressIterations": 104,
+      "preStressIterations": 2,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "24": {
+    "Message Passing Default": {
+      "seq": 20400384,
+      "interleaved": 27735,
+      "weak": 681,
+      "durationSeconds": 2.925
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 19642006,
+      "interleaved": 786793,
+      "weak": 1,
+      "durationSeconds": 2.935
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 19738565,
+      "interleaved": 690232,
+      "weak": 3,
+      "durationSeconds": 2.854
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 19858176,
+      "interleaved": 570592,
+      "weak": 32,
+      "durationSeconds": 2.871
+    },
+    "params": {
+      "testingWorkgroups": 798,
+      "maxWorkgroups": 984,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 10240,
+      "memStride": 3,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 114,
+      "preStressIterations": 5,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "25": {
+    "Message Passing Default": {
+      "seq": 24320144,
+      "interleaved": 24635,
+      "weak": 821,
+      "durationSeconds": 3
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 23936741,
+      "interleaved": 408833,
+      "weak": 26,
+      "durationSeconds": 2.948
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 24032712,
+      "interleaved": 312835,
+      "weak": 53,
+      "durationSeconds": 2.928
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 24056152,
+      "interleaved": 289313,
+      "weak": 135,
+      "durationSeconds": 2.99
+    },
+    "params": {
+      "testingWorkgroups": 951,
+      "maxWorkgroups": 990,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 20480,
+      "memStride": 2,
+      "stressLineSize": 64,
+      "stressTargetLines": 10,
+      "memStressIterations": 1020,
+      "preStressIterations": 50,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "26": {
+    "Message Passing Default": {
+      "seq": 10659905,
+      "interleaved": 14701,
+      "weak": 594,
+      "durationSeconds": 2.565
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 10107659,
+      "interleaved": 567524,
+      "weak": 17,
+      "durationSeconds": 2.432
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 10250566,
+      "interleaved": 424620,
+      "weak": 14,
+      "durationSeconds": 2.446
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 10281338,
+      "interleaved": 393775,
+      "weak": 87,
+      "durationSeconds": 2.519
+    },
+    "params": {
+      "testingWorkgroups": 417,
+      "maxWorkgroups": 787,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 7168,
+      "memStride": 3,
+      "stressLineSize": 16,
+      "stressTargetLines": 14,
+      "memStressIterations": 913,
+      "preStressIterations": 88,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "27": {
+    "Message Passing Default": {
+      "seq": 12357596,
+      "interleaved": 28991,
+      "weak": 3813,
+      "durationSeconds": 2.125
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 11760507,
+      "interleaved": 629800,
+      "weak": 93,
+      "durationSeconds": 2.103
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 11845783,
+      "interleaved": 544453,
+      "weak": 164,
+      "durationSeconds": 2.032
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 11922963,
+      "interleaved": 467037,
+      "weak": 400,
+      "durationSeconds": 2.033
+    },
+    "params": {
+      "testingWorkgroups": 484,
+      "maxWorkgroups": 721,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 20480,
+      "memStride": 1,
+      "stressLineSize": 128,
+      "stressTargetLines": 5,
+      "memStressIterations": 228,
+      "preStressIterations": 51,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "28": {
+    "Message Passing Default": {
+      "seq": 20898602,
+      "interleaved": 16153,
+      "weak": 445,
+      "durationSeconds": 3.808
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 19989460,
+      "interleaved": 925678,
+      "weak": 62,
+      "durationSeconds": 3.546
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 20142044,
+      "interleaved": 773100,
+      "weak": 56,
+      "durationSeconds": 3.338
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 20220307,
+      "interleaved": 694764,
+      "weak": 129,
+      "durationSeconds": 3.698
+    },
+    "params": {
+      "testingWorkgroups": 817,
+      "maxWorkgroups": 1019,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 28672,
+      "memStride": 5,
+      "stressLineSize": 64,
+      "stressTargetLines": 14,
+      "memStressIterations": 43,
+      "preStressIterations": 31,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "29": {
+    "Message Passing Default": {
+      "seq": 9727526,
+      "interleaved": 24653,
+      "weak": 1421,
+      "durationSeconds": 2.626
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 9043191,
+      "interleaved": 710304,
+      "weak": 105,
+      "durationSeconds": 2.664
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 9119417,
+      "interleaved": 634033,
+      "weak": 150,
+      "durationSeconds": 2.648
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 9098677,
+      "interleaved": 654700,
+      "weak": 223,
+      "durationSeconds": 2.642
+    },
+    "params": {
+      "testingWorkgroups": 381,
+      "maxWorkgroups": 381,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 98304,
+      "memStride": 3,
+      "stressLineSize": 256,
+      "stressTargetLines": 12,
+      "memStressIterations": 485,
+      "preStressIterations": 24,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "30": {
+    "Message Passing Default": {
+      "seq": 9452739,
+      "interleaved": 16756,
+      "weak": 2505,
+      "durationSeconds": 2.407
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 8727943,
+      "interleaved": 743532,
+      "weak": 525,
+      "durationSeconds": 2.4
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 8827163,
+      "interleaved": 644384,
+      "weak": 453,
+      "durationSeconds": 2.448
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 8839204,
+      "interleaved": 631810,
+      "weak": 986,
+      "durationSeconds": 2.399
+    },
+    "params": {
+      "testingWorkgroups": 370,
+      "maxWorkgroups": 466,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 81920,
+      "memStride": 1,
+      "stressLineSize": 512,
+      "stressTargetLines": 5,
+      "memStressIterations": 951,
+      "preStressIterations": 23,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "31": {
+    "Message Passing Default": {
+      "seq": 18016853,
+      "interleaved": 30864,
+      "weak": 283,
+      "durationSeconds": 3.222
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 15650279,
+      "interleaved": 2397721,
+      "weak": 0,
+      "durationSeconds": 3.286
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 16296151,
+      "interleaved": 1751849,
+      "weak": 0,
+      "durationSeconds": 3.148
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 16607180,
+      "interleaved": 1440818,
+      "weak": 2,
+      "durationSeconds": 3.2
+    },
+    "params": {
+      "testingWorkgroups": 705,
+      "maxWorkgroups": 713,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 7,
+      "stressLineSize": 256,
+      "stressTargetLines": 4,
+      "memStressIterations": 389,
+      "preStressIterations": 0,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "32": {
+    "Message Passing Default": {
+      "seq": 9119201,
+      "interleaved": 18364,
+      "weak": 1635,
+      "durationSeconds": 2.59
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 8636697,
+      "interleaved": 502338,
+      "weak": 165,
+      "durationSeconds": 2.697
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 8711740,
+      "interleaved": 427169,
+      "weak": 291,
+      "durationSeconds": 2.662
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 8737395,
+      "interleaved": 401429,
+      "weak": 376,
+      "durationSeconds": 2.548
+    },
+    "params": {
+      "testingWorkgroups": 357,
+      "maxWorkgroups": 497,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 1536,
+      "memStride": 3,
+      "stressLineSize": 16,
+      "stressTargetLines": 3,
+      "memStressIterations": 660,
+      "preStressIterations": 113,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "33": {
+    "Message Passing Default": {
+      "seq": 12588878,
+      "interleaved": 30348,
+      "weak": 1574,
+      "durationSeconds": 2.346
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 11501275,
+      "interleaved": 1119525,
+      "weak": 0,
+      "durationSeconds": 2.51
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 11690971,
+      "interleaved": 929827,
+      "weak": 2,
+      "durationSeconds": 2.376
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 11820986,
+      "interleaved": 799792,
+      "weak": 22,
+      "durationSeconds": 2.38
+    },
+    "params": {
+      "testingWorkgroups": 493,
+      "maxWorkgroups": 715,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 4096,
+      "memStride": 2,
+      "stressLineSize": 16,
+      "stressTargetLines": 8,
+      "memStressIterations": 979,
+      "preStressIterations": 25,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "34": {
+    "Message Passing Default": {
+      "seq": 21724463,
+      "interleaved": 35313,
+      "weak": 224,
+      "durationSeconds": 3.401
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 18414544,
+      "interleaved": 3345456,
+      "weak": 0,
+      "durationSeconds": 3.384
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 18769205,
+      "interleaved": 2990795,
+      "weak": 0,
+      "durationSeconds": 3.366
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 19624198,
+      "interleaved": 2135800,
+      "weak": 2,
+      "durationSeconds": 3.399
+    },
+    "params": {
+      "testingWorkgroups": 850,
+      "maxWorkgroups": 915,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 40960,
+      "memStride": 6,
+      "stressLineSize": 256,
+      "stressTargetLines": 5,
+      "memStressIterations": 599,
+      "preStressIterations": 20,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "35": {
+    "Message Passing Default": {
+      "seq": 18104557,
+      "interleaved": 18780,
+      "weak": 1463,
+      "durationSeconds": 2.971
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 17131807,
+      "interleaved": 992761,
+      "weak": 232,
+      "durationSeconds": 2.951
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 17165711,
+      "interleaved": 958842,
+      "weak": 247,
+      "durationSeconds": 2.911
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 17283921,
+      "interleaved": 840378,
+      "weak": 501,
+      "durationSeconds": 2.965
+    },
+    "params": {
+      "testingWorkgroups": 708,
+      "maxWorkgroups": 851,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 14336,
+      "memStride": 2,
+      "stressLineSize": 32,
+      "stressTargetLines": 14,
+      "memStressIterations": 900,
+      "preStressIterations": 110,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "36": {
+    "Message Passing Default": {
+      "seq": 11339471,
+      "interleaved": 26406,
+      "weak": 523,
+      "durationSeconds": 2.871
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 10308020,
+      "interleaved": 1058380,
+      "weak": 0,
+      "durationSeconds": 2.82
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 10490083,
+      "interleaved": 876315,
+      "weak": 2,
+      "durationSeconds": 2.812
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 10648566,
+      "interleaved": 717826,
+      "weak": 8,
+      "durationSeconds": 2.847
+    },
+    "params": {
+      "testingWorkgroups": 444,
+      "maxWorkgroups": 637,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 7,
+      "stressLineSize": 128,
+      "stressTargetLines": 4,
+      "memStressIterations": 412,
+      "preStressIterations": 40,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "37": {
+    "Message Passing Default": {
+      "seq": 2595781,
+      "interleaved": 7709,
+      "weak": 7710,
+      "durationSeconds": 2.028
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 2421379,
+      "interleaved": 189043,
+      "weak": 778,
+      "durationSeconds": 2.032
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 2473837,
+      "interleaved": 136284,
+      "weak": 1079,
+      "durationSeconds": 2.041
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 2486383,
+      "interleaved": 123775,
+      "weak": 1042,
+      "durationSeconds": 2.025
+    },
+    "params": {
+      "testingWorkgroups": 102,
+      "maxWorkgroups": 421,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 81920,
+      "memStride": 7,
+      "stressLineSize": 512,
+      "stressTargetLines": 5,
+      "memStressIterations": 184,
+      "preStressIterations": 116,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "38": {
+    "Message Passing Default": {
+      "seq": 4091321,
+      "interleaved": 28897,
+      "weak": 1382,
+      "durationSeconds": 2.19
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 3347708,
+      "interleaved": 773874,
+      "weak": 18,
+      "durationSeconds": 2.208
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 3385477,
+      "interleaved": 736076,
+      "weak": 47,
+      "durationSeconds": 2.207
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 3410574,
+      "interleaved": 710934,
+      "weak": 92,
+      "durationSeconds": 2.161
+    },
+    "params": {
+      "testingWorkgroups": 161,
+      "maxWorkgroups": 439,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 16384,
+      "memStride": 6,
+      "stressLineSize": 64,
+      "stressTargetLines": 8,
+      "memStressIterations": 948,
+      "preStressIterations": 50,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "39": {
+    "Message Passing Default": {
+      "seq": 749612,
+      "interleaved": 30287,
+      "weak": 13701,
+      "durationSeconds": 2.005
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 464847,
+      "interleaved": 328728,
+      "weak": 25,
+      "durationSeconds": 1.814
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 532240,
+      "interleaved": 259138,
+      "weak": 2222,
+      "durationSeconds": 1.925
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 452783,
+      "interleaved": 340737,
+      "weak": 80,
+      "durationSeconds": 1.992
+    },
+    "params": {
+      "testingWorkgroups": 31,
+      "maxWorkgroups": 239,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 14336,
+      "memStride": 4,
+      "stressLineSize": 64,
+      "stressTargetLines": 7,
+      "memStressIterations": 893,
+      "preStressIterations": 48,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "40": {
+    "Message Passing Default": {
+      "seq": 11736983,
+      "interleaved": 13000,
+      "weak": 417,
+      "durationSeconds": 2.99
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 11068472,
+      "interleaved": 681904,
+      "weak": 24,
+      "durationSeconds": 2.89
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 11175065,
+      "interleaved": 575310,
+      "weak": 25,
+      "durationSeconds": 2.907
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 11295091,
+      "interleaved": 455190,
+      "weak": 119,
+      "durationSeconds": 2.943
+    },
+    "params": {
+      "testingWorkgroups": 459,
+      "maxWorkgroups": 633,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 53248,
+      "memStride": 5,
+      "stressLineSize": 128,
+      "stressTargetLines": 13,
+      "memStressIterations": 806,
+      "preStressIterations": 108,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "41": {
+    "Message Passing Default": {
+      "seq": 14473185,
+      "interleaved": 15958,
+      "weak": 457,
+      "durationSeconds": 2.955
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 13773093,
+      "interleaved": 716502,
+      "weak": 5,
+      "durationSeconds": 2.866
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 13935415,
+      "interleaved": 554178,
+      "weak": 7,
+      "durationSeconds": 2.866
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 14065271,
+      "interleaved": 424272,
+      "weak": 57,
+      "durationSeconds": 2.936
+    },
+    "params": {
+      "testingWorkgroups": 566,
+      "maxWorkgroups": 713,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 131072,
+      "memStride": 5,
+      "stressLineSize": 1024,
+      "stressTargetLines": 4,
+      "memStressIterations": 893,
+      "preStressIterations": 116,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "42": {
+    "Message Passing Default": {
+      "seq": 944843,
+      "interleaved": 18876,
+      "weak": 9081,
+      "durationSeconds": 2.032
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 808221,
+      "interleaved": 160904,
+      "weak": 3675,
+      "durationSeconds": 2.01
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 811779,
+      "interleaved": 157143,
+      "weak": 3878,
+      "durationSeconds": 1.976
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 793938,
+      "interleaved": 174835,
+      "weak": 4027,
+      "durationSeconds": 2.036
+    },
+    "params": {
+      "testingWorkgroups": 38,
+      "maxWorkgroups": 403,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 18432,
+      "memStride": 5,
+      "stressLineSize": 64,
+      "stressTargetLines": 9,
+      "memStressIterations": 420,
+      "preStressIterations": 96,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "43": {
+    "Message Passing Default": {
+      "seq": 21909671,
+      "interleaved": 28071,
+      "weak": 1458,
+      "durationSeconds": 2.917
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 21029603,
+      "interleaved": 909560,
+      "weak": 37,
+      "durationSeconds": 2.922
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 21153879,
+      "interleaved": 785298,
+      "weak": 23,
+      "durationSeconds": 2.864
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 21382392,
+      "interleaved": 556564,
+      "weak": 244,
+      "durationSeconds": 2.908
+    },
+    "params": {
+      "testingWorkgroups": 857,
+      "maxWorkgroups": 936,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 49152,
+      "memStride": 2,
+      "stressLineSize": 128,
+      "stressTargetLines": 12,
+      "memStressIterations": 332,
+      "preStressIterations": 104,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "44": {
+    "Message Passing Default": {
+      "seq": 23785384,
+      "interleaved": 18248,
+      "weak": 4368,
+      "durationSeconds": 3.061
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 22956363,
+      "interleaved": 850498,
+      "weak": 1139,
+      "durationSeconds": 3.108
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 23127127,
+      "interleaved": 679766,
+      "weak": 1107,
+      "durationSeconds": 3.008
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 23159518,
+      "interleaved": 646594,
+      "weak": 1888,
+      "durationSeconds": 3.127
+    },
+    "params": {
+      "testingWorkgroups": 930,
+      "maxWorkgroups": 988,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 1,
+      "stressLineSize": 512,
+      "stressTargetLines": 2,
+      "memStressIterations": 900,
+      "preStressIterations": 127,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "45": {
+    "Message Passing Default": {
+      "seq": 2819747,
+      "interleaved": 49082,
+      "weak": 23971,
+      "durationSeconds": 1.974
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 1852952,
+      "interleaved": 1039485,
+      "weak": 363,
+      "durationSeconds": 2.016
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 2044280,
+      "interleaved": 847551,
+      "weak": 969,
+      "durationSeconds": 1.981
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 2156635,
+      "interleaved": 735172,
+      "weak": 993,
+      "durationSeconds": 1.99
+    },
+    "params": {
+      "testingWorkgroups": 113,
+      "maxWorkgroups": 727,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 81920,
+      "memStride": 1,
+      "stressLineSize": 256,
+      "stressTargetLines": 10,
+      "memStressIterations": 682,
+      "preStressIterations": 55,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "46": {
+    "Message Passing Default": {
+      "seq": 14315179,
+      "interleaved": 18127,
+      "weak": 2694,
+      "durationSeconds": 2.688
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 13486393,
+      "interleaved": 848720,
+      "weak": 887,
+      "durationSeconds": 2.771
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 13490145,
+      "interleaved": 845295,
+      "weak": 560,
+      "durationSeconds": 2.656
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 13614448,
+      "interleaved": 720384,
+      "weak": 1168,
+      "durationSeconds": 2.873
+    },
+    "params": {
+      "testingWorkgroups": 560,
+      "maxWorkgroups": 872,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 61440,
+      "memStride": 1,
+      "stressLineSize": 128,
+      "stressTargetLines": 15,
+      "memStressIterations": 1024,
+      "preStressIterations": 35,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "47": {
+    "Message Passing Default": {
+      "seq": 10736683,
+      "interleaved": 14790,
+      "weak": 527,
+      "durationSeconds": 3.033
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 10204217,
+      "interleaved": 547768,
+      "weak": 15,
+      "durationSeconds": 2.9
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 10293030,
+      "interleaved": 458957,
+      "weak": 13,
+      "durationSeconds": 2.834
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 10420713,
+      "interleaved": 331147,
+      "weak": 140,
+      "durationSeconds": 2.417
+    },
+    "params": {
+      "testingWorkgroups": 420,
+      "maxWorkgroups": 926,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 10240,
+      "memStride": 4,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 156,
+      "preStressIterations": 96,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "48": {
+    "Message Passing Default": {
+      "seq": 5317377,
+      "interleaved": 30672,
+      "weak": 2351,
+      "durationSeconds": 2.009
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 4402505,
+      "interleaved": 947890,
+      "weak": 5,
+      "durationSeconds": 1.936
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 4515015,
+      "interleaved": 835371,
+      "weak": 14,
+      "durationSeconds": 1.984
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 4591331,
+      "interleaved": 758991,
+      "weak": 78,
+      "durationSeconds": 2.03
+    },
+    "params": {
+      "testingWorkgroups": 209,
+      "maxWorkgroups": 283,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 10240,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 5,
+      "memStressIterations": 772,
+      "preStressIterations": 113,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "49": {
+    "Message Passing Default": {
+      "seq": 21280910,
+      "interleaved": 17896,
+      "weak": 394,
+      "durationSeconds": 4.218
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 20312263,
+      "interleaved": 986889,
+      "weak": 48,
+      "durationSeconds": 3.975
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 20326421,
+      "interleaved": 972747,
+      "weak": 32,
+      "durationSeconds": 3.759
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 20507308,
+      "interleaved": 791784,
+      "weak": 108,
+      "durationSeconds": 4.079
+    },
+    "params": {
+      "testingWorkgroups": 832,
+      "maxWorkgroups": 930,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 128,
+      "memStride": 6,
+      "stressLineSize": 4,
+      "stressTargetLines": 1,
+      "memStressIterations": 848,
+      "preStressIterations": 84,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "50": {
+    "Message Passing Default": {
+      "seq": 905143,
+      "interleaved": 33403,
+      "weak": 8654,
+      "durationSeconds": 1.982
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 494595,
+      "interleaved": 452605,
+      "weak": 0,
+      "durationSeconds": 1.912
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 601356,
+      "interleaved": 344818,
+      "weak": 1026,
+      "durationSeconds": 1.952
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 481813,
+      "interleaved": 465387,
+      "weak": 0,
+      "durationSeconds": 1.907
+    },
+    "params": {
+      "testingWorkgroups": 37,
+      "maxWorkgroups": 256,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1792,
+      "memStride": 5,
+      "stressLineSize": 4,
+      "stressTargetLines": 14,
+      "memStressIterations": 205,
+      "preStressIterations": 50,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "51": {
+    "Message Passing Default": {
+      "seq": 14973256,
+      "interleaved": 27621,
+      "weak": 723,
+      "durationSeconds": 2.559
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 12689768,
+      "interleaved": 2311832,
+      "weak": 0,
+      "durationSeconds": 2.595
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 12956205,
+      "interleaved": 2045395,
+      "weak": 0,
+      "durationSeconds": 2.44
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 13549961,
+      "interleaved": 1451617,
+      "weak": 22,
+      "durationSeconds": 2.519
+    },
+    "params": {
+      "testingWorkgroups": 586,
+      "maxWorkgroups": 853,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 24576,
+      "memStride": 2,
+      "stressLineSize": 256,
+      "stressTargetLines": 3,
+      "memStressIterations": 337,
+      "preStressIterations": 1,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "52": {
+    "Message Passing Default": {
+      "seq": 13199071,
+      "interleaved": 10337,
+      "weak": 192,
+      "durationSeconds": 2.903
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 12322143,
+      "interleaved": 887454,
+      "weak": 3,
+      "durationSeconds": 2.846
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 12436553,
+      "interleaved": 773047,
+      "weak": 0,
+      "durationSeconds": 2.838
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 12763313,
+      "interleaved": 446272,
+      "weak": 15,
+      "durationSeconds": 2.856
+    },
+    "params": {
+      "testingWorkgroups": 516,
+      "maxWorkgroups": 875,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 13312,
+      "memStride": 6,
+      "stressLineSize": 32,
+      "stressTargetLines": 13,
+      "memStressIterations": 191,
+      "preStressIterations": 25,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "53": {
+    "Message Passing Default": {
+      "seq": 5526237,
+      "interleaved": 27947,
+      "weak": 1016,
+      "durationSeconds": 2.225
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 4725765,
+      "interleaved": 829398,
+      "weak": 37,
+      "durationSeconds": 2.327
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 4956554,
+      "interleaved": 598547,
+      "weak": 99,
+      "durationSeconds": 2.251
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 4858255,
+      "interleaved": 696797,
+      "weak": 148,
+      "durationSeconds": 2.272
+    },
+    "params": {
+      "testingWorkgroups": 217,
+      "maxWorkgroups": 708,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 6144,
+      "memStride": 6,
+      "stressLineSize": 64,
+      "stressTargetLines": 3,
+      "memStressIterations": 657,
+      "preStressIterations": 111,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "54": {
+    "Message Passing Default": {
+      "seq": 11860962,
+      "interleaved": 16173,
+      "weak": 1265,
+      "durationSeconds": 2.886
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 11374086,
+      "interleaved": 504174,
+      "weak": 140,
+      "durationSeconds": 2.873
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 11521528,
+      "interleaved": 356698,
+      "weak": 174,
+      "durationSeconds": 2.89
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 11462070,
+      "interleaved": 416100,
+      "weak": 230,
+      "durationSeconds": 2.904
+    },
+    "params": {
+      "testingWorkgroups": 464,
+      "maxWorkgroups": 491,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 15360,
+      "memStride": 3,
+      "stressLineSize": 32,
+      "stressTargetLines": 15,
+      "memStressIterations": 575,
+      "preStressIterations": 64,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "55": {
+    "Message Passing Default": {
+      "seq": 4322189,
+      "interleaved": 44474,
+      "weak": 10937,
+      "durationSeconds": 2.097
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 3112087,
+      "interleaved": 1265433,
+      "weak": 80,
+      "durationSeconds": 1.945
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 3161403,
+      "interleaved": 1216119,
+      "weak": 78,
+      "durationSeconds": 2.027
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 3206104,
+      "interleaved": 1170769,
+      "weak": 727,
+      "durationSeconds": 2.063
+    },
+    "params": {
+      "testingWorkgroups": 171,
+      "maxWorkgroups": 825,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 6144,
+      "memStride": 1,
+      "stressLineSize": 32,
+      "stressTargetLines": 6,
+      "memStressIterations": 217,
+      "preStressIterations": 86,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "56": {
+    "Message Passing Default": {
+      "seq": 3034087,
+      "interleaved": 35540,
+      "weak": 2373,
+      "durationSeconds": 2.069
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 2234128,
+      "interleaved": 837854,
+      "weak": 18,
+      "durationSeconds": 2.068
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 2433144,
+      "interleaved": 638722,
+      "weak": 134,
+      "durationSeconds": 2.067
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 2453231,
+      "interleaved": 618613,
+      "weak": 156,
+      "durationSeconds": 2.043
+    },
+    "params": {
+      "testingWorkgroups": 120,
+      "maxWorkgroups": 801,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 20480,
+      "memStride": 4,
+      "stressLineSize": 128,
+      "stressTargetLines": 5,
+      "memStressIterations": 653,
+      "preStressIterations": 85,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "57": {
+    "Message Passing Default": {
+      "seq": 17900713,
+      "interleaved": 18916,
+      "weak": 371,
+      "durationSeconds": 3.44
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 17519582,
+      "interleaved": 400393,
+      "weak": 25,
+      "durationSeconds": 3.401
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 17602863,
+      "interleaved": 317115,
+      "weak": 22,
+      "durationSeconds": 3.297
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 17649417,
+      "interleaved": 270517,
+      "weak": 66,
+      "durationSeconds": 3.087
+    },
+    "params": {
+      "testingWorkgroups": 700,
+      "maxWorkgroups": 1021,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1536,
+      "memStride": 7,
+      "stressLineSize": 8,
+      "stressTargetLines": 6,
+      "memStressIterations": 735,
+      "preStressIterations": 14,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "58": {
+    "Message Passing Default": {
+      "seq": 15981098,
+      "interleaved": 17457,
+      "weak": 1445,
+      "durationSeconds": 2.934
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 15032998,
+      "interleaved": 966790,
+      "weak": 212,
+      "durationSeconds": 2.973
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 15088390,
+      "interleaved": 911425,
+      "weak": 185,
+      "durationSeconds": 2.943
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 15236289,
+      "interleaved": 763205,
+      "weak": 506,
+      "durationSeconds": 2.945
+    },
+    "params": {
+      "testingWorkgroups": 625,
+      "maxWorkgroups": 749,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 49152,
+      "memStride": 2,
+      "stressLineSize": 256,
+      "stressTargetLines": 6,
+      "memStressIterations": 855,
+      "preStressIterations": 42,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "59": {
+    "Message Passing Default": {
+      "seq": 1836455,
+      "interleaved": 29352,
+      "weak": 2993,
+      "durationSeconds": 1.904
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 1108869,
+      "interleaved": 759926,
+      "weak": 5,
+      "durationSeconds": 1.847
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 1143362,
+      "interleaved": 725404,
+      "weak": 34,
+      "durationSeconds": 1.95
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 1232011,
+      "interleaved": 636763,
+      "weak": 26,
+      "durationSeconds": 1.939
+    },
+    "params": {
+      "testingWorkgroups": 73,
+      "maxWorkgroups": 863,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1792,
+      "memStride": 6,
+      "stressLineSize": 8,
+      "stressTargetLines": 7,
+      "memStressIterations": 860,
+      "preStressIterations": 77,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "60": {
+    "Message Passing Default": {
+      "seq": 3053658,
+      "interleaved": 16197,
+      "weak": 2145,
+      "durationSeconds": 2.078
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 2628203,
+      "interleaved": 443489,
+      "weak": 308,
+      "durationSeconds": 2.077
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 2709711,
+      "interleaved": 361829,
+      "weak": 460,
+      "durationSeconds": 2.112
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 2644763,
+      "interleaved": 426801,
+      "weak": 436,
+      "durationSeconds": 2.066
+    },
+    "params": {
+      "testingWorkgroups": 120,
+      "maxWorkgroups": 342,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 61440,
+      "memStride": 7,
+      "stressLineSize": 128,
+      "stressTargetLines": 15,
+      "memStressIterations": 839,
+      "preStressIterations": 24,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "61": {
+    "Message Passing Default": {
+      "seq": 17608121,
+      "interleaved": 30060,
+      "weak": 219,
+      "durationSeconds": 3.101
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 14941387,
+      "interleaved": 2697013,
+      "weak": 0,
+      "durationSeconds": 3.169
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 15232076,
+      "interleaved": 2406324,
+      "weak": 0,
+      "durationSeconds": 3.059
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 15875338,
+      "interleaved": 1763051,
+      "weak": 11,
+      "durationSeconds": 3.086
+    },
+    "params": {
+      "testingWorkgroups": 689,
+      "maxWorkgroups": 865,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 1536,
+      "memStride": 6,
+      "stressLineSize": 16,
+      "stressTargetLines": 3,
+      "memStressIterations": 805,
+      "preStressIterations": 41,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "62": {
+    "Message Passing Default": {
+      "seq": 24079881,
+      "interleaved": 9370,
+      "weak": 349,
+      "durationSeconds": 4.322
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 23771257,
+      "interleaved": 318291,
+      "weak": 52,
+      "durationSeconds": 4.046
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 23804625,
+      "interleaved": 284931,
+      "weak": 44,
+      "durationSeconds": 4.157
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 23812285,
+      "interleaved": 277234,
+      "weak": 81,
+      "durationSeconds": 4.167
+    },
+    "params": {
+      "testingWorkgroups": 941,
+      "maxWorkgroups": 993,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1024,
+      "memStride": 7,
+      "stressLineSize": 32,
+      "stressTargetLines": 1,
+      "memStressIterations": 155,
+      "preStressIterations": 88,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "63": {
+    "Message Passing Default": {
+      "seq": 12650383,
+      "interleaved": 21115,
+      "weak": 502,
+      "durationSeconds": 2.933
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 12287013,
+      "interleaved": 384976,
+      "weak": 11,
+      "durationSeconds": 2.863
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 12388444,
+      "interleaved": 283515,
+      "weak": 41,
+      "durationSeconds": 2.891
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 12416356,
+      "interleaved": 255572,
+      "weak": 72,
+      "durationSeconds": 2.919
+    },
+    "params": {
+      "testingWorkgroups": 495,
+      "maxWorkgroups": 604,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 8192,
+      "memStride": 6,
+      "stressLineSize": 64,
+      "stressTargetLines": 4,
+      "memStressIterations": 282,
+      "preStressIterations": 95,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "64": {
+    "Message Passing Default": {
+      "seq": 4514722,
+      "interleaved": 40062,
+      "weak": 2016,
+      "durationSeconds": 2.166
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 3261093,
+      "interleaved": 1295700,
+      "weak": 7,
+      "durationSeconds": 2.192
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 3333123,
+      "interleaved": 1223668,
+      "weak": 9,
+      "durationSeconds": 2.159
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 3294976,
+      "interleaved": 1261580,
+      "weak": 244,
+      "durationSeconds": 2.248
+    },
+    "params": {
+      "testingWorkgroups": 178,
+      "maxWorkgroups": 942,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 7680,
+      "memStride": 5,
+      "stressLineSize": 16,
+      "stressTargetLines": 15,
+      "memStressIterations": 405,
+      "preStressIterations": 49,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "65": {
+    "Message Passing Default": {
+      "seq": 3228766,
+      "interleaved": 20579,
+      "weak": 1855,
+      "durationSeconds": 2.123
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 2747834,
+      "interleaved": 503333,
+      "weak": 33,
+      "durationSeconds": 2.11
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 2919123,
+      "interleaved": 331893,
+      "weak": 184,
+      "durationSeconds": 2.136
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 2854962,
+      "interleaved": 396111,
+      "weak": 127,
+      "durationSeconds": 2.152
+    },
+    "params": {
+      "testingWorkgroups": 127,
+      "maxWorkgroups": 834,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 2560,
+      "memStride": 5,
+      "stressLineSize": 8,
+      "stressTargetLines": 10,
+      "memStressIterations": 70,
+      "preStressIterations": 94,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "66": {
+    "Message Passing Default": {
+      "seq": 19112525,
+      "interleaved": 10026,
+      "weak": 649,
+      "durationSeconds": 3.341
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 18738847,
+      "interleaved": 384300,
+      "weak": 53,
+      "durationSeconds": 3.317
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 18855058,
+      "interleaved": 268006,
+      "weak": 136,
+      "durationSeconds": 3.305
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 18822613,
+      "interleaved": 300483,
+      "weak": 104,
+      "durationSeconds": 3.479
+    },
+    "params": {
+      "testingWorkgroups": 747,
+      "maxWorkgroups": 966,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1152,
+      "memStride": 5,
+      "stressLineSize": 4,
+      "stressTargetLines": 9,
+      "memStressIterations": 285,
+      "preStressIterations": 64,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "67": {
+    "Message Passing Default": {
+      "seq": 23153896,
+      "interleaved": 39138,
+      "weak": 566,
+      "durationSeconds": 3.109
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 20751523,
+      "interleaved": 2442077,
+      "weak": 0,
+      "durationSeconds": 3.17
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 21327964,
+      "interleaved": 1865634,
+      "weak": 2,
+      "durationSeconds": 3.01
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 21506790,
+      "interleaved": 1686786,
+      "weak": 24,
+      "durationSeconds": 3.048
+    },
+    "params": {
+      "testingWorkgroups": 906,
+      "maxWorkgroups": 906,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 20480,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 10,
+      "memStressIterations": 217,
+      "preStressIterations": 34,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "68": {
+    "Message Passing Default": {
+      "seq": 6937223,
+      "interleaved": 24591,
+      "weak": 1386,
+      "durationSeconds": 2.237
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 6419202,
+      "interleaved": 543970,
+      "weak": 28,
+      "durationSeconds": 2.198
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 6582012,
+      "interleaved": 381093,
+      "weak": 95,
+      "durationSeconds": 2.203
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 6571167,
+      "interleaved": 391885,
+      "weak": 148,
+      "durationSeconds": 2.241
+    },
+    "params": {
+      "testingWorkgroups": 272,
+      "maxWorkgroups": 723,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 81920,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 10,
+      "memStressIterations": 419,
+      "preStressIterations": 61,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "69": {
+    "Message Passing Default": {
+      "seq": 2311563,
+      "interleaved": 37979,
+      "weak": 5658,
+      "durationSeconds": 2.023
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 1205817,
+      "interleaved": 1149383,
+      "weak": 0,
+      "durationSeconds": 1.926
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 1232310,
+      "interleaved": 1122884,
+      "weak": 6,
+      "durationSeconds": 1.924
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 1245903,
+      "interleaved": 1109297,
+      "weak": 0,
+      "durationSeconds": 1.918
+    },
+    "params": {
+      "testingWorkgroups": 92,
+      "maxWorkgroups": 726,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 1280,
+      "memStride": 3,
+      "stressLineSize": 8,
+      "stressTargetLines": 5,
+      "memStressIterations": 161,
+      "preStressIterations": 69,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "70": {
+    "Message Passing Default": {
+      "seq": 17193460,
+      "interleaved": 9063,
+      "weak": 677,
+      "durationSeconds": 3.099
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 16894423,
+      "interleaved": 308693,
+      "weak": 84,
+      "durationSeconds": 3.04
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 16945995,
+      "interleaved": 257090,
+      "weak": 115,
+      "durationSeconds": 3.166
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 16977076,
+      "interleaved": 225919,
+      "weak": 205,
+      "durationSeconds": 3.163
+    },
+    "params": {
+      "testingWorkgroups": 672,
+      "maxWorkgroups": 842,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 2048,
+      "memStride": 4,
+      "stressLineSize": 16,
+      "stressTargetLines": 4,
+      "memStressIterations": 364,
+      "preStressIterations": 25,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "71": {
+    "Message Passing Default": {
+      "seq": 4562650,
+      "interleaved": 16582,
+      "weak": 3168,
+      "durationSeconds": 2.168
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 4212064,
+      "interleaved": 369317,
+      "weak": 1019,
+      "durationSeconds": 2.234
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 4292608,
+      "interleaved": 288473,
+      "weak": 1319,
+      "durationSeconds": 2.218
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 4225211,
+      "interleaved": 355752,
+      "weak": 1437,
+      "durationSeconds": 2.241
+    },
+    "params": {
+      "testingWorkgroups": 179,
+      "maxWorkgroups": 555,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 3,
+      "stressLineSize": 256,
+      "stressTargetLines": 2,
+      "memStressIterations": 554,
+      "preStressIterations": 127,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "72": {
+    "Message Passing Default": {
+      "seq": 18818389,
+      "interleaved": 19625,
+      "weak": 3586,
+      "durationSeconds": 2.985
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 17879931,
+      "interleaved": 960788,
+      "weak": 881,
+      "durationSeconds": 3.01
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 17953880,
+      "interleaved": 886828,
+      "weak": 892,
+      "durationSeconds": 2.937
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 18088327,
+      "interleaved": 751740,
+      "weak": 1533,
+      "durationSeconds": 2.967
+    },
+    "params": {
+      "testingWorkgroups": 736,
+      "maxWorkgroups": 817,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 3840,
+      "memStride": 1,
+      "stressLineSize": 8,
+      "stressTargetLines": 15,
+      "memStressIterations": 85,
+      "preStressIterations": 0,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "73": {
+    "Message Passing Default": {
+      "seq": 20996640,
+      "interleaved": 20469,
+      "weak": 491,
+      "durationSeconds": 3.659
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 20126429,
+      "interleaved": 891089,
+      "weak": 82,
+      "durationSeconds": 3.215
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 20133933,
+      "interleaved": 883608,
+      "weak": 59,
+      "durationSeconds": 2.963
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 20203595,
+      "interleaved": 813830,
+      "weak": 175,
+      "durationSeconds": 3.354
+    },
+    "params": {
+      "testingWorkgroups": 821,
+      "maxWorkgroups": 835,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1792,
+      "memStride": 4,
+      "stressLineSize": 4,
+      "stressTargetLines": 14,
+      "memStressIterations": 562,
+      "preStressIterations": 21,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "74": {
+    "Message Passing Default": {
+      "seq": 18888205,
+      "interleaved": 29007,
+      "weak": 1188,
+      "durationSeconds": 2.933
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 17894504,
+      "interleaved": 1023872,
+      "weak": 24,
+      "durationSeconds": 2.866
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 18100957,
+      "interleaved": 817423,
+      "weak": 20,
+      "durationSeconds": 2.871
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 18243262,
+      "interleaved": 674970,
+      "weak": 168,
+      "durationSeconds": 2.9
+    },
+    "params": {
+      "testingWorkgroups": 739,
+      "maxWorkgroups": 885,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 1408,
+      "memStride": 2,
+      "stressLineSize": 4,
+      "stressTargetLines": 11,
+      "memStressIterations": 156,
+      "preStressIterations": 33,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "75": {
+    "Message Passing Default": {
+      "seq": 20438118,
+      "interleaved": 13846,
+      "weak": 2436,
+      "durationSeconds": 3.064
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 20116482,
+      "interleaved": 337282,
+      "weak": 636,
+      "durationSeconds": 2.976
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 20189012,
+      "interleaved": 264719,
+      "weak": 669,
+      "durationSeconds": 3.057
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 20167557,
+      "interleaved": 285990,
+      "weak": 853,
+      "durationSeconds": 3.042
+    },
+    "params": {
+      "testingWorkgroups": 799,
+      "maxWorkgroups": 816,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 384,
+      "memStride": 1,
+      "stressLineSize": 4,
+      "stressTargetLines": 3,
+      "memStressIterations": 930,
+      "preStressIterations": 73,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "76": {
+    "Message Passing Default": {
+      "seq": 21391228,
+      "interleaved": 10044,
+      "weak": 328,
+      "durationSeconds": 4.156
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 21050886,
+      "interleaved": 350667,
+      "weak": 47,
+      "durationSeconds": 4.08
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 21113862,
+      "interleaved": 287658,
+      "weak": 80,
+      "durationSeconds": 4.177
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 21123143,
+      "interleaved": 278373,
+      "weak": 84,
+      "durationSeconds": 4.284
+    },
+    "params": {
+      "testingWorkgroups": 836,
+      "maxWorkgroups": 961,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 4608,
+      "memStride": 6,
+      "stressLineSize": 16,
+      "stressTargetLines": 9,
+      "memStressIterations": 100,
+      "preStressIterations": 12,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "77": {
+    "Message Passing Default": {
+      "seq": 2522975,
+      "interleaved": 33502,
+      "weak": 3523,
+      "durationSeconds": 2.126
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 1388487,
+      "interleaved": 1171500,
+      "weak": 13,
+      "durationSeconds": 1.952
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 1443253,
+      "interleaved": 1116738,
+      "weak": 9,
+      "durationSeconds": 2.027
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 1409159,
+      "interleaved": 1150797,
+      "weak": 44,
+      "durationSeconds": 2.1
+    },
+    "params": {
+      "testingWorkgroups": 100,
+      "maxWorkgroups": 848,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 524288,
+      "memStride": 5,
+      "stressLineSize": 1024,
+      "stressTargetLines": 16,
+      "memStressIterations": 876,
+      "preStressIterations": 80,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "78": {
+    "Message Passing Default": {
+      "seq": 5413407,
+      "interleaved": 35510,
+      "weak": 3883,
+      "durationSeconds": 2.223
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 4370517,
+      "interleaved": 1082188,
+      "weak": 95,
+      "durationSeconds": 2.256
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 4416994,
+      "interleaved": 1035680,
+      "weak": 126,
+      "durationSeconds": 2.132
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 4527217,
+      "interleaved": 925049,
+      "weak": 534,
+      "durationSeconds": 2.235
+    },
+    "params": {
+      "testingWorkgroups": 213,
+      "maxWorkgroups": 317,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1536,
+      "memStride": 2,
+      "stressLineSize": 8,
+      "stressTargetLines": 6,
+      "memStressIterations": 126,
+      "preStressIterations": 51,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "79": {
+    "Message Passing Default": {
+      "seq": 7356860,
+      "interleaved": 15518,
+      "weak": 422,
+      "durationSeconds": 2.306
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 6518041,
+      "interleaved": 854759,
+      "weak": 0,
+      "durationSeconds": 2.21
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 6660393,
+      "interleaved": 712404,
+      "weak": 3,
+      "durationSeconds": 2.089
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 6825395,
+      "interleaved": 547359,
+      "weak": 46,
+      "durationSeconds": 2.174
+    },
+    "params": {
+      "testingWorkgroups": 288,
+      "maxWorkgroups": 682,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 2048,
+      "memStride": 3,
+      "stressLineSize": 32,
+      "stressTargetLines": 2,
+      "memStressIterations": 208,
+      "preStressIterations": 106,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "80": {
+    "Message Passing Default": {
+      "seq": 10376235,
+      "interleaved": 16402,
+      "weak": 963,
+      "durationSeconds": 2.255
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 9803292,
+      "interleaved": 590282,
+      "weak": 26,
+      "durationSeconds": 2.285
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 9913353,
+      "interleaved": 480206,
+      "weak": 41,
+      "durationSeconds": 2.225
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 9960710,
+      "interleaved": 432719,
+      "weak": 171,
+      "durationSeconds": 2.187
+    },
+    "params": {
+      "testingWorkgroups": 406,
+      "maxWorkgroups": 946,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 16384,
+      "memStride": 2,
+      "stressLineSize": 32,
+      "stressTargetLines": 16,
+      "memStressIterations": 413,
+      "preStressIterations": 56,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "81": {
+    "Message Passing Default": {
+      "seq": 1475638,
+      "interleaved": 31392,
+      "weak": 3370,
+      "durationSeconds": 1.969
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 790590,
+      "interleaved": 719810,
+      "weak": 0,
+      "durationSeconds": 1.9
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 910366,
+      "interleaved": 599963,
+      "weak": 71,
+      "durationSeconds": 1.961
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 778389,
+      "interleaved": 732011,
+      "weak": 0,
+      "durationSeconds": 1.921
+    },
+    "params": {
+      "testingWorkgroups": 59,
+      "maxWorkgroups": 221,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 458752,
+      "memStride": 7,
+      "stressLineSize": 1024,
+      "stressTargetLines": 14,
+      "memStressIterations": 552,
+      "preStressIterations": 51,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "82": {
+    "Message Passing Default": {
+      "seq": 21528180,
+      "interleaved": 26735,
+      "weak": 285,
+      "durationSeconds": 3.687
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 20715623,
+      "interleaved": 839575,
+      "weak": 2,
+      "durationSeconds": 3.468
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 20899370,
+      "interleaved": 655828,
+      "weak": 2,
+      "durationSeconds": 3.392
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 20979693,
+      "interleaved": 575496,
+      "weak": 11,
+      "durationSeconds": 3.525
+    },
+    "params": {
+      "testingWorkgroups": 842,
+      "maxWorkgroups": 851,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 7,
+      "stressLineSize": 64,
+      "stressTargetLines": 2,
+      "memStressIterations": 960,
+      "preStressIterations": 72,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "83": {
+    "Message Passing Default": {
+      "seq": 6091518,
+      "interleaved": 25415,
+      "weak": 1467,
+      "durationSeconds": 2.304
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 5503559,
+      "interleaved": 614700,
+      "weak": 141,
+      "durationSeconds": 2.361
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 5537331,
+      "interleaved": 580917,
+      "weak": 152,
+      "durationSeconds": 2.352
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 5623417,
+      "interleaved": 494693,
+      "weak": 290,
+      "durationSeconds": 2.241
+    },
+    "params": {
+      "testingWorkgroups": 239,
+      "maxWorkgroups": 401,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 10240,
+      "memStride": 4,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 974,
+      "preStressIterations": 35,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "84": {
+    "Message Passing Default": {
+      "seq": 19068071,
+      "interleaved": 28989,
+      "weak": 540,
+      "durationSeconds": 2.945
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 17969483,
+      "interleaved": 1128116,
+      "weak": 1,
+      "durationSeconds": 2.841
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 18159864,
+      "interleaved": 937735,
+      "weak": 1,
+      "durationSeconds": 2.902
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 18258830,
+      "interleaved": 838767,
+      "weak": 3,
+      "durationSeconds": 2.88
+    },
+    "params": {
+      "testingWorkgroups": 746,
+      "maxWorkgroups": 829,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 24576,
+      "memStride": 4,
+      "stressLineSize": 64,
+      "stressTargetLines": 12,
+      "memStressIterations": 355,
+      "preStressIterations": 78,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "85": {
+    "Message Passing Default": {
+      "seq": 24973909,
+      "interleaved": 11308,
+      "weak": 383,
+      "durationSeconds": 4.21
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 24389725,
+      "interleaved": 595826,
+      "weak": 49,
+      "durationSeconds": 4.064
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 24361138,
+      "interleaved": 624419,
+      "weak": 43,
+      "durationSeconds": 4.084
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 24548811,
+      "interleaved": 436659,
+      "weak": 130,
+      "durationSeconds": 4.029
+    },
+    "params": {
+      "testingWorkgroups": 976,
+      "maxWorkgroups": 982,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 3840,
+      "memStride": 7,
+      "stressLineSize": 8,
+      "stressTargetLines": 15,
+      "memStressIterations": 925,
+      "preStressIterations": 111,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "86": {
+    "Message Passing Default": {
+      "seq": 11398237,
+      "interleaved": 14285,
+      "weak": 5078,
+      "durationSeconds": 2.127
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 11194831,
+      "interleaved": 221811,
+      "weak": 958,
+      "durationSeconds": 2.225
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 11262892,
+      "interleaved": 153175,
+      "weak": 1533,
+      "durationSeconds": 2.173
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 11266110,
+      "interleaved": 149622,
+      "weak": 1868,
+      "durationSeconds": 2.144
+    },
+    "params": {
+      "testingWorkgroups": 446,
+      "maxWorkgroups": 785,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1536,
+      "memStride": 1,
+      "stressLineSize": 16,
+      "stressTargetLines": 3,
+      "memStressIterations": 669,
+      "preStressIterations": 87,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "87": {
+    "Message Passing Default": {
+      "seq": 15674738,
+      "interleaved": 17749,
+      "weak": 313,
+      "durationSeconds": 3.022
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 15034414,
+      "interleaved": 658381,
+      "weak": 5,
+      "durationSeconds": 2.95
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 15187719,
+      "interleaved": 505074,
+      "weak": 7,
+      "durationSeconds": 3.004
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 15308935,
+      "interleaved": 383807,
+      "weak": 58,
+      "durationSeconds": 3.123
+    },
+    "params": {
+      "testingWorkgroups": 613,
+      "maxWorkgroups": 865,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 163840,
+      "memStride": 6,
+      "stressLineSize": 512,
+      "stressTargetLines": 10,
+      "memStressIterations": 302,
+      "preStressIterations": 99,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "88": {
+    "Message Passing Default": {
+      "seq": 12644804,
+      "interleaved": 26284,
+      "weak": 912,
+      "durationSeconds": 2.423
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 11370245,
+      "interleaved": 1301750,
+      "weak": 5,
+      "durationSeconds": 2.487
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 11592121,
+      "interleaved": 1079877,
+      "weak": 2,
+      "durationSeconds": 2.296
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 11786803,
+      "interleaved": 885139,
+      "weak": 58,
+      "durationSeconds": 2.454
+    },
+    "params": {
+      "testingWorkgroups": 495,
+      "maxWorkgroups": 546,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 8192,
+      "memStride": 2,
+      "stressLineSize": 128,
+      "stressTargetLines": 2,
+      "memStressIterations": 990,
+      "preStressIterations": 61,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "89": {
+    "Message Passing Default": {
+      "seq": 1043686,
+      "interleaved": 39790,
+      "weak": 17324,
+      "durationSeconds": 2.017
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 558966,
+      "interleaved": 541834,
+      "weak": 0,
+      "durationSeconds": 1.901
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 693855,
+      "interleaved": 404480,
+      "weak": 2465,
+      "durationSeconds": 1.987
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 545321,
+      "interleaved": 555476,
+      "weak": 3,
+      "durationSeconds": 1.879
+    },
+    "params": {
+      "testingWorkgroups": 43,
+      "maxWorkgroups": 252,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 1,
+      "stressLineSize": 64,
+      "stressTargetLines": 2,
+      "memStressIterations": 177,
+      "preStressIterations": 85,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "90": {
+    "Message Passing Default": {
+      "seq": 5399866,
+      "interleaved": 26237,
+      "weak": 1097,
+      "durationSeconds": 2.351
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 4692350,
+      "interleaved": 734781,
+      "weak": 69,
+      "durationSeconds": 2.414
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 4792129,
+      "interleaved": 634974,
+      "weak": 97,
+      "durationSeconds": 2.37
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 4804938,
+      "interleaved": 622094,
+      "weak": 168,
+      "durationSeconds": 2.336
+    },
+    "params": {
+      "testingWorkgroups": 212,
+      "maxWorkgroups": 354,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 180224,
+      "memStride": 6,
+      "stressLineSize": 512,
+      "stressTargetLines": 11,
+      "memStressIterations": 144,
+      "preStressIterations": 96,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "91": {
+    "Message Passing Default": {
+      "seq": 21389226,
+      "interleaved": 11653,
+      "weak": 721,
+      "durationSeconds": 2.718
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 21160433,
+      "interleaved": 241045,
+      "weak": 122,
+      "durationSeconds": 2.614
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 21220805,
+      "interleaved": 180619,
+      "weak": 176,
+      "durationSeconds": 2.784
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 21179390,
+      "interleaved": 222016,
+      "weak": 194,
+      "durationSeconds": 3.061
+    },
+    "params": {
+      "testingWorkgroups": 836,
+      "maxWorkgroups": 932,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 2,
+      "memStressIterations": 265,
+      "preStressIterations": 95,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "92": {
+    "Message Passing Default": {
+      "seq": 14983321,
+      "interleaved": 15029,
+      "weak": 3250,
+      "durationSeconds": 2.792
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 14657836,
+      "interleaved": 342879,
+      "weak": 885,
+      "durationSeconds": 2.898
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 14693265,
+      "interleaved": 307330,
+      "weak": 1005,
+      "durationSeconds": 2.881
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 14699351,
+      "interleaved": 300952,
+      "weak": 1297,
+      "durationSeconds": 2.853
+    },
+    "params": {
+      "testingWorkgroups": 586,
+      "maxWorkgroups": 800,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 6656,
+      "memStride": 1,
+      "stressLineSize": 16,
+      "stressTargetLines": 13,
+      "memStressIterations": 612,
+      "preStressIterations": 94,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "93": {
+    "Message Passing Default": {
+      "seq": 11703666,
+      "interleaved": 20942,
+      "weak": 192,
+      "durationSeconds": 2.846
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 9979715,
+      "interleaved": 1745085,
+      "weak": 0,
+      "durationSeconds": 2.811
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 10082424,
+      "interleaved": 1642376,
+      "weak": 0,
+      "durationSeconds": 2.831
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 10496470,
+      "interleaved": 1228321,
+      "weak": 9,
+      "durationSeconds": 2.848
+    },
+    "params": {
+      "testingWorkgroups": 458,
+      "maxWorkgroups": 497,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 6144,
+      "memStride": 6,
+      "stressLineSize": 16,
+      "stressTargetLines": 12,
+      "memStressIterations": 394,
+      "preStressIterations": 52,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "94": {
+    "Message Passing Default": {
+      "seq": 21076706,
+      "interleaved": 17348,
+      "weak": 346,
+      "durationSeconds": 4.304
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 20104195,
+      "interleaved": 990165,
+      "weak": 40,
+      "durationSeconds": 4.182
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 20091391,
+      "interleaved": 1002985,
+      "weak": 24,
+      "durationSeconds": 3.987
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 20315967,
+      "interleaved": 778340,
+      "weak": 93,
+      "durationSeconds": 4.272
+    },
+    "params": {
+      "testingWorkgroups": 824,
+      "maxWorkgroups": 903,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 10240,
+      "memStride": 7,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 299,
+      "preStressIterations": 94,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "95": {
+    "Message Passing Default": {
+      "seq": 558181,
+      "interleaved": 35809,
+      "weak": 20410,
+      "durationSeconds": 2.045
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 347040,
+      "interleaved": 267360,
+      "weak": 0,
+      "durationSeconds": 1.888
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 358101,
+      "interleaved": 254033,
+      "weak": 2266,
+      "durationSeconds": 2.023
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 340578,
+      "interleaved": 273805,
+      "weak": 17,
+      "durationSeconds": 1.847
+    },
+    "params": {
+      "testingWorkgroups": 24,
+      "maxWorkgroups": 770,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 49152,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 6,
+      "memStressIterations": 151,
+      "preStressIterations": 66,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "96": {
+    "Message Passing Default": {
+      "seq": 6633757,
+      "interleaved": 20695,
+      "weak": 1548,
+      "durationSeconds": 2.135
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 6017291,
+      "interleaved": 638661,
+      "weak": 48,
+      "durationSeconds": 2.099
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 6129758,
+      "interleaved": 526123,
+      "weak": 119,
+      "durationSeconds": 2.101
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 6212153,
+      "interleaved": 443590,
+      "weak": 257,
+      "durationSeconds": 2.094
+    },
+    "params": {
+      "testingWorkgroups": 260,
+      "maxWorkgroups": 694,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 3584,
+      "memStride": 2,
+      "stressLineSize": 8,
+      "stressTargetLines": 14,
+      "memStressIterations": 198,
+      "preStressIterations": 59,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "97": {
+    "Message Passing Default": {
+      "seq": 24103259,
+      "interleaved": 10966,
+      "weak": 975,
+      "durationSeconds": 3.475
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 23802289,
+      "interleaved": 312635,
+      "weak": 276,
+      "durationSeconds": 3.539
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 23869002,
+      "interleaved": 245980,
+      "weak": 218,
+      "durationSeconds": 3.366
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 23841626,
+      "interleaved": 273296,
+      "weak": 278,
+      "durationSeconds": 3.408
+    },
+    "params": {
+      "testingWorkgroups": 942,
+      "maxWorkgroups": 954,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 256,
+      "memStride": 2,
+      "stressLineSize": 4,
+      "stressTargetLines": 2,
+      "memStressIterations": 271,
+      "preStressIterations": 31,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "98": {
+    "Message Passing Default": {
+      "seq": 11912474,
+      "interleaved": 15758,
+      "weak": 1368,
+      "durationSeconds": 2.895
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 11486042,
+      "interleaved": 443413,
+      "weak": 145,
+      "durationSeconds": 2.872
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 11554941,
+      "interleaved": 374395,
+      "weak": 264,
+      "durationSeconds": 2.88
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 11566312,
+      "interleaved": 362959,
+      "weak": 329,
+      "durationSeconds": 2.842
+    },
+    "params": {
+      "testingWorkgroups": 466,
+      "maxWorkgroups": 795,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 2304,
+      "memStride": 3,
+      "stressLineSize": 8,
+      "stressTargetLines": 9,
+      "memStressIterations": 444,
+      "preStressIterations": 65,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "99": {
+    "Message Passing Default": {
+      "seq": 20761243,
+      "interleaved": 25649,
+      "weak": 308,
+      "durationSeconds": 3.958
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 19650791,
+      "interleaved": 1136408,
+      "weak": 1,
+      "durationSeconds": 3.982
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 19860071,
+      "interleaved": 927129,
+      "weak": 0,
+      "durationSeconds": 3.701
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 19954634,
+      "interleaved": 832563,
+      "weak": 3,
+      "durationSeconds": 3.663
+    },
+    "params": {
+      "testingWorkgroups": 812,
+      "maxWorkgroups": 851,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 360448,
+      "memStride": 7,
+      "stressLineSize": 1024,
+      "stressTargetLines": 11,
+      "memStressIterations": 339,
+      "preStressIterations": 36,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "100": {
+    "Message Passing Default": {
+      "seq": 14371717,
+      "interleaved": 14371,
+      "weak": 1112,
+      "durationSeconds": 2.989
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 13956791,
+      "interleaved": 430268,
+      "weak": 141,
+      "durationSeconds": 2.991
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 14032297,
+      "interleaved": 354733,
+      "weak": 170,
+      "durationSeconds": 2.949
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 14034300,
+      "interleaved": 352651,
+      "weak": 249,
+      "durationSeconds": 3.022
+    },
+    "params": {
+      "testingWorkgroups": 562,
+      "maxWorkgroups": 696,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 22528,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 11,
+      "memStressIterations": 669,
+      "preStressIterations": 1,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "101": {
+    "Message Passing Default": {
+      "seq": 14498644,
+      "interleaved": 15831,
+      "weak": 725,
+      "durationSeconds": 2.998
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 13657336,
+      "interleaved": 857779,
+      "weak": 85,
+      "durationSeconds": 2.983
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 13780772,
+      "interleaved": 734340,
+      "weak": 88,
+      "durationSeconds": 2.969
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 13913308,
+      "interleaved": 601663,
+      "weak": 229,
+      "durationSeconds": 3.038
+    },
+    "params": {
+      "testingWorkgroups": 567,
+      "maxWorkgroups": 789,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 256,
+      "memStride": 3,
+      "stressLineSize": 4,
+      "stressTargetLines": 2,
+      "memStressIterations": 617,
+      "preStressIterations": 44,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "102": {
+    "Message Passing Default": {
+      "seq": 25632298,
+      "interleaved": 18306,
+      "weak": 596,
+      "durationSeconds": 4.125
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 24568369,
+      "interleaved": 1082772,
+      "weak": 59,
+      "durationSeconds": 4.016
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 24638616,
+      "interleaved": 1012550,
+      "weak": 34,
+      "durationSeconds": 3.904
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 24821913,
+      "interleaved": 829145,
+      "weak": 142,
+      "durationSeconds": 4.062
+    },
+    "params": {
+      "testingWorkgroups": 1002,
+      "maxWorkgroups": 1011,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 4096,
+      "memStride": 5,
+      "stressLineSize": 16,
+      "stressTargetLines": 8,
+      "memStressIterations": 703,
+      "preStressIterations": 16,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "103": {
+    "Message Passing Default": {
+      "seq": 25614208,
+      "interleaved": 11099,
+      "weak": 293,
+      "durationSeconds": 4.346
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 25265900,
+      "interleaved": 359657,
+      "weak": 43,
+      "durationSeconds": 4.352
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 25320105,
+      "interleaved": 305435,
+      "weak": 60,
+      "durationSeconds": 4.333
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 25340805,
+      "interleaved": 284714,
+      "weak": 81,
+      "durationSeconds": 4.263
+    },
+    "params": {
+      "testingWorkgroups": 1001,
+      "maxWorkgroups": 1004,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 8192,
+      "memStride": 6,
+      "stressLineSize": 256,
+      "stressTargetLines": 1,
+      "memStressIterations": 669,
+      "preStressIterations": 3,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "104": {
+    "Message Passing Default": {
+      "seq": 18285422,
+      "interleaved": 18078,
+      "weak": 500,
+      "durationSeconds": 3.366
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 17340126,
+      "interleaved": 963818,
+      "weak": 56,
+      "durationSeconds": 3.143
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 17311147,
+      "interleaved": 992822,
+      "weak": 31,
+      "durationSeconds": 3.222
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 17491105,
+      "interleaved": 812750,
+      "weak": 145,
+      "durationSeconds": 3.297
+    },
+    "params": {
+      "testingWorkgroups": 715,
+      "maxWorkgroups": 875,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 106496,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 13,
+      "memStressIterations": 319,
+      "preStressIterations": 17,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "105": {
+    "Message Passing Default": {
+      "seq": 697702,
+      "interleaved": 27146,
+      "weak": 17552,
+      "durationSeconds": 2.022
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 549396,
+      "interleaved": 189896,
+      "weak": 3108,
+      "durationSeconds": 2.024
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 590582,
+      "interleaved": 145664,
+      "weak": 6154,
+      "durationSeconds": 2.034
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 583464,
+      "interleaved": 154602,
+      "weak": 4334,
+      "durationSeconds": 2.039
+    },
+    "params": {
+      "testingWorkgroups": 29,
+      "maxWorkgroups": 143,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 131072,
+      "memStride": 4,
+      "stressLineSize": 1024,
+      "stressTargetLines": 4,
+      "memStressIterations": 426,
+      "preStressIterations": 53,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "106": {
+    "Message Passing Default": {
+      "seq": 9455750,
+      "interleaved": 16067,
+      "weak": 183,
+      "durationSeconds": 2.88
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 8055826,
+      "interleaved": 1416174,
+      "weak": 0,
+      "durationSeconds": 2.758
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 8122822,
+      "interleaved": 1349178,
+      "weak": 0,
+      "durationSeconds": 2.793
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 8446190,
+      "interleaved": 1025793,
+      "weak": 17,
+      "durationSeconds": 2.863
+    },
+    "params": {
+      "testingWorkgroups": 370,
+      "maxWorkgroups": 988,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 896,
+      "memStride": 7,
+      "stressLineSize": 4,
+      "stressTargetLines": 7,
+      "memStressIterations": 330,
+      "preStressIterations": 82,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "107": {
+    "Message Passing Default": {
+      "seq": 954513,
+      "interleaved": 32221,
+      "weak": 11666,
+      "durationSeconds": 1.989
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 549383,
+      "interleaved": 449013,
+      "weak": 4,
+      "durationSeconds": 1.907
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 611870,
+      "interleaved": 385486,
+      "weak": 1044,
+      "durationSeconds": 1.992
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 556556,
+      "interleaved": 441769,
+      "weak": 75,
+      "durationSeconds": 1.894
+    },
+    "params": {
+      "testingWorkgroups": 39,
+      "maxWorkgroups": 952,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 2560,
+      "memStride": 1,
+      "stressLineSize": 8,
+      "stressTargetLines": 10,
+      "memStressIterations": 217,
+      "preStressIterations": 89,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "108": {
+    "Message Passing Default": {
+      "seq": 4370942,
+      "interleaved": 30834,
+      "weak": 1424,
+      "durationSeconds": 2.468
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 3302926,
+      "interleaved": 1100266,
+      "weak": 8,
+      "durationSeconds": 2.624
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 3351255,
+      "interleaved": 1051935,
+      "weak": 10,
+      "durationSeconds": 2.632
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 3363062,
+      "interleaved": 1040044,
+      "weak": 94,
+      "durationSeconds": 2.687
+    },
+    "params": {
+      "testingWorkgroups": 172,
+      "maxWorkgroups": 964,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 512,
+      "memStride": 4,
+      "stressLineSize": 8,
+      "stressTargetLines": 2,
+      "memStressIterations": 722,
+      "preStressIterations": 81,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "109": {
+    "Message Passing Default": {
+      "seq": 875309,
+      "interleaved": 44667,
+      "weak": 27224,
+      "durationSeconds": 2.132
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 492350,
+      "interleaved": 454850,
+      "weak": 0,
+      "durationSeconds": 2.017
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 562225,
+      "interleaved": 380706,
+      "weak": 4269,
+      "durationSeconds": 2.065
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 473363,
+      "interleaved": 473821,
+      "weak": 16,
+      "durationSeconds": 2.073
+    },
+    "params": {
+      "testingWorkgroups": 37,
+      "maxWorkgroups": 427,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 2,
+      "stressLineSize": 512,
+      "stressTargetLines": 2,
+      "memStressIterations": 770,
+      "preStressIterations": 51,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "110": {
+    "Message Passing Default": {
+      "seq": 15546950,
+      "interleaved": 16334,
+      "weak": 1516,
+      "durationSeconds": 2.996
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 14677734,
+      "interleaved": 886868,
+      "weak": 198,
+      "durationSeconds": 2.969
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 14813809,
+      "interleaved": 750765,
+      "weak": 226,
+      "durationSeconds": 2.935
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 14842591,
+      "interleaved": 721749,
+      "weak": 460,
+      "durationSeconds": 2.945
+    },
+    "params": {
+      "testingWorkgroups": 608,
+      "maxWorkgroups": 747,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 5632,
+      "memStride": 2,
+      "stressLineSize": 16,
+      "stressTargetLines": 11,
+      "memStressIterations": 209,
+      "preStressIterations": 52,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "111": {
+    "Message Passing Default": {
+      "seq": 404824,
+      "interleaved": 42300,
+      "weak": 13676,
+      "durationSeconds": 2.027
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 175212,
+      "interleaved": 285572,
+      "weak": 16,
+      "durationSeconds": 1.916
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 281846,
+      "interleaved": 168021,
+      "weak": 10933,
+      "durationSeconds": 2.025
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 159011,
+      "interleaved": 301725,
+      "weak": 64,
+      "durationSeconds": 1.924
+    },
+    "params": {
+      "testingWorkgroups": 18,
+      "maxWorkgroups": 130,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 1024,
+      "memStride": 1,
+      "stressLineSize": 8,
+      "stressTargetLines": 4,
+      "memStressIterations": 304,
+      "preStressIterations": 94,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "112": {
+    "Message Passing Default": {
+      "seq": 16583787,
+      "interleaved": 30344,
+      "weak": 269,
+      "durationSeconds": 3.112
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 14883818,
+      "interleaved": 1730580,
+      "weak": 2,
+      "durationSeconds": 3.076
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 15282342,
+      "interleaved": 1332058,
+      "weak": 0,
+      "durationSeconds": 3.027
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 15421902,
+      "interleaved": 1192489,
+      "weak": 9,
+      "durationSeconds": 3.038
+    },
+    "params": {
+      "testingWorkgroups": 649,
+      "maxWorkgroups": 895,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 2048,
+      "memStride": 6,
+      "stressLineSize": 4,
+      "stressTargetLines": 16,
+      "memStressIterations": 750,
+      "preStressIterations": 85,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "113": {
+    "Message Passing Default": {
+      "seq": 12757148,
+      "interleaved": 16040,
+      "weak": 1212,
+      "durationSeconds": 2.858
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 11979558,
+      "interleaved": 794632,
+      "weak": 210,
+      "durationSeconds": 2.858
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 12040083,
+      "interleaved": 734190,
+      "weak": 127,
+      "durationSeconds": 2.871
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 12072153,
+      "interleaved": 701809,
+      "weak": 438,
+      "durationSeconds": 2.807
+    },
+    "params": {
+      "testingWorkgroups": 499,
+      "maxWorkgroups": 591,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1536,
+      "memStride": 2,
+      "stressLineSize": 16,
+      "stressTargetLines": 3,
+      "memStressIterations": 85,
+      "preStressIterations": 67,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "114": {
+    "Message Passing Default": {
+      "seq": 7330986,
+      "interleaved": 15505,
+      "weak": 709,
+      "durationSeconds": 2.103
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 6204820,
+      "interleaved": 1142380,
+      "weak": 0,
+      "durationSeconds": 1.952
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 6269962,
+      "interleaved": 1077238,
+      "weak": 0,
+      "durationSeconds": 1.898
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 6529224,
+      "interleaved": 817929,
+      "weak": 47,
+      "durationSeconds": 2.056
+    },
+    "params": {
+      "testingWorkgroups": 287,
+      "maxWorkgroups": 765,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 2,
+      "stressLineSize": 512,
+      "stressTargetLines": 1,
+      "memStressIterations": 441,
+      "preStressIterations": 65,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "115": {
+    "Message Passing Default": {
+      "seq": 24660343,
+      "interleaved": 17455,
+      "weak": 602,
+      "durationSeconds": 4.144
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 23588262,
+      "interleaved": 1090097,
+      "weak": 41,
+      "durationSeconds": 3.72
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 23656485,
+      "interleaved": 1021873,
+      "weak": 42,
+      "durationSeconds": 3.657
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 23860815,
+      "interleaved": 817449,
+      "weak": 136,
+      "durationSeconds": 4.071
+    },
+    "params": {
+      "testingWorkgroups": 964,
+      "maxWorkgroups": 1021,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 5,
+      "stressLineSize": 128,
+      "stressTargetLines": 4,
+      "memStressIterations": 742,
+      "preStressIterations": 65,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "116": {
+    "Message Passing Default": {
+      "seq": 12397212,
+      "interleaved": 17661,
+      "weak": 1127,
+      "durationSeconds": 2.842
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 11559922,
+      "interleaved": 855992,
+      "weak": 86,
+      "durationSeconds": 2.903
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 11726121,
+      "interleaved": 689718,
+      "weak": 161,
+      "durationSeconds": 2.779
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 11719813,
+      "interleaved": 695877,
+      "weak": 310,
+      "durationSeconds": 2.806
+    },
+    "params": {
+      "testingWorkgroups": 485,
+      "maxWorkgroups": 495,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 262144,
+      "memStride": 2,
+      "stressLineSize": 1024,
+      "stressTargetLines": 8,
+      "memStressIterations": 951,
+      "preStressIterations": 39,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "117": {
+    "Message Passing Default": {
+      "seq": 9321261,
+      "interleaved": 22094,
+      "weak": 645,
+      "durationSeconds": 2.906
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 8798742,
+      "interleaved": 545248,
+      "weak": 10,
+      "durationSeconds": 2.769
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 8988495,
+      "interleaved": 355481,
+      "weak": 24,
+      "durationSeconds": 2.762
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 8940954,
+      "interleaved": 402997,
+      "weak": 49,
+      "durationSeconds": 2.833
+    },
+    "params": {
+      "testingWorkgroups": 365,
+      "maxWorkgroups": 814,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 16384,
+      "memStride": 7,
+      "stressLineSize": 128,
+      "stressTargetLines": 4,
+      "memStressIterations": 756,
+      "preStressIterations": 26,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "118": {
+    "Message Passing Default": {
+      "seq": 4348196,
+      "interleaved": 28233,
+      "weak": 1171,
+      "durationSeconds": 2.082
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 3316828,
+      "interleaved": 1060772,
+      "weak": 0,
+      "durationSeconds": 1.99
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 3484787,
+      "interleaved": 892811,
+      "weak": 2,
+      "durationSeconds": 2.032
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 3510982,
+      "interleaved": 866611,
+      "weak": 7,
+      "durationSeconds": 2.044
+    },
+    "params": {
+      "testingWorkgroups": 171,
+      "maxWorkgroups": 1013,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 7,
+      "stressLineSize": 256,
+      "stressTargetLines": 2,
+      "memStressIterations": 320,
+      "preStressIterations": 28,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "119": {
+    "Message Passing Default": {
+      "seq": 24323477,
+      "interleaved": 21242,
+      "weak": 881,
+      "durationSeconds": 3.619
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 23412910,
+      "interleaved": 932580,
+      "weak": 110,
+      "durationSeconds": 3.466
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 23595114,
+      "interleaved": 750384,
+      "weak": 102,
+      "durationSeconds": 3.393
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 23712101,
+      "interleaved": 633257,
+      "weak": 242,
+      "durationSeconds": 3.377
+    },
+    "params": {
+      "testingWorkgroups": 951,
+      "maxWorkgroups": 1010,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 24576,
+      "memStride": 3,
+      "stressLineSize": 256,
+      "stressTargetLines": 3,
+      "memStressIterations": 963,
+      "preStressIterations": 126,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "120": {
+    "Message Passing Default": {
+      "seq": 18445694,
+      "interleaved": 10964,
+      "weak": 942,
+      "durationSeconds": 3.035
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 18116484,
+      "interleaved": 340980,
+      "weak": 136,
+      "durationSeconds": 3.041
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 18177742,
+      "interleaved": 279704,
+      "weak": 154,
+      "durationSeconds": 2.975
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 18172831,
+      "interleaved": 284528,
+      "weak": 241,
+      "durationSeconds": 3.037
+    },
+    "params": {
+      "testingWorkgroups": 721,
+      "maxWorkgroups": 897,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 45056,
+      "memStride": 3,
+      "stressLineSize": 128,
+      "stressTargetLines": 11,
+      "memStressIterations": 684,
+      "preStressIterations": 97,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "121": {
+    "Message Passing Default": {
+      "seq": 5095045,
+      "interleaved": 23815,
+      "weak": 1140,
+      "durationSeconds": 2.2
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 4407622,
+      "interleaved": 712366,
+      "weak": 12,
+      "durationSeconds": 2.208
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 4579926,
+      "interleaved": 540051,
+      "weak": 23,
+      "durationSeconds": 2.207
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 4687490,
+      "interleaved": 432444,
+      "weak": 66,
+      "durationSeconds": 2.277
+    },
+    "params": {
+      "testingWorkgroups": 200,
+      "maxWorkgroups": 991,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 3584,
+      "memStride": 7,
+      "stressLineSize": 16,
+      "stressTargetLines": 7,
+      "memStressIterations": 279,
+      "preStressIterations": 25,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "122": {
+    "Message Passing Default": {
+      "seq": 1253256,
+      "interleaved": 31946,
+      "weak": 20398,
+      "durationSeconds": 2.024
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 1012197,
+      "interleaved": 291432,
+      "weak": 1971,
+      "durationSeconds": 1.84
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 1097536,
+      "interleaved": 202094,
+      "weak": 5970,
+      "durationSeconds": 2.032
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 1075324,
+      "interleaved": 226481,
+      "weak": 3795,
+      "durationSeconds": 1.96
+    },
+    "params": {
+      "testingWorkgroups": 51,
+      "maxWorkgroups": 338,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 3584,
+      "memStride": 1,
+      "stressLineSize": 16,
+      "stressTargetLines": 7,
+      "memStressIterations": 944,
+      "preStressIterations": 49,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "123": {
+    "Message Passing Default": {
+      "seq": 17812002,
+      "interleaved": 28838,
+      "weak": 2360,
+      "durationSeconds": 2.325
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 16740851,
+      "interleaved": 1102345,
+      "weak": 4,
+      "durationSeconds": 2.033
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 17010495,
+      "interleaved": 832694,
+      "weak": 11,
+      "durationSeconds": 2.156
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 17058249,
+      "interleaved": 784918,
+      "weak": 33,
+      "durationSeconds": 2.391
+    },
+    "params": {
+      "testingWorkgroups": 697,
+      "maxWorkgroups": 978,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 5120,
+      "memStride": 1,
+      "stressLineSize": 32,
+      "stressTargetLines": 5,
+      "memStressIterations": 824,
+      "preStressIterations": 56,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "124": {
+    "Message Passing Default": {
+      "seq": 19061258,
+      "interleaved": 10318,
+      "weak": 424,
+      "durationSeconds": 4.003
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 18738890,
+      "interleaved": 333038,
+      "weak": 72,
+      "durationSeconds": 3.653
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 18792697,
+      "interleaved": 279224,
+      "weak": 79,
+      "durationSeconds": 3.832
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 18796194,
+      "interleaved": 275686,
+      "weak": 120,
+      "durationSeconds": 3.903
+    },
+    "params": {
+      "testingWorkgroups": 745,
+      "maxWorkgroups": 1011,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 2048,
+      "memStride": 6,
+      "stressLineSize": 4,
+      "stressTargetLines": 16,
+      "memStressIterations": 144,
+      "preStressIterations": 38,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "125": {
+    "Message Passing Default": {
+      "seq": 9499488,
+      "interleaved": 21027,
+      "weak": 2685,
+      "durationSeconds": 2.216
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 8846465,
+      "interleaved": 676701,
+      "weak": 34,
+      "durationSeconds": 2.192
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 9043252,
+      "interleaved": 479867,
+      "weak": 81,
+      "durationSeconds": 2.187
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 9091900,
+      "interleaved": 431077,
+      "weak": 223,
+      "durationSeconds": 2.249
+    },
+    "params": {
+      "testingWorkgroups": 372,
+      "maxWorkgroups": 820,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 40960,
+      "memStride": 2,
+      "stressLineSize": 128,
+      "stressTargetLines": 10,
+      "memStressIterations": 126,
+      "preStressIterations": 107,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "126": {
+    "Message Passing Default": {
+      "seq": 16434641,
+      "interleaved": 25783,
+      "weak": 376,
+      "durationSeconds": 3.224
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 15323982,
+      "interleaved": 1136817,
+      "weak": 1,
+      "durationSeconds": 3.345
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 15523400,
+      "interleaved": 937400,
+      "weak": 0,
+      "durationSeconds": 3.245
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 15638503,
+      "interleaved": 822292,
+      "weak": 5,
+      "durationSeconds": 3.05
+    },
+    "params": {
+      "testingWorkgroups": 643,
+      "maxWorkgroups": 811,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1280,
+      "memStride": 7,
+      "stressLineSize": 8,
+      "stressTargetLines": 5,
+      "memStressIterations": 450,
+      "preStressIterations": 14,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "127": {
+    "Message Passing Default": {
+      "seq": 24483408,
+      "interleaved": 14283,
+      "weak": 1509,
+      "durationSeconds": 3.203
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 23661804,
+      "interleaved": 837079,
+      "weak": 317,
+      "durationSeconds": 3.598
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 23769891,
+      "interleaved": 728985,
+      "weak": 324,
+      "durationSeconds": 3.656
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 23906396,
+      "interleaved": 592175,
+      "weak": 629,
+      "durationSeconds": 3.529
+    },
+    "params": {
+      "testingWorkgroups": 957,
+      "maxWorkgroups": 1012,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1024,
+      "memStride": 2,
+      "stressLineSize": 16,
+      "stressTargetLines": 2,
+      "memStressIterations": 915,
+      "preStressIterations": 89,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "128": {
+    "Message Passing Default": {
+      "seq": 7435222,
+      "interleaved": 14150,
+      "weak": 228,
+      "durationSeconds": 2.894
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 6760956,
+      "interleaved": 688640,
+      "weak": 4,
+      "durationSeconds": 2.791
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 6855156,
+      "interleaved": 594439,
+      "weak": 5,
+      "durationSeconds": 2.645
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 6849298,
+      "interleaved": 600259,
+      "weak": 43,
+      "durationSeconds": 2.84
+    },
+    "params": {
+      "testingWorkgroups": 291,
+      "maxWorkgroups": 521,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 6,
+      "stressLineSize": 1024,
+      "stressTargetLines": 1,
+      "memStressIterations": 108,
+      "preStressIterations": 43,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "129": {
+    "Message Passing Default": {
+      "seq": 17030009,
+      "interleaved": 18207,
+      "weak": 1384,
+      "durationSeconds": 2.947
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 16112670,
+      "interleaved": 936617,
+      "weak": 313,
+      "durationSeconds": 2.994
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 16177406,
+      "interleaved": 871955,
+      "weak": 239,
+      "durationSeconds": 3.032
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 16299200,
+      "interleaved": 749621,
+      "weak": 779,
+      "durationSeconds": 2.848
+    },
+    "params": {
+      "testingWorkgroups": 666,
+      "maxWorkgroups": 807,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 393216,
+      "memStride": 2,
+      "stressLineSize": 1024,
+      "stressTargetLines": 12,
+      "memStressIterations": 732,
+      "preStressIterations": 40,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "130": {
+    "Message Passing Default": {
+      "seq": 12592999,
+      "interleaved": 25600,
+      "weak": 2201,
+      "durationSeconds": 2.142
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 11282762,
+      "interleaved": 1338034,
+      "weak": 4,
+      "durationSeconds": 2.137
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 11579454,
+      "interleaved": 1041339,
+      "weak": 7,
+      "durationSeconds": 2.058
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 11822530,
+      "interleaved": 798059,
+      "weak": 211,
+      "durationSeconds": 2.177
+    },
+    "params": {
+      "testingWorkgroups": 493,
+      "maxWorkgroups": 744,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 24576,
+      "memStride": 1,
+      "stressLineSize": 64,
+      "stressTargetLines": 12,
+      "memStressIterations": 631,
+      "preStressIterations": 73,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "131": {
+    "Message Passing Default": {
+      "seq": 8561046,
+      "interleaved": 14413,
+      "weak": 541,
+      "durationSeconds": 2.768
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 7838172,
+      "interleaved": 737765,
+      "weak": 63,
+      "durationSeconds": 2.849
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 7843534,
+      "interleaved": 732420,
+      "weak": 46,
+      "durationSeconds": 2.695
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 7938717,
+      "interleaved": 637102,
+      "weak": 181,
+      "durationSeconds": 2.757
+    },
+    "params": {
+      "testingWorkgroups": 335,
+      "maxWorkgroups": 712,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 81920,
+      "memStride": 3,
+      "stressLineSize": 512,
+      "stressTargetLines": 5,
+      "memStressIterations": 815,
+      "preStressIterations": 76,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "132": {
+    "Message Passing Default": {
+      "seq": 8253615,
+      "interleaved": 13908,
+      "weak": 1277,
+      "durationSeconds": 2.488
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 7848779,
+      "interleaved": 420005,
+      "weak": 16,
+      "durationSeconds": 2.451
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 7968946,
+      "interleaved": 299802,
+      "weak": 52,
+      "durationSeconds": 2.352
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 7984136,
+      "interleaved": 284585,
+      "weak": 79,
+      "durationSeconds": 2.407
+    },
+    "params": {
+      "testingWorkgroups": 323,
+      "maxWorkgroups": 650,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 512,
+      "memStride": 5,
+      "stressLineSize": 8,
+      "stressTargetLines": 2,
+      "memStressIterations": 532,
+      "preStressIterations": 58,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "133": {
+    "Message Passing Default": {
+      "seq": 7852745,
+      "interleaved": 30377,
+      "weak": 1678,
+      "durationSeconds": 2.15
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 6959107,
+      "interleaved": 925691,
+      "weak": 2,
+      "durationSeconds": 2.072
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 7178507,
+      "interleaved": 706284,
+      "weak": 9,
+      "durationSeconds": 2.079
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 7219180,
+      "interleaved": 665558,
+      "weak": 62,
+      "durationSeconds": 2.144
+    },
+    "params": {
+      "testingWorkgroups": 308,
+      "maxWorkgroups": 773,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 3,
+      "stressLineSize": 16,
+      "stressTargetLines": 8,
+      "memStressIterations": 496,
+      "preStressIterations": 55,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "134": {
+    "Message Passing Default": {
+      "seq": 18954601,
+      "interleaved": 14627,
+      "weak": 372,
+      "durationSeconds": 3.701
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 18211732,
+      "interleaved": 757808,
+      "weak": 60,
+      "durationSeconds": 3.61
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 18231900,
+      "interleaved": 737671,
+      "weak": 29,
+      "durationSeconds": 3.631
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 18377778,
+      "interleaved": 591682,
+      "weak": 140,
+      "durationSeconds": 3.544
+    },
+    "params": {
+      "testingWorkgroups": 741,
+      "maxWorkgroups": 966,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 128,
+      "memStride": 6,
+      "stressLineSize": 4,
+      "stressTargetLines": 1,
+      "memStressIterations": 978,
+      "preStressIterations": 58,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "135": {
+    "Message Passing Default": {
+      "seq": 12675730,
+      "interleaved": 21332,
+      "weak": 538,
+      "durationSeconds": 2.972
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 12298218,
+      "interleaved": 399360,
+      "weak": 22,
+      "durationSeconds": 2.887
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 12414214,
+      "interleaved": 283337,
+      "weak": 49,
+      "durationSeconds": 2.937
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 12422281,
+      "interleaved": 275260,
+      "weak": 59,
+      "durationSeconds": 2.947
+    },
+    "params": {
+      "testingWorkgroups": 496,
+      "maxWorkgroups": 752,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 6144,
+      "memStride": 6,
+      "stressLineSize": 32,
+      "stressTargetLines": 6,
+      "memStressIterations": 312,
+      "preStressIterations": 114,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "136": {
+    "Message Passing Default": {
+      "seq": 9941871,
+      "interleaved": 15555,
+      "weak": 974,
+      "durationSeconds": 2.819
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 9170062,
+      "interleaved": 788260,
+      "weak": 78,
+      "durationSeconds": 2.779
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 9313190,
+      "interleaved": 645149,
+      "weak": 61,
+      "durationSeconds": 2.833
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 9308436,
+      "interleaved": 649688,
+      "weak": 276,
+      "durationSeconds": 2.807
+    },
+    "params": {
+      "testingWorkgroups": 389,
+      "maxWorkgroups": 993,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 1920,
+      "memStride": 2,
+      "stressLineSize": 4,
+      "stressTargetLines": 15,
+      "memStressIterations": 811,
+      "preStressIterations": 44,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "137": {
+    "Message Passing Default": {
+      "seq": 11939642,
+      "interleaved": 14939,
+      "weak": 619,
+      "durationSeconds": 3.026
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 11482897,
+      "interleaved": 472252,
+      "weak": 51,
+      "durationSeconds": 2.961
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 11553895,
+      "interleaved": 401190,
+      "weak": 115,
+      "durationSeconds": 3.077
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 11579356,
+      "interleaved": 375737,
+      "weak": 107,
+      "durationSeconds": 3.049
+    },
+    "params": {
+      "testingWorkgroups": 467,
+      "maxWorkgroups": 646,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1024,
+      "memStride": 6,
+      "stressLineSize": 32,
+      "stressTargetLines": 1,
+      "memStressIterations": 411,
+      "preStressIterations": 68,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "138": {
+    "Message Passing Default": {
+      "seq": 22805773,
+      "interleaved": 29037,
+      "weak": 390,
+      "durationSeconds": 3.884
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 21750493,
+      "interleaved": 1084706,
+      "weak": 1,
+      "durationSeconds": 3.896
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 21957959,
+      "interleaved": 877240,
+      "weak": 1,
+      "durationSeconds": 3.759
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 22058644,
+      "interleaved": 776553,
+      "weak": 3,
+      "durationSeconds": 3.502
+    },
+    "params": {
+      "testingWorkgroups": 892,
+      "maxWorkgroups": 1017,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 1536,
+      "memStride": 5,
+      "stressLineSize": 4,
+      "stressTargetLines": 12,
+      "memStressIterations": 597,
+      "preStressIterations": 107,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "139": {
+    "Message Passing Default": {
+      "seq": 9187174,
+      "interleaved": 26541,
+      "weak": 2285,
+      "durationSeconds": 2.148
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 8660509,
+      "interleaved": 555432,
+      "weak": 59,
+      "durationSeconds": 2.159
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 8704962,
+      "interleaved": 510945,
+      "weak": 93,
+      "durationSeconds": 2.129
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 8882253,
+      "interleaved": 333314,
+      "weak": 433,
+      "durationSeconds": 2.068
+    },
+    "params": {
+      "testingWorkgroups": 360,
+      "maxWorkgroups": 633,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 6144,
+      "memStride": 2,
+      "stressLineSize": 64,
+      "stressTargetLines": 3,
+      "memStressIterations": 169,
+      "preStressIterations": 30,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "140": {
+    "Message Passing Default": {
+      "seq": 25328042,
+      "interleaved": 15574,
+      "weak": 384,
+      "durationSeconds": 3.282
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 24438183,
+      "interleaved": 905743,
+      "weak": 74,
+      "durationSeconds": 3.562
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 24403496,
+      "interleaved": 940467,
+      "weak": 37,
+      "durationSeconds": 3.79
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 24576329,
+      "interleaved": 767518,
+      "weak": 153,
+      "durationSeconds": 4.109
+    },
+    "params": {
+      "testingWorkgroups": 990,
+      "maxWorkgroups": 990,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 14336,
+      "memStride": 5,
+      "stressLineSize": 32,
+      "stressTargetLines": 14,
+      "memStressIterations": 71,
+      "preStressIterations": 28,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "141": {
+    "Message Passing Default": {
+      "seq": 21807832,
+      "interleaved": 28315,
+      "weak": 653,
+      "durationSeconds": 3.064
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 20709600,
+      "interleaved": 1127199,
+      "weak": 1,
+      "durationSeconds": 3.05
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 20912456,
+      "interleaved": 924343,
+      "weak": 1,
+      "durationSeconds": 2.959
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 21021228,
+      "interleaved": 815563,
+      "weak": 9,
+      "durationSeconds": 2.947
+    },
+    "params": {
+      "testingWorkgroups": 853,
+      "maxWorkgroups": 944,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 2560,
+      "memStride": 3,
+      "stressLineSize": 8,
+      "stressTargetLines": 10,
+      "memStressIterations": 308,
+      "preStressIterations": 98,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "142": {
+    "Message Passing Default": {
+      "seq": 24282535,
+      "interleaved": 11354,
+      "weak": 511,
+      "durationSeconds": 4.071
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 23978845,
+      "interleaved": 315432,
+      "weak": 123,
+      "durationSeconds": 3.624
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 23993135,
+      "interleaved": 301164,
+      "weak": 101,
+      "durationSeconds": 4.167
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 24010241,
+      "interleaved": 284037,
+      "weak": 122,
+      "durationSeconds": 3.967
+    },
+    "params": {
+      "testingWorkgroups": 949,
+      "maxWorkgroups": 972,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 32768,
+      "memStride": 4,
+      "stressLineSize": 64,
+      "stressTargetLines": 16,
+      "memStressIterations": 207,
+      "preStressIterations": 72,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "143": {
+    "Message Passing Default": {
+      "seq": 9977697,
+      "interleaved": 29843,
+      "weak": 2060,
+      "durationSeconds": 2.285
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 9192147,
+      "interleaved": 817443,
+      "weak": 10,
+      "durationSeconds": 2.296
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 9445691,
+      "interleaved": 563873,
+      "weak": 36,
+      "durationSeconds": 2.254
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 9384679,
+      "interleaved": 624817,
+      "weak": 104,
+      "durationSeconds": 2.272
+    },
+    "params": {
+      "testingWorkgroups": 391,
+      "maxWorkgroups": 581,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 26624,
+      "memStride": 2,
+      "stressLineSize": 64,
+      "stressTargetLines": 13,
+      "memStressIterations": 200,
+      "preStressIterations": 7,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "144": {
+    "Message Passing Default": {
+      "seq": 951158,
+      "interleaved": 35022,
+      "weak": 12220,
+      "durationSeconds": 2.124
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 536547,
+      "interleaved": 461826,
+      "weak": 27,
+      "durationSeconds": 2.134
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 657807,
+      "interleaved": 339638,
+      "weak": 955,
+      "durationSeconds": 2.117
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 554007,
+      "interleaved": 444380,
+      "weak": 13,
+      "durationSeconds": 2.076
+    },
+    "params": {
+      "testingWorkgroups": 39,
+      "maxWorkgroups": 599,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 1,
+      "stressLineSize": 64,
+      "stressTargetLines": 2,
+      "memStressIterations": 637,
+      "preStressIterations": 18,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "145": {
+    "Message Passing Default": {
+      "seq": 6126373,
+      "interleaved": 16487,
+      "weak": 1140,
+      "durationSeconds": 2.152
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 5536770,
+      "interleaved": 607219,
+      "weak": 11,
+      "durationSeconds": 2.088
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 5716094,
+      "interleaved": 427828,
+      "weak": 78,
+      "durationSeconds": 2.207
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 5751119,
+      "interleaved": 392823,
+      "weak": 58,
+      "durationSeconds": 2.183
+    },
+    "params": {
+      "testingWorkgroups": 240,
+      "maxWorkgroups": 756,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 6144,
+      "memStride": 4,
+      "stressLineSize": 16,
+      "stressTargetLines": 12,
+      "memStressIterations": 25,
+      "preStressIterations": 42,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "146": {
+    "Message Passing Default": {
+      "seq": 11423114,
+      "interleaved": 19883,
+      "weak": 203,
+      "durationSeconds": 2.914
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 9750134,
+      "interleaved": 1693066,
+      "weak": 0,
+      "durationSeconds": 2.835
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 9868717,
+      "interleaved": 1574483,
+      "weak": 0,
+      "durationSeconds": 2.814
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 10213380,
+      "interleaved": 1229805,
+      "weak": 15,
+      "durationSeconds": 2.8
+    },
+    "params": {
+      "testingWorkgroups": 447,
+      "maxWorkgroups": 629,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 262144,
+      "memStride": 6,
+      "stressLineSize": 512,
+      "stressTargetLines": 16,
+      "memStressIterations": 293,
+      "preStressIterations": 58,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "147": {
+    "Message Passing Default": {
+      "seq": 1230879,
+      "interleaved": 45066,
+      "weak": 4055,
+      "durationSeconds": 2.031
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 682925,
+      "interleaved": 597075,
+      "weak": 0,
+      "durationSeconds": 1.916
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 704219,
+      "interleaved": 575751,
+      "weak": 30,
+      "durationSeconds": 1.999
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 701086,
+      "interleaved": 578909,
+      "weak": 5,
+      "durationSeconds": 1.921
+    },
+    "params": {
+      "testingWorkgroups": 50,
+      "maxWorkgroups": 814,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 65536,
+      "memStride": 6,
+      "stressLineSize": 256,
+      "stressTargetLines": 8,
+      "memStressIterations": 698,
+      "preStressIterations": 42,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "148": {
+    "Message Passing Default": {
+      "seq": 6091374,
+      "interleaved": 26368,
+      "weak": 658,
+      "durationSeconds": 2.651
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 5243613,
+      "interleaved": 874777,
+      "weak": 10,
+      "durationSeconds": 2.626
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 5358937,
+      "interleaved": 759454,
+      "weak": 9,
+      "durationSeconds": 2.555
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 5441037,
+      "interleaved": 677327,
+      "weak": 36,
+      "durationSeconds": 2.708
+    },
+    "params": {
+      "testingWorkgroups": 239,
+      "maxWorkgroups": 305,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 14336,
+      "memStride": 7,
+      "stressLineSize": 32,
+      "stressTargetLines": 14,
+      "memStressIterations": 847,
+      "preStressIterations": 8,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "149": {
+    "Message Passing Default": {
+      "seq": 5952419,
+      "interleaved": 34679,
+      "weak": 3302,
+      "durationSeconds": 2.335
+    },
+    "Message Passing Barrier Variant": {
+      "seq": 5048006,
+      "interleaved": 942219,
+      "weak": 175,
+      "durationSeconds": 2.286
+    },
+    "Message Passing Barrier Variant 1": {
+      "seq": 5091073,
+      "interleaved": 899077,
+      "weak": 250,
+      "durationSeconds": 2.327
+    },
+    "Message Passing Barrier Variant 2": {
+      "seq": 5166561,
+      "interleaved": 823312,
+      "weak": 527,
+      "durationSeconds": 2.207
+    },
+    "params": {
+      "testingWorkgroups": 234,
+      "maxWorkgroups": 594,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 4096,
+      "memStride": 2,
+      "stressLineSize": 32,
+      "stressTargetLines": 4,
+      "memStressIterations": 469,
+      "preStressIterations": 16,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "randomSeed": "webgpu"
+}

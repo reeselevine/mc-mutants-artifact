@@ -1,0 +1,4953 @@
+{
+  "0": {
+    "CoRR Default": {
+      "seq": 14097140,
+      "interleaved": 0,
+      "weak": 8460,
+      "durationSeconds": 1.483
+    },
+    "RR Mutations Default": {
+      "seq": 14097114,
+      "interleaved": 0,
+      "weak": 8486,
+      "durationSeconds": 1.542
+    },
+    "params": {
+      "testingWorkgroups": 551,
+      "maxWorkgroups": 736,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 131072,
+      "memStride": 5,
+      "stressLineSize": 1024,
+      "stressTargetLines": 4,
+      "memStressIterations": 360,
+      "preStressIterations": 30,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "1": {
+    "CoRR Default": {
+      "seq": 21982534,
+      "interleaved": 0,
+      "weak": 7866,
+      "durationSeconds": 1.407
+    },
+    "RR Mutations Default": {
+      "seq": 21982830,
+      "interleaved": 0,
+      "weak": 7570,
+      "durationSeconds": 1.491
+    },
+    "params": {
+      "testingWorkgroups": 859,
+      "maxWorkgroups": 919,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 128,
+      "memStride": 3,
+      "stressLineSize": 4,
+      "stressTargetLines": 1,
+      "memStressIterations": 666,
+      "preStressIterations": 115,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "2": {
+    "CoRR Default": {
+      "seq": 9339792,
+      "interleaved": 0,
+      "weak": 4208,
+      "durationSeconds": 2.848
+    },
+    "RR Mutations Default": {
+      "seq": 9339762,
+      "interleaved": 0,
+      "weak": 4238,
+      "durationSeconds": 2.719
+    },
+    "params": {
+      "testingWorkgroups": 365,
+      "maxWorkgroups": 796,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 65536,
+      "memStride": 6,
+      "stressLineSize": 128,
+      "stressTargetLines": 16,
+      "memStressIterations": 812,
+      "preStressIterations": 68,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "3": {
+    "CoRR Default": {
+      "seq": 23395645,
+      "interleaved": 0,
+      "weak": 2755,
+      "durationSeconds": 5.294
+    },
+    "RR Mutations Default": {
+      "seq": 23395960,
+      "interleaved": 0,
+      "weak": 2440,
+      "durationSeconds": 5.34
+    },
+    "params": {
+      "testingWorkgroups": 914,
+      "maxWorkgroups": 945,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 9216,
+      "memStride": 6,
+      "stressLineSize": 32,
+      "stressTargetLines": 9,
+      "memStressIterations": 963,
+      "preStressIterations": 118,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "4": {
+    "CoRR Default": {
+      "seq": 7192609,
+      "interleaved": 0,
+      "weak": 991,
+      "durationSeconds": 2.524
+    },
+    "RR Mutations Default": {
+      "seq": 7192649,
+      "interleaved": 0,
+      "weak": 951,
+      "durationSeconds": 2.383
+    },
+    "params": {
+      "testingWorkgroups": 281,
+      "maxWorkgroups": 713,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 512,
+      "memStride": 5,
+      "stressLineSize": 16,
+      "stressTargetLines": 1,
+      "memStressIterations": 735,
+      "preStressIterations": 89,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "5": {
+    "CoRR Default": {
+      "seq": 14154514,
+      "interleaved": 0,
+      "weak": 2286,
+      "durationSeconds": 3.158
+    },
+    "RR Mutations Default": {
+      "seq": 14154319,
+      "interleaved": 0,
+      "weak": 2481,
+      "durationSeconds": 3.168
+    },
+    "params": {
+      "testingWorkgroups": 553,
+      "maxWorkgroups": 649,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 122880,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 15,
+      "memStressIterations": 449,
+      "preStressIterations": 73,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "6": {
+    "CoRR Default": {
+      "seq": 14966177,
+      "interleaved": 0,
+      "weak": 9823,
+      "durationSeconds": 1.416
+    },
+    "RR Mutations Default": {
+      "seq": 14966220,
+      "interleaved": 0,
+      "weak": 9780,
+      "durationSeconds": 1.546
+    },
+    "params": {
+      "testingWorkgroups": 585,
+      "maxWorkgroups": 816,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 10240,
+      "memStride": 4,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 547,
+      "preStressIterations": 128,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "7": {
+    "CoRR Default": {
+      "seq": 535683,
+      "interleaved": 0,
+      "weak": 1917,
+      "durationSeconds": 1.069
+    },
+    "RR Mutations Default": {
+      "seq": 535512,
+      "interleaved": 0,
+      "weak": 2088,
+      "durationSeconds": 1.034
+    },
+    "params": {
+      "testingWorkgroups": 21,
+      "maxWorkgroups": 213,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 24576,
+      "memStride": 1,
+      "stressLineSize": 256,
+      "stressTargetLines": 3,
+      "memStressIterations": 779,
+      "preStressIterations": 104,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "8": {
+    "CoRR Default": {
+      "seq": 22934700,
+      "interleaved": 0,
+      "weak": 2900,
+      "durationSeconds": 5.154
+    },
+    "RR Mutations Default": {
+      "seq": 22934672,
+      "interleaved": 0,
+      "weak": 2928,
+      "durationSeconds": 5.244
+    },
+    "params": {
+      "testingWorkgroups": 896,
+      "maxWorkgroups": 1022,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 8192,
+      "memStride": 5,
+      "stressLineSize": 16,
+      "stressTargetLines": 16,
+      "memStressIterations": 1004,
+      "preStressIterations": 106,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "9": {
+    "CoRR Default": {
+      "seq": 3324281,
+      "interleaved": 0,
+      "weak": 3719,
+      "durationSeconds": 1.015
+    },
+    "RR Mutations Default": {
+      "seq": 3324670,
+      "interleaved": 0,
+      "weak": 3330,
+      "durationSeconds": 1.041
+    },
+    "params": {
+      "testingWorkgroups": 130,
+      "maxWorkgroups": 413,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 4096,
+      "memStride": 4,
+      "stressLineSize": 128,
+      "stressTargetLines": 1,
+      "memStressIterations": 205,
+      "preStressIterations": 114,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "10": {
+    "CoRR Default": {
+      "seq": 3500884,
+      "interleaved": 0,
+      "weak": 6316,
+      "durationSeconds": 1.782
+    },
+    "RR Mutations Default": {
+      "seq": 3500871,
+      "interleaved": 0,
+      "weak": 6329,
+      "durationSeconds": 1.571
+    },
+    "params": {
+      "testingWorkgroups": 137,
+      "maxWorkgroups": 576,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 28672,
+      "memStride": 7,
+      "stressLineSize": 64,
+      "stressTargetLines": 14,
+      "memStressIterations": 638,
+      "preStressIterations": 22,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "11": {
+    "CoRR Default": {
+      "seq": 2681656,
+      "interleaved": 0,
+      "weak": 6344,
+      "durationSeconds": 0.798
+    },
+    "RR Mutations Default": {
+      "seq": 2681374,
+      "interleaved": 0,
+      "weak": 6626,
+      "durationSeconds": 1.052
+    },
+    "params": {
+      "testingWorkgroups": 105,
+      "maxWorkgroups": 704,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 65536,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 8,
+      "memStressIterations": 113,
+      "preStressIterations": 2,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "12": {
+    "CoRR Default": {
+      "seq": 16836461,
+      "interleaved": 0,
+      "weak": 8339,
+      "durationSeconds": 1.351
+    },
+    "RR Mutations Default": {
+      "seq": 16836355,
+      "interleaved": 0,
+      "weak": 8445,
+      "durationSeconds": 1.437
+    },
+    "params": {
+      "testingWorkgroups": 658,
+      "maxWorkgroups": 707,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 2,
+      "stressLineSize": 256,
+      "stressTargetLines": 4,
+      "memStressIterations": 673,
+      "preStressIterations": 128,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "13": {
+    "CoRR Default": {
+      "seq": 4913295,
+      "interleaved": 0,
+      "weak": 1905,
+      "durationSeconds": 1.579
+    },
+    "RR Mutations Default": {
+      "seq": 4913362,
+      "interleaved": 0,
+      "weak": 1838,
+      "durationSeconds": 1.688
+    },
+    "params": {
+      "testingWorkgroups": 192,
+      "maxWorkgroups": 307,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 212992,
+      "memStride": 4,
+      "stressLineSize": 512,
+      "stressTargetLines": 13,
+      "memStressIterations": 269,
+      "preStressIterations": 89,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "14": {
+    "CoRR Default": {
+      "seq": 11466174,
+      "interleaved": 0,
+      "weak": 2626,
+      "durationSeconds": 2.927
+    },
+    "RR Mutations Default": {
+      "seq": 11466582,
+      "interleaved": 0,
+      "weak": 2218,
+      "durationSeconds": 2.858
+    },
+    "params": {
+      "testingWorkgroups": 448,
+      "maxWorkgroups": 862,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 4,
+      "stressLineSize": 8,
+      "stressTargetLines": 16,
+      "memStressIterations": 402,
+      "preStressIterations": 103,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "15": {
+    "CoRR Default": {
+      "seq": 21708227,
+      "interleaved": 0,
+      "weak": 573,
+      "durationSeconds": 5.257
+    },
+    "RR Mutations Default": {
+      "seq": 21708312,
+      "interleaved": 0,
+      "weak": 488,
+      "durationSeconds": 5.305
+    },
+    "params": {
+      "testingWorkgroups": 848,
+      "maxWorkgroups": 943,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 14336,
+      "memStride": 5,
+      "stressLineSize": 32,
+      "stressTargetLines": 14,
+      "memStressIterations": 782,
+      "preStressIterations": 84,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "16": {
+    "CoRR Default": {
+      "seq": 24800257,
+      "interleaved": 0,
+      "weak": 6143,
+      "durationSeconds": 4.88
+    },
+    "RR Mutations Default": {
+      "seq": 24800095,
+      "interleaved": 0,
+      "weak": 6305,
+      "durationSeconds": 5.093
+    },
+    "params": {
+      "testingWorkgroups": 969,
+      "maxWorkgroups": 999,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 81920,
+      "memStride": 1,
+      "stressLineSize": 512,
+      "stressTargetLines": 5,
+      "memStressIterations": 666,
+      "preStressIterations": 86,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "17": {
+    "CoRR Default": {
+      "seq": 21342497,
+      "interleaved": 0,
+      "weak": 7903,
+      "durationSeconds": 1.45
+    },
+    "RR Mutations Default": {
+      "seq": 21342946,
+      "interleaved": 0,
+      "weak": 7454,
+      "durationSeconds": 1.492
+    },
+    "params": {
+      "testingWorkgroups": 834,
+      "maxWorkgroups": 927,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 3840,
+      "memStride": 4,
+      "stressLineSize": 8,
+      "stressTargetLines": 15,
+      "memStressIterations": 728,
+      "preStressIterations": 93,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "18": {
+    "CoRR Default": {
+      "seq": 20886661,
+      "interleaved": 0,
+      "weak": 2939,
+      "durationSeconds": 4.533
+    },
+    "RR Mutations Default": {
+      "seq": 20886927,
+      "interleaved": 0,
+      "weak": 2673,
+      "durationSeconds": 4.42
+    },
+    "params": {
+      "testingWorkgroups": 816,
+      "maxWorkgroups": 844,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 57344,
+      "memStride": 3,
+      "stressLineSize": 128,
+      "stressTargetLines": 14,
+      "memStressIterations": 18,
+      "preStressIterations": 108,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "19": {
+    "CoRR Default": {
+      "seq": 13612938,
+      "interleaved": 0,
+      "weak": 6262,
+      "durationSeconds": 1.275
+    },
+    "RR Mutations Default": {
+      "seq": 13612918,
+      "interleaved": 0,
+      "weak": 6282,
+      "durationSeconds": 1.32
+    },
+    "params": {
+      "testingWorkgroups": 532,
+      "maxWorkgroups": 699,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 262144,
+      "memStride": 4,
+      "stressLineSize": 512,
+      "stressTargetLines": 16,
+      "memStressIterations": 527,
+      "preStressIterations": 18,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "20": {
+    "CoRR Default": {
+      "seq": 3322774,
+      "interleaved": 0,
+      "weak": 5226,
+      "durationSeconds": 1.708
+    },
+    "RR Mutations Default": {
+      "seq": 3322789,
+      "interleaved": 0,
+      "weak": 5211,
+      "durationSeconds": 1.559
+    },
+    "params": {
+      "testingWorkgroups": 130,
+      "maxWorkgroups": 168,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 2048,
+      "memStride": 6,
+      "stressLineSize": 16,
+      "stressTargetLines": 4,
+      "memStressIterations": 219,
+      "preStressIterations": 103,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "21": {
+    "CoRR Default": {
+      "seq": 21960114,
+      "interleaved": 0,
+      "weak": 4686,
+      "durationSeconds": 2.399
+    },
+    "RR Mutations Default": {
+      "seq": 21960036,
+      "interleaved": 0,
+      "weak": 4764,
+      "durationSeconds": 2.387
+    },
+    "params": {
+      "testingWorkgroups": 858,
+      "maxWorkgroups": 939,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 2816,
+      "memStride": 1,
+      "stressLineSize": 8,
+      "stressTargetLines": 11,
+      "memStressIterations": 975,
+      "preStressIterations": 16,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "22": {
+    "CoRR Default": {
+      "seq": 16756986,
+      "interleaved": 0,
+      "weak": 11014,
+      "durationSeconds": 1.488
+    },
+    "RR Mutations Default": {
+      "seq": 16756986,
+      "interleaved": 0,
+      "weak": 11014,
+      "durationSeconds": 1.442
+    },
+    "params": {
+      "testingWorkgroups": 655,
+      "maxWorkgroups": 722,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 28672,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 14,
+      "memStressIterations": 633,
+      "preStressIterations": 124,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "23": {
+    "CoRR Default": {
+      "seq": 11031434,
+      "interleaved": 0,
+      "weak": 2166,
+      "durationSeconds": 1.538
+    },
+    "RR Mutations Default": {
+      "seq": 11031439,
+      "interleaved": 0,
+      "weak": 2161,
+      "durationSeconds": 1.469
+    },
+    "params": {
+      "testingWorkgroups": 431,
+      "maxWorkgroups": 848,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 2560,
+      "memStride": 7,
+      "stressLineSize": 16,
+      "stressTargetLines": 5,
+      "memStressIterations": 104,
+      "preStressIterations": 2,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "24": {
+    "CoRR Default": {
+      "seq": 20424267,
+      "interleaved": 0,
+      "weak": 4533,
+      "durationSeconds": 1.731
+    },
+    "RR Mutations Default": {
+      "seq": 20424404,
+      "interleaved": 0,
+      "weak": 4396,
+      "durationSeconds": 1.737
+    },
+    "params": {
+      "testingWorkgroups": 798,
+      "maxWorkgroups": 984,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 10240,
+      "memStride": 3,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 114,
+      "preStressIterations": 5,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "25": {
+    "CoRR Default": {
+      "seq": 24336481,
+      "interleaved": 0,
+      "weak": 9119,
+      "durationSeconds": 1.368
+    },
+    "RR Mutations Default": {
+      "seq": 24336380,
+      "interleaved": 0,
+      "weak": 9220,
+      "durationSeconds": 1.54
+    },
+    "params": {
+      "testingWorkgroups": 951,
+      "maxWorkgroups": 990,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 20480,
+      "memStride": 2,
+      "stressLineSize": 64,
+      "stressTargetLines": 10,
+      "memStressIterations": 1020,
+      "preStressIterations": 50,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "26": {
+    "CoRR Default": {
+      "seq": 10668381,
+      "interleaved": 0,
+      "weak": 6819,
+      "durationSeconds": 1.304
+    },
+    "RR Mutations Default": {
+      "seq": 10668400,
+      "interleaved": 0,
+      "weak": 6800,
+      "durationSeconds": 1.196
+    },
+    "params": {
+      "testingWorkgroups": 417,
+      "maxWorkgroups": 787,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 7168,
+      "memStride": 3,
+      "stressLineSize": 16,
+      "stressTargetLines": 14,
+      "memStressIterations": 913,
+      "preStressIterations": 88,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "27": {
+    "CoRR Default": {
+      "seq": 12386578,
+      "interleaved": 0,
+      "weak": 3822,
+      "durationSeconds": 1.137
+    },
+    "RR Mutations Default": {
+      "seq": 12386819,
+      "interleaved": 0,
+      "weak": 3581,
+      "durationSeconds": 1.187
+    },
+    "params": {
+      "testingWorkgroups": 484,
+      "maxWorkgroups": 721,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 20480,
+      "memStride": 1,
+      "stressLineSize": 128,
+      "stressTargetLines": 5,
+      "memStressIterations": 228,
+      "preStressIterations": 51,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "28": {
+    "CoRR Default": {
+      "seq": 20913178,
+      "interleaved": 0,
+      "weak": 2022,
+      "durationSeconds": 5.072
+    },
+    "RR Mutations Default": {
+      "seq": 20913205,
+      "interleaved": 0,
+      "weak": 1995,
+      "durationSeconds": 5.034
+    },
+    "params": {
+      "testingWorkgroups": 817,
+      "maxWorkgroups": 1019,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 28672,
+      "memStride": 5,
+      "stressLineSize": 64,
+      "stressTargetLines": 14,
+      "memStressIterations": 43,
+      "preStressIterations": 31,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "29": {
+    "CoRR Default": {
+      "seq": 9748586,
+      "interleaved": 0,
+      "weak": 5014,
+      "durationSeconds": 2.572
+    },
+    "RR Mutations Default": {
+      "seq": 9748972,
+      "interleaved": 0,
+      "weak": 4628,
+      "durationSeconds": 2.585
+    },
+    "params": {
+      "testingWorkgroups": 381,
+      "maxWorkgroups": 381,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 98304,
+      "memStride": 3,
+      "stressLineSize": 256,
+      "stressTargetLines": 12,
+      "memStressIterations": 485,
+      "preStressIterations": 24,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "30": {
+    "CoRR Default": {
+      "seq": 9470587,
+      "interleaved": 0,
+      "weak": 1413,
+      "durationSeconds": 2.533
+    },
+    "RR Mutations Default": {
+      "seq": 9470375,
+      "interleaved": 0,
+      "weak": 1625,
+      "durationSeconds": 2.611
+    },
+    "params": {
+      "testingWorkgroups": 370,
+      "maxWorkgroups": 466,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 81920,
+      "memStride": 1,
+      "stressLineSize": 512,
+      "stressTargetLines": 5,
+      "memStressIterations": 951,
+      "preStressIterations": 23,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "31": {
+    "CoRR Default": {
+      "seq": 18043535,
+      "interleaved": 0,
+      "weak": 4465,
+      "durationSeconds": 1.331
+    },
+    "RR Mutations Default": {
+      "seq": 18043474,
+      "interleaved": 0,
+      "weak": 4526,
+      "durationSeconds": 1.895
+    },
+    "params": {
+      "testingWorkgroups": 705,
+      "maxWorkgroups": 713,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 7,
+      "stressLineSize": 256,
+      "stressTargetLines": 4,
+      "memStressIterations": 389,
+      "preStressIterations": 0,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "32": {
+    "CoRR Default": {
+      "seq": 9137335,
+      "interleaved": 0,
+      "weak": 1865,
+      "durationSeconds": 2.569
+    },
+    "RR Mutations Default": {
+      "seq": 9137219,
+      "interleaved": 0,
+      "weak": 1981,
+      "durationSeconds": 2.479
+    },
+    "params": {
+      "testingWorkgroups": 357,
+      "maxWorkgroups": 497,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 1536,
+      "memStride": 3,
+      "stressLineSize": 16,
+      "stressTargetLines": 3,
+      "memStressIterations": 660,
+      "preStressIterations": 113,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "33": {
+    "CoRR Default": {
+      "seq": 12615008,
+      "interleaved": 0,
+      "weak": 5792,
+      "durationSeconds": 1.121
+    },
+    "RR Mutations Default": {
+      "seq": 12615055,
+      "interleaved": 0,
+      "weak": 5745,
+      "durationSeconds": 1.136
+    },
+    "params": {
+      "testingWorkgroups": 493,
+      "maxWorkgroups": 715,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 4096,
+      "memStride": 2,
+      "stressLineSize": 16,
+      "stressTargetLines": 8,
+      "memStressIterations": 979,
+      "preStressIterations": 25,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "34": {
+    "CoRR Default": {
+      "seq": 21752246,
+      "interleaved": 0,
+      "weak": 7754,
+      "durationSeconds": 1.823
+    },
+    "RR Mutations Default": {
+      "seq": 21751872,
+      "interleaved": 0,
+      "weak": 8128,
+      "durationSeconds": 1.982
+    },
+    "params": {
+      "testingWorkgroups": 850,
+      "maxWorkgroups": 915,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 40960,
+      "memStride": 6,
+      "stressLineSize": 256,
+      "stressTargetLines": 5,
+      "memStressIterations": 599,
+      "preStressIterations": 20,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "35": {
+    "CoRR Default": {
+      "seq": 18120164,
+      "interleaved": 0,
+      "weak": 4636,
+      "durationSeconds": 3.784
+    },
+    "RR Mutations Default": {
+      "seq": 18119789,
+      "interleaved": 0,
+      "weak": 5011,
+      "durationSeconds": 3.671
+    },
+    "params": {
+      "testingWorkgroups": 708,
+      "maxWorkgroups": 851,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 14336,
+      "memStride": 2,
+      "stressLineSize": 32,
+      "stressTargetLines": 14,
+      "memStressIterations": 900,
+      "preStressIterations": 110,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "36": {
+    "CoRR Default": {
+      "seq": 11361257,
+      "interleaved": 0,
+      "weak": 5143,
+      "durationSeconds": 1.449
+    },
+    "RR Mutations Default": {
+      "seq": 11361427,
+      "interleaved": 0,
+      "weak": 4973,
+      "durationSeconds": 1.256
+    },
+    "params": {
+      "testingWorkgroups": 444,
+      "maxWorkgroups": 637,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 7,
+      "stressLineSize": 128,
+      "stressTargetLines": 4,
+      "memStressIterations": 412,
+      "preStressIterations": 40,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "37": {
+    "CoRR Default": {
+      "seq": 2608063,
+      "interleaved": 0,
+      "weak": 3137,
+      "durationSeconds": 1.112
+    },
+    "RR Mutations Default": {
+      "seq": 2607895,
+      "interleaved": 0,
+      "weak": 3305,
+      "durationSeconds": 1.126
+    },
+    "params": {
+      "testingWorkgroups": 102,
+      "maxWorkgroups": 421,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 81920,
+      "memStride": 7,
+      "stressLineSize": 512,
+      "stressTargetLines": 5,
+      "memStressIterations": 184,
+      "preStressIterations": 116,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "38": {
+    "CoRR Default": {
+      "seq": 4116289,
+      "interleaved": 0,
+      "weak": 5311,
+      "durationSeconds": 1.822
+    },
+    "RR Mutations Default": {
+      "seq": 4116403,
+      "interleaved": 0,
+      "weak": 5197,
+      "durationSeconds": 1.753
+    },
+    "params": {
+      "testingWorkgroups": 161,
+      "maxWorkgroups": 439,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 16384,
+      "memStride": 6,
+      "stressLineSize": 64,
+      "stressTargetLines": 8,
+      "memStressIterations": 948,
+      "preStressIterations": 50,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "39": {
+    "CoRR Default": {
+      "seq": 786034,
+      "interleaved": 0,
+      "weak": 7566,
+      "durationSeconds": 0.986
+    },
+    "RR Mutations Default": {
+      "seq": 786189,
+      "interleaved": 0,
+      "weak": 7411,
+      "durationSeconds": 1.025
+    },
+    "params": {
+      "testingWorkgroups": 31,
+      "maxWorkgroups": 239,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 14336,
+      "memStride": 4,
+      "stressLineSize": 64,
+      "stressTargetLines": 7,
+      "memStressIterations": 893,
+      "preStressIterations": 48,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "40": {
+    "CoRR Default": {
+      "seq": 11748907,
+      "interleaved": 0,
+      "weak": 1493,
+      "durationSeconds": 4.351
+    },
+    "RR Mutations Default": {
+      "seq": 11748717,
+      "interleaved": 0,
+      "weak": 1683,
+      "durationSeconds": 4.243
+    },
+    "params": {
+      "testingWorkgroups": 459,
+      "maxWorkgroups": 633,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 53248,
+      "memStride": 5,
+      "stressLineSize": 128,
+      "stressTargetLines": 13,
+      "memStressIterations": 806,
+      "preStressIterations": 108,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "41": {
+    "CoRR Default": {
+      "seq": 14479111,
+      "interleaved": 0,
+      "weak": 10489,
+      "durationSeconds": 2.249
+    },
+    "RR Mutations Default": {
+      "seq": 14478829,
+      "interleaved": 0,
+      "weak": 10771,
+      "durationSeconds": 2.333
+    },
+    "params": {
+      "testingWorkgroups": 566,
+      "maxWorkgroups": 713,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 131072,
+      "memStride": 5,
+      "stressLineSize": 1024,
+      "stressTargetLines": 4,
+      "memStressIterations": 893,
+      "preStressIterations": 116,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "42": {
+    "CoRR Default": {
+      "seq": 970646,
+      "interleaved": 0,
+      "weak": 2154,
+      "durationSeconds": 1.826
+    },
+    "RR Mutations Default": {
+      "seq": 970136,
+      "interleaved": 0,
+      "weak": 2664,
+      "durationSeconds": 1.743
+    },
+    "params": {
+      "testingWorkgroups": 38,
+      "maxWorkgroups": 403,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 18432,
+      "memStride": 5,
+      "stressLineSize": 64,
+      "stressTargetLines": 9,
+      "memStressIterations": 420,
+      "preStressIterations": 96,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "43": {
+    "CoRR Default": {
+      "seq": 21930946,
+      "interleaved": 0,
+      "weak": 8254,
+      "durationSeconds": 1.35
+    },
+    "RR Mutations Default": {
+      "seq": 21930488,
+      "interleaved": 0,
+      "weak": 8712,
+      "durationSeconds": 1.399
+    },
+    "params": {
+      "testingWorkgroups": 857,
+      "maxWorkgroups": 936,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 49152,
+      "memStride": 2,
+      "stressLineSize": 128,
+      "stressTargetLines": 12,
+      "memStressIterations": 332,
+      "preStressIterations": 104,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "44": {
+    "CoRR Default": {
+      "seq": 23803658,
+      "interleaved": 0,
+      "weak": 4342,
+      "durationSeconds": 4.698
+    },
+    "RR Mutations Default": {
+      "seq": 23803939,
+      "interleaved": 0,
+      "weak": 4061,
+      "durationSeconds": 4.762
+    },
+    "params": {
+      "testingWorkgroups": 930,
+      "maxWorkgroups": 988,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 1,
+      "stressLineSize": 512,
+      "stressTargetLines": 2,
+      "memStressIterations": 900,
+      "preStressIterations": 127,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "45": {
+    "CoRR Default": {
+      "seq": 2888016,
+      "interleaved": 0,
+      "weak": 4784,
+      "durationSeconds": 1.034
+    },
+    "RR Mutations Default": {
+      "seq": 2888271,
+      "interleaved": 0,
+      "weak": 4529,
+      "durationSeconds": 0.959
+    },
+    "params": {
+      "testingWorkgroups": 113,
+      "maxWorkgroups": 727,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 81920,
+      "memStride": 1,
+      "stressLineSize": 256,
+      "stressTargetLines": 10,
+      "memStressIterations": 682,
+      "preStressIterations": 55,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "46": {
+    "CoRR Default": {
+      "seq": 14331125,
+      "interleaved": 0,
+      "weak": 4875,
+      "durationSeconds": 3.082
+    },
+    "RR Mutations Default": {
+      "seq": 14331760,
+      "interleaved": 0,
+      "weak": 4240,
+      "durationSeconds": 3.086
+    },
+    "params": {
+      "testingWorkgroups": 560,
+      "maxWorkgroups": 872,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 61440,
+      "memStride": 1,
+      "stressLineSize": 128,
+      "stressTargetLines": 15,
+      "memStressIterations": 1024,
+      "preStressIterations": 35,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "47": {
+    "CoRR Default": {
+      "seq": 10750876,
+      "interleaved": 0,
+      "weak": 1124,
+      "durationSeconds": 3.016
+    },
+    "RR Mutations Default": {
+      "seq": 10750892,
+      "interleaved": 0,
+      "weak": 1108,
+      "durationSeconds": 3.135
+    },
+    "params": {
+      "testingWorkgroups": 420,
+      "maxWorkgroups": 926,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 10240,
+      "memStride": 4,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 156,
+      "preStressIterations": 96,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "48": {
+    "CoRR Default": {
+      "seq": 5346022,
+      "interleaved": 0,
+      "weak": 4378,
+      "durationSeconds": 1.051
+    },
+    "RR Mutations Default": {
+      "seq": 5346126,
+      "interleaved": 0,
+      "weak": 4274,
+      "durationSeconds": 1.041
+    },
+    "params": {
+      "testingWorkgroups": 209,
+      "maxWorkgroups": 283,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 10240,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 5,
+      "memStressIterations": 772,
+      "preStressIterations": 113,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "49": {
+    "CoRR Default": {
+      "seq": 21294140,
+      "interleaved": 0,
+      "weak": 5060,
+      "durationSeconds": 4.921
+    },
+    "RR Mutations Default": {
+      "seq": 21293942,
+      "interleaved": 0,
+      "weak": 5258,
+      "durationSeconds": 4.988
+    },
+    "params": {
+      "testingWorkgroups": 832,
+      "maxWorkgroups": 930,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 128,
+      "memStride": 6,
+      "stressLineSize": 4,
+      "stressTargetLines": 1,
+      "memStressIterations": 848,
+      "preStressIterations": 84,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "50": {
+    "CoRR Default": {
+      "seq": 942633,
+      "interleaved": 0,
+      "weak": 4567,
+      "durationSeconds": 1.173
+    },
+    "RR Mutations Default": {
+      "seq": 942554,
+      "interleaved": 0,
+      "weak": 4646,
+      "durationSeconds": 0.911
+    },
+    "params": {
+      "testingWorkgroups": 37,
+      "maxWorkgroups": 256,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1792,
+      "memStride": 5,
+      "stressLineSize": 4,
+      "stressTargetLines": 14,
+      "memStressIterations": 205,
+      "preStressIterations": 50,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "51": {
+    "CoRR Default": {
+      "seq": 14995566,
+      "interleaved": 0,
+      "weak": 6034,
+      "durationSeconds": 1.269
+    },
+    "RR Mutations Default": {
+      "seq": 14995948,
+      "interleaved": 0,
+      "weak": 5652,
+      "durationSeconds": 1.301
+    },
+    "params": {
+      "testingWorkgroups": 586,
+      "maxWorkgroups": 853,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 24576,
+      "memStride": 2,
+      "stressLineSize": 256,
+      "stressTargetLines": 3,
+      "memStressIterations": 337,
+      "preStressIterations": 1,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "52": {
+    "CoRR Default": {
+      "seq": 13201427,
+      "interleaved": 0,
+      "weak": 8173,
+      "durationSeconds": 1.609
+    },
+    "RR Mutations Default": {
+      "seq": 13201496,
+      "interleaved": 0,
+      "weak": 8104,
+      "durationSeconds": 1.522
+    },
+    "params": {
+      "testingWorkgroups": 516,
+      "maxWorkgroups": 875,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 13312,
+      "memStride": 6,
+      "stressLineSize": 32,
+      "stressTargetLines": 13,
+      "memStressIterations": 191,
+      "preStressIterations": 25,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "53": {
+    "CoRR Default": {
+      "seq": 5551567,
+      "interleaved": 0,
+      "weak": 3633,
+      "durationSeconds": 2.406
+    },
+    "RR Mutations Default": {
+      "seq": 5551787,
+      "interleaved": 0,
+      "weak": 3413,
+      "durationSeconds": 2.405
+    },
+    "params": {
+      "testingWorkgroups": 217,
+      "maxWorkgroups": 708,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 6144,
+      "memStride": 6,
+      "stressLineSize": 64,
+      "stressTargetLines": 3,
+      "memStressIterations": 657,
+      "preStressIterations": 111,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "54": {
+    "CoRR Default": {
+      "seq": 11877193,
+      "interleaved": 0,
+      "weak": 1207,
+      "durationSeconds": 2.991
+    },
+    "RR Mutations Default": {
+      "seq": 11877276,
+      "interleaved": 0,
+      "weak": 1124,
+      "durationSeconds": 2.995
+    },
+    "params": {
+      "testingWorkgroups": 464,
+      "maxWorkgroups": 491,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 15360,
+      "memStride": 3,
+      "stressLineSize": 32,
+      "stressTargetLines": 15,
+      "memStressIterations": 575,
+      "preStressIterations": 64,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "55": {
+    "CoRR Default": {
+      "seq": 4371205,
+      "interleaved": 0,
+      "weak": 6395,
+      "durationSeconds": 1.77
+    },
+    "RR Mutations Default": {
+      "seq": 4370727,
+      "interleaved": 0,
+      "weak": 6873,
+      "durationSeconds": 1.666
+    },
+    "params": {
+      "testingWorkgroups": 171,
+      "maxWorkgroups": 825,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 6144,
+      "memStride": 1,
+      "stressLineSize": 32,
+      "stressTargetLines": 6,
+      "memStressIterations": 217,
+      "preStressIterations": 86,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "56": {
+    "CoRR Default": {
+      "seq": 3067009,
+      "interleaved": 0,
+      "weak": 4991,
+      "durationSeconds": 1.67
+    },
+    "RR Mutations Default": {
+      "seq": 3066776,
+      "interleaved": 0,
+      "weak": 5224,
+      "durationSeconds": 1.647
+    },
+    "params": {
+      "testingWorkgroups": 120,
+      "maxWorkgroups": 801,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 20480,
+      "memStride": 4,
+      "stressLineSize": 128,
+      "stressTargetLines": 5,
+      "memStressIterations": 653,
+      "preStressIterations": 85,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "57": {
+    "CoRR Default": {
+      "seq": 17916712,
+      "interleaved": 0,
+      "weak": 3288,
+      "durationSeconds": 3.015
+    },
+    "RR Mutations Default": {
+      "seq": 17916697,
+      "interleaved": 0,
+      "weak": 3303,
+      "durationSeconds": 3.167
+    },
+    "params": {
+      "testingWorkgroups": 700,
+      "maxWorkgroups": 1021,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1536,
+      "memStride": 7,
+      "stressLineSize": 8,
+      "stressTargetLines": 6,
+      "memStressIterations": 735,
+      "preStressIterations": 14,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "58": {
+    "CoRR Default": {
+      "seq": 15995498,
+      "interleaved": 0,
+      "weak": 4502,
+      "durationSeconds": 3.285
+    },
+    "RR Mutations Default": {
+      "seq": 15995372,
+      "interleaved": 0,
+      "weak": 4628,
+      "durationSeconds": 3.307
+    },
+    "params": {
+      "testingWorkgroups": 625,
+      "maxWorkgroups": 749,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 49152,
+      "memStride": 2,
+      "stressLineSize": 256,
+      "stressTargetLines": 6,
+      "memStressIterations": 855,
+      "preStressIterations": 42,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "59": {
+    "CoRR Default": {
+      "seq": 1864700,
+      "interleaved": 0,
+      "weak": 4100,
+      "durationSeconds": 0.783
+    },
+    "RR Mutations Default": {
+      "seq": 1864871,
+      "interleaved": 0,
+      "weak": 3929,
+      "durationSeconds": 0.799
+    },
+    "params": {
+      "testingWorkgroups": 73,
+      "maxWorkgroups": 863,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1792,
+      "memStride": 6,
+      "stressLineSize": 8,
+      "stressTargetLines": 7,
+      "memStressIterations": 860,
+      "preStressIterations": 77,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "60": {
+    "CoRR Default": {
+      "seq": 3069679,
+      "interleaved": 0,
+      "weak": 2321,
+      "durationSeconds": 0.975
+    },
+    "RR Mutations Default": {
+      "seq": 3069619,
+      "interleaved": 0,
+      "weak": 2381,
+      "durationSeconds": 0.951
+    },
+    "params": {
+      "testingWorkgroups": 120,
+      "maxWorkgroups": 342,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 61440,
+      "memStride": 7,
+      "stressLineSize": 128,
+      "stressTargetLines": 15,
+      "memStressIterations": 839,
+      "preStressIterations": 24,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "61": {
+    "CoRR Default": {
+      "seq": 17631984,
+      "interleaved": 0,
+      "weak": 6416,
+      "durationSeconds": 1.701
+    },
+    "RR Mutations Default": {
+      "seq": 17631825,
+      "interleaved": 0,
+      "weak": 6575,
+      "durationSeconds": 1.362
+    },
+    "params": {
+      "testingWorkgroups": 689,
+      "maxWorkgroups": 865,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 1536,
+      "memStride": 6,
+      "stressLineSize": 16,
+      "stressTargetLines": 3,
+      "memStressIterations": 805,
+      "preStressIterations": 41,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "62": {
+    "CoRR Default": {
+      "seq": 24086081,
+      "interleaved": 0,
+      "weak": 3519,
+      "durationSeconds": 5.638
+    },
+    "RR Mutations Default": {
+      "seq": 24085739,
+      "interleaved": 0,
+      "weak": 3861,
+      "durationSeconds": 5.587
+    },
+    "params": {
+      "testingWorkgroups": 941,
+      "maxWorkgroups": 993,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1024,
+      "memStride": 7,
+      "stressLineSize": 32,
+      "stressTargetLines": 1,
+      "memStressIterations": 155,
+      "preStressIterations": 88,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "63": {
+    "CoRR Default": {
+      "seq": 12662085,
+      "interleaved": 0,
+      "weak": 9915,
+      "durationSeconds": 1.5
+    },
+    "RR Mutations Default": {
+      "seq": 12662036,
+      "interleaved": 0,
+      "weak": 9964,
+      "durationSeconds": 1.442
+    },
+    "params": {
+      "testingWorkgroups": 495,
+      "maxWorkgroups": 604,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 8192,
+      "memStride": 6,
+      "stressLineSize": 64,
+      "stressTargetLines": 4,
+      "memStressIterations": 282,
+      "preStressIterations": 95,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "64": {
+    "CoRR Default": {
+      "seq": 4550290,
+      "interleaved": 0,
+      "weak": 6510,
+      "durationSeconds": 1.902
+    },
+    "RR Mutations Default": {
+      "seq": 4549957,
+      "interleaved": 0,
+      "weak": 6843,
+      "durationSeconds": 1.732
+    },
+    "params": {
+      "testingWorkgroups": 178,
+      "maxWorkgroups": 942,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 7680,
+      "memStride": 5,
+      "stressLineSize": 16,
+      "stressTargetLines": 15,
+      "memStressIterations": 405,
+      "preStressIterations": 49,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "65": {
+    "CoRR Default": {
+      "seq": 3244103,
+      "interleaved": 0,
+      "weak": 7097,
+      "durationSeconds": 1.631
+    },
+    "RR Mutations Default": {
+      "seq": 3244235,
+      "interleaved": 0,
+      "weak": 6965,
+      "durationSeconds": 1.586
+    },
+    "params": {
+      "testingWorkgroups": 127,
+      "maxWorkgroups": 834,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 2560,
+      "memStride": 5,
+      "stressLineSize": 8,
+      "stressTargetLines": 10,
+      "memStressIterations": 70,
+      "preStressIterations": 94,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "66": {
+    "CoRR Default": {
+      "seq": 19119624,
+      "interleaved": 0,
+      "weak": 3576,
+      "durationSeconds": 4.11
+    },
+    "RR Mutations Default": {
+      "seq": 19119391,
+      "interleaved": 0,
+      "weak": 3809,
+      "durationSeconds": 4.257
+    },
+    "params": {
+      "testingWorkgroups": 747,
+      "maxWorkgroups": 966,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1152,
+      "memStride": 5,
+      "stressLineSize": 4,
+      "stressTargetLines": 9,
+      "memStressIterations": 285,
+      "preStressIterations": 64,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "67": {
+    "CoRR Default": {
+      "seq": 23173874,
+      "interleaved": 0,
+      "weak": 19726,
+      "durationSeconds": 1.448
+    },
+    "RR Mutations Default": {
+      "seq": 23175021,
+      "interleaved": 0,
+      "weak": 18579,
+      "durationSeconds": 1.558
+    },
+    "params": {
+      "testingWorkgroups": 906,
+      "maxWorkgroups": 906,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 20480,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 10,
+      "memStressIterations": 217,
+      "preStressIterations": 34,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "68": {
+    "CoRR Default": {
+      "seq": 6953331,
+      "interleaved": 0,
+      "weak": 9869,
+      "durationSeconds": 1.299
+    },
+    "RR Mutations Default": {
+      "seq": 6953512,
+      "interleaved": 0,
+      "weak": 9688,
+      "durationSeconds": 1.297
+    },
+    "params": {
+      "testingWorkgroups": 272,
+      "maxWorkgroups": 723,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 81920,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 10,
+      "memStressIterations": 419,
+      "preStressIterations": 61,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "69": {
+    "CoRR Default": {
+      "seq": 2347916,
+      "interleaved": 0,
+      "weak": 7284,
+      "durationSeconds": 2.08
+    },
+    "RR Mutations Default": {
+      "seq": 2348175,
+      "interleaved": 0,
+      "weak": 7025,
+      "durationSeconds": 1.982
+    },
+    "params": {
+      "testingWorkgroups": 92,
+      "maxWorkgroups": 726,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 1280,
+      "memStride": 3,
+      "stressLineSize": 8,
+      "stressTargetLines": 5,
+      "memStressIterations": 161,
+      "preStressIterations": 69,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "70": {
+    "CoRR Default": {
+      "seq": 17201622,
+      "interleaved": 0,
+      "weak": 1578,
+      "durationSeconds": 3.827
+    },
+    "RR Mutations Default": {
+      "seq": 17201735,
+      "interleaved": 0,
+      "weak": 1465,
+      "durationSeconds": 3.7
+    },
+    "params": {
+      "testingWorkgroups": 672,
+      "maxWorkgroups": 842,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 2048,
+      "memStride": 4,
+      "stressLineSize": 16,
+      "stressTargetLines": 4,
+      "memStressIterations": 364,
+      "preStressIterations": 25,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "71": {
+    "CoRR Default": {
+      "seq": 4580653,
+      "interleaved": 0,
+      "weak": 1747,
+      "durationSeconds": 1.622
+    },
+    "RR Mutations Default": {
+      "seq": 4580612,
+      "interleaved": 0,
+      "weak": 1788,
+      "durationSeconds": 1.752
+    },
+    "params": {
+      "testingWorkgroups": 179,
+      "maxWorkgroups": 555,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 3,
+      "stressLineSize": 256,
+      "stressTargetLines": 2,
+      "memStressIterations": 554,
+      "preStressIterations": 127,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "72": {
+    "CoRR Default": {
+      "seq": 18836976,
+      "interleaved": 0,
+      "weak": 4624,
+      "durationSeconds": 3.875
+    },
+    "RR Mutations Default": {
+      "seq": 18836951,
+      "interleaved": 0,
+      "weak": 4649,
+      "durationSeconds": 3.876
+    },
+    "params": {
+      "testingWorkgroups": 736,
+      "maxWorkgroups": 817,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 3840,
+      "memStride": 1,
+      "stressLineSize": 8,
+      "stressTargetLines": 15,
+      "memStressIterations": 85,
+      "preStressIterations": 0,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "73": {
+    "CoRR Default": {
+      "seq": 21012700,
+      "interleaved": 0,
+      "weak": 4900,
+      "durationSeconds": 4.653
+    },
+    "RR Mutations Default": {
+      "seq": 21012699,
+      "interleaved": 0,
+      "weak": 4901,
+      "durationSeconds": 4.398
+    },
+    "params": {
+      "testingWorkgroups": 821,
+      "maxWorkgroups": 835,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1792,
+      "memStride": 4,
+      "stressLineSize": 4,
+      "stressTargetLines": 14,
+      "memStressIterations": 562,
+      "preStressIterations": 21,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "74": {
+    "CoRR Default": {
+      "seq": 18905218,
+      "interleaved": 0,
+      "weak": 13182,
+      "durationSeconds": 1.351
+    },
+    "RR Mutations Default": {
+      "seq": 18905157,
+      "interleaved": 0,
+      "weak": 13243,
+      "durationSeconds": 1.462
+    },
+    "params": {
+      "testingWorkgroups": 739,
+      "maxWorkgroups": 885,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 1408,
+      "memStride": 2,
+      "stressLineSize": 4,
+      "stressTargetLines": 11,
+      "memStressIterations": 156,
+      "preStressIterations": 33,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "75": {
+    "CoRR Default": {
+      "seq": 20452268,
+      "interleaved": 0,
+      "weak": 2132,
+      "durationSeconds": 4.208
+    },
+    "RR Mutations Default": {
+      "seq": 20452375,
+      "interleaved": 0,
+      "weak": 2025,
+      "durationSeconds": 4.126
+    },
+    "params": {
+      "testingWorkgroups": 799,
+      "maxWorkgroups": 816,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 384,
+      "memStride": 1,
+      "stressLineSize": 4,
+      "stressTargetLines": 3,
+      "memStressIterations": 930,
+      "preStressIterations": 73,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "76": {
+    "CoRR Default": {
+      "seq": 21397855,
+      "interleaved": 0,
+      "weak": 3745,
+      "durationSeconds": 5.155
+    },
+    "RR Mutations Default": {
+      "seq": 21397977,
+      "interleaved": 0,
+      "weak": 3623,
+      "durationSeconds": 5.221
+    },
+    "params": {
+      "testingWorkgroups": 836,
+      "maxWorkgroups": 961,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 4608,
+      "memStride": 6,
+      "stressLineSize": 16,
+      "stressTargetLines": 9,
+      "memStressIterations": 100,
+      "preStressIterations": 12,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "77": {
+    "CoRR Default": {
+      "seq": 2550851,
+      "interleaved": 0,
+      "weak": 9149,
+      "durationSeconds": 1.497
+    },
+    "RR Mutations Default": {
+      "seq": 2550977,
+      "interleaved": 0,
+      "weak": 9023,
+      "durationSeconds": 1.559
+    },
+    "params": {
+      "testingWorkgroups": 100,
+      "maxWorkgroups": 848,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 524288,
+      "memStride": 5,
+      "stressLineSize": 1024,
+      "stressTargetLines": 16,
+      "memStressIterations": 876,
+      "preStressIterations": 80,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "78": {
+    "CoRR Default": {
+      "seq": 5445200,
+      "interleaved": 0,
+      "weak": 7600,
+      "durationSeconds": 2.005
+    },
+    "RR Mutations Default": {
+      "seq": 5445282,
+      "interleaved": 0,
+      "weak": 7518,
+      "durationSeconds": 1.829
+    },
+    "params": {
+      "testingWorkgroups": 213,
+      "maxWorkgroups": 317,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1536,
+      "memStride": 2,
+      "stressLineSize": 8,
+      "stressTargetLines": 6,
+      "memStressIterations": 126,
+      "preStressIterations": 51,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "79": {
+    "CoRR Default": {
+      "seq": 7367580,
+      "interleaved": 0,
+      "weak": 5220,
+      "durationSeconds": 2.998
+    },
+    "RR Mutations Default": {
+      "seq": 7367644,
+      "interleaved": 0,
+      "weak": 5156,
+      "durationSeconds": 3.124
+    },
+    "params": {
+      "testingWorkgroups": 288,
+      "maxWorkgroups": 682,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 2048,
+      "memStride": 3,
+      "stressLineSize": 32,
+      "stressTargetLines": 2,
+      "memStressIterations": 208,
+      "preStressIterations": 106,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "80": {
+    "CoRR Default": {
+      "seq": 10386917,
+      "interleaved": 0,
+      "weak": 6683,
+      "durationSeconds": 1.329
+    },
+    "RR Mutations Default": {
+      "seq": 10386941,
+      "interleaved": 0,
+      "weak": 6659,
+      "durationSeconds": 1.277
+    },
+    "params": {
+      "testingWorkgroups": 406,
+      "maxWorkgroups": 946,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 16384,
+      "memStride": 2,
+      "stressLineSize": 32,
+      "stressTargetLines": 16,
+      "memStressIterations": 413,
+      "preStressIterations": 56,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "81": {
+    "CoRR Default": {
+      "seq": 1505992,
+      "interleaved": 0,
+      "weak": 4408,
+      "durationSeconds": 1.632
+    },
+    "RR Mutations Default": {
+      "seq": 1506194,
+      "interleaved": 0,
+      "weak": 4206,
+      "durationSeconds": 1.673
+    },
+    "params": {
+      "testingWorkgroups": 59,
+      "maxWorkgroups": 221,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 458752,
+      "memStride": 7,
+      "stressLineSize": 1024,
+      "stressTargetLines": 14,
+      "memStressIterations": 552,
+      "preStressIterations": 51,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "82": {
+    "CoRR Default": {
+      "seq": 21546234,
+      "interleaved": 0,
+      "weak": 8966,
+      "durationSeconds": 2.185
+    },
+    "RR Mutations Default": {
+      "seq": 21546321,
+      "interleaved": 0,
+      "weak": 8879,
+      "durationSeconds": 2.125
+    },
+    "params": {
+      "testingWorkgroups": 842,
+      "maxWorkgroups": 851,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 7,
+      "stressLineSize": 64,
+      "stressTargetLines": 2,
+      "memStressIterations": 960,
+      "preStressIterations": 72,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "83": {
+    "CoRR Default": {
+      "seq": 6113501,
+      "interleaved": 0,
+      "weak": 4899,
+      "durationSeconds": 2.222
+    },
+    "RR Mutations Default": {
+      "seq": 6113268,
+      "interleaved": 0,
+      "weak": 5132,
+      "durationSeconds": 1.927
+    },
+    "params": {
+      "testingWorkgroups": 239,
+      "maxWorkgroups": 401,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 10240,
+      "memStride": 4,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 974,
+      "preStressIterations": 35,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "84": {
+    "CoRR Default": {
+      "seq": 19090894,
+      "interleaved": 0,
+      "weak": 6706,
+      "durationSeconds": 1.599
+    },
+    "RR Mutations Default": {
+      "seq": 19091033,
+      "interleaved": 0,
+      "weak": 6567,
+      "durationSeconds": 1.812
+    },
+    "params": {
+      "testingWorkgroups": 746,
+      "maxWorkgroups": 829,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 24576,
+      "memStride": 4,
+      "stressLineSize": 64,
+      "stressTargetLines": 12,
+      "memStressIterations": 355,
+      "preStressIterations": 78,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "85": {
+    "CoRR Default": {
+      "seq": 24982116,
+      "interleaved": 0,
+      "weak": 3484,
+      "durationSeconds": 5.559
+    },
+    "RR Mutations Default": {
+      "seq": 24981865,
+      "interleaved": 0,
+      "weak": 3735,
+      "durationSeconds": 5.732
+    },
+    "params": {
+      "testingWorkgroups": 976,
+      "maxWorkgroups": 982,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 3840,
+      "memStride": 7,
+      "stressLineSize": 8,
+      "stressTargetLines": 15,
+      "memStressIterations": 925,
+      "preStressIterations": 111,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "86": {
+    "CoRR Default": {
+      "seq": 11415966,
+      "interleaved": 0,
+      "weak": 1634,
+      "durationSeconds": 1.276
+    },
+    "RR Mutations Default": {
+      "seq": 11415824,
+      "interleaved": 0,
+      "weak": 1776,
+      "durationSeconds": 1.287
+    },
+    "params": {
+      "testingWorkgroups": 446,
+      "maxWorkgroups": 785,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1536,
+      "memStride": 1,
+      "stressLineSize": 16,
+      "stressTargetLines": 3,
+      "memStressIterations": 669,
+      "preStressIterations": 87,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "87": {
+    "CoRR Default": {
+      "seq": 15680916,
+      "interleaved": 0,
+      "weak": 11884,
+      "durationSeconds": 3.118
+    },
+    "RR Mutations Default": {
+      "seq": 15680802,
+      "interleaved": 0,
+      "weak": 11998,
+      "durationSeconds": 2.971
+    },
+    "params": {
+      "testingWorkgroups": 613,
+      "maxWorkgroups": 865,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 163840,
+      "memStride": 6,
+      "stressLineSize": 512,
+      "stressTargetLines": 10,
+      "memStressIterations": 302,
+      "preStressIterations": 99,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "88": {
+    "CoRR Default": {
+      "seq": 12663556,
+      "interleaved": 0,
+      "weak": 8444,
+      "durationSeconds": 1.306
+    },
+    "RR Mutations Default": {
+      "seq": 12663868,
+      "interleaved": 0,
+      "weak": 8132,
+      "durationSeconds": 1.282
+    },
+    "params": {
+      "testingWorkgroups": 495,
+      "maxWorkgroups": 546,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 8192,
+      "memStride": 2,
+      "stressLineSize": 128,
+      "stressTargetLines": 2,
+      "memStressIterations": 990,
+      "preStressIterations": 61,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "89": {
+    "CoRR Default": {
+      "seq": 1096278,
+      "interleaved": 0,
+      "weak": 4522,
+      "durationSeconds": 1.302
+    },
+    "RR Mutations Default": {
+      "seq": 1096243,
+      "interleaved": 0,
+      "weak": 4557,
+      "durationSeconds": 1.319
+    },
+    "params": {
+      "testingWorkgroups": 43,
+      "maxWorkgroups": 252,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 1,
+      "stressLineSize": 64,
+      "stressTargetLines": 2,
+      "memStressIterations": 177,
+      "preStressIterations": 85,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "90": {
+    "CoRR Default": {
+      "seq": 5422086,
+      "interleaved": 0,
+      "weak": 5114,
+      "durationSeconds": 2.103
+    },
+    "RR Mutations Default": {
+      "seq": 5422167,
+      "interleaved": 0,
+      "weak": 5033,
+      "durationSeconds": 2.012
+    },
+    "params": {
+      "testingWorkgroups": 212,
+      "maxWorkgroups": 354,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 180224,
+      "memStride": 6,
+      "stressLineSize": 512,
+      "stressTargetLines": 11,
+      "memStressIterations": 144,
+      "preStressIterations": 96,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "91": {
+    "CoRR Default": {
+      "seq": 21400674,
+      "interleaved": 0,
+      "weak": 926,
+      "durationSeconds": 3.644
+    },
+    "RR Mutations Default": {
+      "seq": 21400695,
+      "interleaved": 0,
+      "weak": 905,
+      "durationSeconds": 3.637
+    },
+    "params": {
+      "testingWorkgroups": 836,
+      "maxWorkgroups": 932,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 2,
+      "memStressIterations": 265,
+      "preStressIterations": 95,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "92": {
+    "CoRR Default": {
+      "seq": 15000138,
+      "interleaved": 0,
+      "weak": 1462,
+      "durationSeconds": 3.229
+    },
+    "RR Mutations Default": {
+      "seq": 15000057,
+      "interleaved": 0,
+      "weak": 1543,
+      "durationSeconds": 3.144
+    },
+    "params": {
+      "testingWorkgroups": 586,
+      "maxWorkgroups": 800,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 6656,
+      "memStride": 1,
+      "stressLineSize": 16,
+      "stressTargetLines": 13,
+      "memStressIterations": 612,
+      "preStressIterations": 94,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "93": {
+    "CoRR Default": {
+      "seq": 11720060,
+      "interleaved": 0,
+      "weak": 4740,
+      "durationSeconds": 1.441
+    },
+    "RR Mutations Default": {
+      "seq": 11719952,
+      "interleaved": 0,
+      "weak": 4848,
+      "durationSeconds": 1.497
+    },
+    "params": {
+      "testingWorkgroups": 458,
+      "maxWorkgroups": 497,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 6144,
+      "memStride": 6,
+      "stressLineSize": 16,
+      "stressTargetLines": 12,
+      "memStressIterations": 394,
+      "preStressIterations": 52,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "94": {
+    "CoRR Default": {
+      "seq": 21089627,
+      "interleaved": 0,
+      "weak": 4773,
+      "durationSeconds": 5.304
+    },
+    "RR Mutations Default": {
+      "seq": 21089608,
+      "interleaved": 0,
+      "weak": 4792,
+      "durationSeconds": 5.279
+    },
+    "params": {
+      "testingWorkgroups": 824,
+      "maxWorkgroups": 903,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 10240,
+      "memStride": 7,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 299,
+      "preStressIterations": 94,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "95": {
+    "CoRR Default": {
+      "seq": 603943,
+      "interleaved": 0,
+      "weak": 10457,
+      "durationSeconds": 1.136
+    },
+    "RR Mutations Default": {
+      "seq": 604349,
+      "interleaved": 0,
+      "weak": 10051,
+      "durationSeconds": 0.988
+    },
+    "params": {
+      "testingWorkgroups": 24,
+      "maxWorkgroups": 770,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 49152,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 6,
+      "memStressIterations": 151,
+      "preStressIterations": 66,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "96": {
+    "CoRR Default": {
+      "seq": 6651641,
+      "interleaved": 0,
+      "weak": 4359,
+      "durationSeconds": 1.632
+    },
+    "RR Mutations Default": {
+      "seq": 6651393,
+      "interleaved": 0,
+      "weak": 4607,
+      "durationSeconds": 1.711
+    },
+    "params": {
+      "testingWorkgroups": 260,
+      "maxWorkgroups": 694,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 3584,
+      "memStride": 2,
+      "stressLineSize": 8,
+      "stressTargetLines": 14,
+      "memStressIterations": 198,
+      "preStressIterations": 59,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "97": {
+    "CoRR Default": {
+      "seq": 24112575,
+      "interleaved": 0,
+      "weak": 2625,
+      "durationSeconds": 5.116
+    },
+    "RR Mutations Default": {
+      "seq": 24112464,
+      "interleaved": 0,
+      "weak": 2736,
+      "durationSeconds": 5.174
+    },
+    "params": {
+      "testingWorkgroups": 942,
+      "maxWorkgroups": 954,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 256,
+      "memStride": 2,
+      "stressLineSize": 4,
+      "stressTargetLines": 2,
+      "memStressIterations": 271,
+      "preStressIterations": 31,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "98": {
+    "CoRR Default": {
+      "seq": 11925930,
+      "interleaved": 0,
+      "weak": 3670,
+      "durationSeconds": 2.984
+    },
+    "RR Mutations Default": {
+      "seq": 11925921,
+      "interleaved": 0,
+      "weak": 3679,
+      "durationSeconds": 2.969
+    },
+    "params": {
+      "testingWorkgroups": 466,
+      "maxWorkgroups": 795,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 2304,
+      "memStride": 3,
+      "stressLineSize": 8,
+      "stressTargetLines": 9,
+      "memStressIterations": 444,
+      "preStressIterations": 65,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "99": {
+    "CoRR Default": {
+      "seq": 20780385,
+      "interleaved": 0,
+      "weak": 6815,
+      "durationSeconds": 1.984
+    },
+    "RR Mutations Default": {
+      "seq": 20780722,
+      "interleaved": 0,
+      "weak": 6478,
+      "durationSeconds": 2.295
+    },
+    "params": {
+      "testingWorkgroups": 812,
+      "maxWorkgroups": 851,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 360448,
+      "memStride": 7,
+      "stressLineSize": 1024,
+      "stressTargetLines": 11,
+      "memStressIterations": 339,
+      "preStressIterations": 36,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "100": {
+    "CoRR Default": {
+      "seq": 14383232,
+      "interleaved": 0,
+      "weak": 3968,
+      "durationSeconds": 3.482
+    },
+    "RR Mutations Default": {
+      "seq": 14383013,
+      "interleaved": 0,
+      "weak": 4187,
+      "durationSeconds": 3.211
+    },
+    "params": {
+      "testingWorkgroups": 562,
+      "maxWorkgroups": 696,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 22528,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 11,
+      "memStressIterations": 669,
+      "preStressIterations": 1,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "101": {
+    "CoRR Default": {
+      "seq": 14511606,
+      "interleaved": 0,
+      "weak": 3594,
+      "durationSeconds": 3.197
+    },
+    "RR Mutations Default": {
+      "seq": 14511571,
+      "interleaved": 0,
+      "weak": 3629,
+      "durationSeconds": 3.164
+    },
+    "params": {
+      "testingWorkgroups": 567,
+      "maxWorkgroups": 789,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 256,
+      "memStride": 3,
+      "stressLineSize": 4,
+      "stressTargetLines": 2,
+      "memStressIterations": 617,
+      "preStressIterations": 44,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "102": {
+    "CoRR Default": {
+      "seq": 25645735,
+      "interleaved": 0,
+      "weak": 5465,
+      "durationSeconds": 5.744
+    },
+    "RR Mutations Default": {
+      "seq": 25645634,
+      "interleaved": 0,
+      "weak": 5566,
+      "durationSeconds": 5.711
+    },
+    "params": {
+      "testingWorkgroups": 1002,
+      "maxWorkgroups": 1011,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 4096,
+      "memStride": 5,
+      "stressLineSize": 16,
+      "stressTargetLines": 8,
+      "memStressIterations": 703,
+      "preStressIterations": 16,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "103": {
+    "CoRR Default": {
+      "seq": 25624047,
+      "interleaved": 0,
+      "weak": 1553,
+      "durationSeconds": 5.787
+    },
+    "RR Mutations Default": {
+      "seq": 25623934,
+      "interleaved": 0,
+      "weak": 1666,
+      "durationSeconds": 5.826
+    },
+    "params": {
+      "testingWorkgroups": 1001,
+      "maxWorkgroups": 1004,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 8192,
+      "memStride": 6,
+      "stressLineSize": 256,
+      "stressTargetLines": 1,
+      "memStressIterations": 669,
+      "preStressIterations": 3,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "104": {
+    "CoRR Default": {
+      "seq": 18299628,
+      "interleaved": 0,
+      "weak": 4372,
+      "durationSeconds": 3.987
+    },
+    "RR Mutations Default": {
+      "seq": 18299416,
+      "interleaved": 0,
+      "weak": 4584,
+      "durationSeconds": 4.041
+    },
+    "params": {
+      "testingWorkgroups": 715,
+      "maxWorkgroups": 875,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 106496,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 13,
+      "memStressIterations": 319,
+      "preStressIterations": 17,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "105": {
+    "CoRR Default": {
+      "seq": 738664,
+      "interleaved": 0,
+      "weak": 3736,
+      "durationSeconds": 1.031
+    },
+    "RR Mutations Default": {
+      "seq": 738825,
+      "interleaved": 0,
+      "weak": 3575,
+      "durationSeconds": 1.081
+    },
+    "params": {
+      "testingWorkgroups": 29,
+      "maxWorkgroups": 143,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 131072,
+      "memStride": 4,
+      "stressLineSize": 1024,
+      "stressTargetLines": 4,
+      "memStressIterations": 426,
+      "preStressIterations": 53,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "106": {
+    "CoRR Default": {
+      "seq": 9467751,
+      "interleaved": 0,
+      "weak": 4249,
+      "durationSeconds": 1.45
+    },
+    "RR Mutations Default": {
+      "seq": 9467943,
+      "interleaved": 0,
+      "weak": 4057,
+      "durationSeconds": 1.451
+    },
+    "params": {
+      "testingWorkgroups": 370,
+      "maxWorkgroups": 988,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 896,
+      "memStride": 7,
+      "stressLineSize": 4,
+      "stressTargetLines": 7,
+      "memStressIterations": 330,
+      "preStressIterations": 82,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "107": {
+    "CoRR Default": {
+      "seq": 987990,
+      "interleaved": 0,
+      "weak": 10410,
+      "durationSeconds": 1.138
+    },
+    "RR Mutations Default": {
+      "seq": 987828,
+      "interleaved": 0,
+      "weak": 10572,
+      "durationSeconds": 1.064
+    },
+    "params": {
+      "testingWorkgroups": 39,
+      "maxWorkgroups": 952,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 2560,
+      "memStride": 1,
+      "stressLineSize": 8,
+      "stressTargetLines": 10,
+      "memStressIterations": 217,
+      "preStressIterations": 89,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "108": {
+    "CoRR Default": {
+      "seq": 4399640,
+      "interleaved": 0,
+      "weak": 3560,
+      "durationSeconds": 2.468
+    },
+    "RR Mutations Default": {
+      "seq": 4399116,
+      "interleaved": 0,
+      "weak": 4084,
+      "durationSeconds": 2.382
+    },
+    "params": {
+      "testingWorkgroups": 172,
+      "maxWorkgroups": 964,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 512,
+      "memStride": 4,
+      "stressLineSize": 8,
+      "stressTargetLines": 2,
+      "memStressIterations": 722,
+      "preStressIterations": 81,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "109": {
+    "CoRR Default": {
+      "seq": 938770,
+      "interleaved": 0,
+      "weak": 8430,
+      "durationSeconds": 1.457
+    },
+    "RR Mutations Default": {
+      "seq": 939048,
+      "interleaved": 0,
+      "weak": 8152,
+      "durationSeconds": 1.482
+    },
+    "params": {
+      "testingWorkgroups": 37,
+      "maxWorkgroups": 427,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 2,
+      "stressLineSize": 512,
+      "stressTargetLines": 2,
+      "memStressIterations": 770,
+      "preStressIterations": 51,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "110": {
+    "CoRR Default": {
+      "seq": 15561519,
+      "interleaved": 0,
+      "weak": 3281,
+      "durationSeconds": 3.26
+    },
+    "RR Mutations Default": {
+      "seq": 15561981,
+      "interleaved": 0,
+      "weak": 2819,
+      "durationSeconds": 3.28
+    },
+    "params": {
+      "testingWorkgroups": 608,
+      "maxWorkgroups": 747,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 5632,
+      "memStride": 2,
+      "stressLineSize": 16,
+      "stressTargetLines": 11,
+      "memStressIterations": 209,
+      "preStressIterations": 52,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "111": {
+    "CoRR Default": {
+      "seq": 452004,
+      "interleaved": 0,
+      "weak": 8796,
+      "durationSeconds": 1.011
+    },
+    "RR Mutations Default": {
+      "seq": 452133,
+      "interleaved": 0,
+      "weak": 8667,
+      "durationSeconds": 1.121
+    },
+    "params": {
+      "testingWorkgroups": 18,
+      "maxWorkgroups": 130,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 1024,
+      "memStride": 1,
+      "stressLineSize": 8,
+      "stressTargetLines": 4,
+      "memStressIterations": 304,
+      "preStressIterations": 94,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "112": {
+    "CoRR Default": {
+      "seq": 16603433,
+      "interleaved": 0,
+      "weak": 10967,
+      "durationSeconds": 1.842
+    },
+    "RR Mutations Default": {
+      "seq": 16603060,
+      "interleaved": 0,
+      "weak": 11340,
+      "durationSeconds": 1.993
+    },
+    "params": {
+      "testingWorkgroups": 649,
+      "maxWorkgroups": 895,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 2048,
+      "memStride": 6,
+      "stressLineSize": 4,
+      "stressTargetLines": 16,
+      "memStressIterations": 750,
+      "preStressIterations": 85,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "113": {
+    "CoRR Default": {
+      "seq": 12772780,
+      "interleaved": 0,
+      "weak": 1620,
+      "durationSeconds": 3.865
+    },
+    "RR Mutations Default": {
+      "seq": 12772592,
+      "interleaved": 0,
+      "weak": 1808,
+      "durationSeconds": 3.686
+    },
+    "params": {
+      "testingWorkgroups": 499,
+      "maxWorkgroups": 591,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1536,
+      "memStride": 2,
+      "stressLineSize": 16,
+      "stressTargetLines": 3,
+      "memStressIterations": 85,
+      "preStressIterations": 67,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "114": {
+    "CoRR Default": {
+      "seq": 7343655,
+      "interleaved": 0,
+      "weak": 3545,
+      "durationSeconds": 1.099
+    },
+    "RR Mutations Default": {
+      "seq": 7343254,
+      "interleaved": 0,
+      "weak": 3946,
+      "durationSeconds": 1.153
+    },
+    "params": {
+      "testingWorkgroups": 287,
+      "maxWorkgroups": 765,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 2,
+      "stressLineSize": 512,
+      "stressTargetLines": 1,
+      "memStressIterations": 441,
+      "preStressIterations": 65,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "115": {
+    "CoRR Default": {
+      "seq": 24672604,
+      "interleaved": 0,
+      "weak": 5796,
+      "durationSeconds": 5.823
+    },
+    "RR Mutations Default": {
+      "seq": 24672804,
+      "interleaved": 0,
+      "weak": 5596,
+      "durationSeconds": 5.492
+    },
+    "params": {
+      "testingWorkgroups": 964,
+      "maxWorkgroups": 1021,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 5,
+      "stressLineSize": 128,
+      "stressTargetLines": 4,
+      "memStressIterations": 742,
+      "preStressIterations": 65,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "116": {
+    "CoRR Default": {
+      "seq": 12412685,
+      "interleaved": 0,
+      "weak": 3315,
+      "durationSeconds": 2.948
+    },
+    "RR Mutations Default": {
+      "seq": 12413001,
+      "interleaved": 0,
+      "weak": 2999,
+      "durationSeconds": 2.988
+    },
+    "params": {
+      "testingWorkgroups": 485,
+      "maxWorkgroups": 495,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 262144,
+      "memStride": 2,
+      "stressLineSize": 1024,
+      "stressTargetLines": 8,
+      "memStressIterations": 951,
+      "preStressIterations": 39,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "117": {
+    "CoRR Default": {
+      "seq": 9342238,
+      "interleaved": 0,
+      "weak": 1762,
+      "durationSeconds": 1.866
+    },
+    "RR Mutations Default": {
+      "seq": 9342053,
+      "interleaved": 0,
+      "weak": 1947,
+      "durationSeconds": 1.849
+    },
+    "params": {
+      "testingWorkgroups": 365,
+      "maxWorkgroups": 814,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 16384,
+      "memStride": 7,
+      "stressLineSize": 128,
+      "stressTargetLines": 4,
+      "memStressIterations": 756,
+      "preStressIterations": 26,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "118": {
+    "CoRR Default": {
+      "seq": 4373253,
+      "interleaved": 0,
+      "weak": 4347,
+      "durationSeconds": 1.266
+    },
+    "RR Mutations Default": {
+      "seq": 4373556,
+      "interleaved": 0,
+      "weak": 4044,
+      "durationSeconds": 1.217
+    },
+    "params": {
+      "testingWorkgroups": 171,
+      "maxWorkgroups": 1013,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 7,
+      "stressLineSize": 256,
+      "stressTargetLines": 2,
+      "memStressIterations": 320,
+      "preStressIterations": 28,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "119": {
+    "CoRR Default": {
+      "seq": 24341578,
+      "interleaved": 0,
+      "weak": 4022,
+      "durationSeconds": 5.6
+    },
+    "RR Mutations Default": {
+      "seq": 24341234,
+      "interleaved": 0,
+      "weak": 4366,
+      "durationSeconds": 5.431
+    },
+    "params": {
+      "testingWorkgroups": 951,
+      "maxWorkgroups": 1010,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 24576,
+      "memStride": 3,
+      "stressLineSize": 256,
+      "stressTargetLines": 3,
+      "memStressIterations": 963,
+      "preStressIterations": 126,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "120": {
+    "CoRR Default": {
+      "seq": 18455233,
+      "interleaved": 0,
+      "weak": 2367,
+      "durationSeconds": 3.938
+    },
+    "RR Mutations Default": {
+      "seq": 18455304,
+      "interleaved": 0,
+      "weak": 2296,
+      "durationSeconds": 3.991
+    },
+    "params": {
+      "testingWorkgroups": 721,
+      "maxWorkgroups": 897,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 45056,
+      "memStride": 3,
+      "stressLineSize": 128,
+      "stressTargetLines": 11,
+      "memStressIterations": 684,
+      "preStressIterations": 97,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "121": {
+    "CoRR Default": {
+      "seq": 5118226,
+      "interleaved": 0,
+      "weak": 1774,
+      "durationSeconds": 1.291
+    },
+    "RR Mutations Default": {
+      "seq": 5118085,
+      "interleaved": 0,
+      "weak": 1915,
+      "durationSeconds": 1.353
+    },
+    "params": {
+      "testingWorkgroups": 200,
+      "maxWorkgroups": 991,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 3584,
+      "memStride": 7,
+      "stressLineSize": 16,
+      "stressTargetLines": 7,
+      "memStressIterations": 279,
+      "preStressIterations": 25,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "122": {
+    "CoRR Default": {
+      "seq": 1297743,
+      "interleaved": 0,
+      "weak": 7857,
+      "durationSeconds": 1.178
+    },
+    "RR Mutations Default": {
+      "seq": 1297892,
+      "interleaved": 0,
+      "weak": 7708,
+      "durationSeconds": 1.138
+    },
+    "params": {
+      "testingWorkgroups": 51,
+      "maxWorkgroups": 338,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 3584,
+      "memStride": 1,
+      "stressLineSize": 16,
+      "stressTargetLines": 7,
+      "memStressIterations": 944,
+      "preStressIterations": 49,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "123": {
+    "CoRR Default": {
+      "seq": 17837316,
+      "interleaved": 0,
+      "weak": 5884,
+      "durationSeconds": 1.233
+    },
+    "RR Mutations Default": {
+      "seq": 17837280,
+      "interleaved": 0,
+      "weak": 5920,
+      "durationSeconds": 1.349
+    },
+    "params": {
+      "testingWorkgroups": 697,
+      "maxWorkgroups": 978,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 5120,
+      "memStride": 1,
+      "stressLineSize": 32,
+      "stressTargetLines": 5,
+      "memStressIterations": 824,
+      "preStressIterations": 56,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "124": {
+    "CoRR Default": {
+      "seq": 19068180,
+      "interleaved": 0,
+      "weak": 3820,
+      "durationSeconds": 4.744
+    },
+    "RR Mutations Default": {
+      "seq": 19068560,
+      "interleaved": 0,
+      "weak": 3440,
+      "durationSeconds": 4.597
+    },
+    "params": {
+      "testingWorkgroups": 745,
+      "maxWorkgroups": 1011,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 2048,
+      "memStride": 6,
+      "stressLineSize": 4,
+      "stressTargetLines": 16,
+      "memStressIterations": 144,
+      "preStressIterations": 38,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "125": {
+    "CoRR Default": {
+      "seq": 9518847,
+      "interleaved": 0,
+      "weak": 4353,
+      "durationSeconds": 1.221
+    },
+    "RR Mutations Default": {
+      "seq": 9519032,
+      "interleaved": 0,
+      "weak": 4168,
+      "durationSeconds": 1.237
+    },
+    "params": {
+      "testingWorkgroups": 372,
+      "maxWorkgroups": 820,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 40960,
+      "memStride": 2,
+      "stressLineSize": 128,
+      "stressTargetLines": 10,
+      "memStressIterations": 126,
+      "preStressIterations": 107,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "126": {
+    "CoRR Default": {
+      "seq": 16454572,
+      "interleaved": 0,
+      "weak": 6228,
+      "durationSeconds": 1.937
+    },
+    "RR Mutations Default": {
+      "seq": 16454457,
+      "interleaved": 0,
+      "weak": 6343,
+      "durationSeconds": 1.883
+    },
+    "params": {
+      "testingWorkgroups": 643,
+      "maxWorkgroups": 811,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1280,
+      "memStride": 7,
+      "stressLineSize": 8,
+      "stressTargetLines": 5,
+      "memStressIterations": 450,
+      "preStressIterations": 14,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "127": {
+    "CoRR Default": {
+      "seq": 24494484,
+      "interleaved": 0,
+      "weak": 4716,
+      "durationSeconds": 5.398
+    },
+    "RR Mutations Default": {
+      "seq": 24494677,
+      "interleaved": 0,
+      "weak": 4523,
+      "durationSeconds": 5.42
+    },
+    "params": {
+      "testingWorkgroups": 957,
+      "maxWorkgroups": 1012,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1024,
+      "memStride": 2,
+      "stressLineSize": 16,
+      "stressTargetLines": 2,
+      "memStressIterations": 915,
+      "preStressIterations": 89,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "128": {
+    "CoRR Default": {
+      "seq": 7447134,
+      "interleaved": 0,
+      "weak": 2466,
+      "durationSeconds": 2.407
+    },
+    "RR Mutations Default": {
+      "seq": 7447029,
+      "interleaved": 0,
+      "weak": 2571,
+      "durationSeconds": 2.518
+    },
+    "params": {
+      "testingWorkgroups": 291,
+      "maxWorkgroups": 521,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 6,
+      "stressLineSize": 1024,
+      "stressTargetLines": 1,
+      "memStressIterations": 108,
+      "preStressIterations": 43,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "129": {
+    "CoRR Default": {
+      "seq": 17044863,
+      "interleaved": 0,
+      "weak": 4737,
+      "durationSeconds": 3.665
+    },
+    "RR Mutations Default": {
+      "seq": 17044895,
+      "interleaved": 0,
+      "weak": 4705,
+      "durationSeconds": 3.436
+    },
+    "params": {
+      "testingWorkgroups": 666,
+      "maxWorkgroups": 807,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 393216,
+      "memStride": 2,
+      "stressLineSize": 1024,
+      "stressTargetLines": 12,
+      "memStressIterations": 732,
+      "preStressIterations": 40,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "130": {
+    "CoRR Default": {
+      "seq": 12612810,
+      "interleaved": 0,
+      "weak": 7990,
+      "durationSeconds": 1.218
+    },
+    "RR Mutations Default": {
+      "seq": 12612964,
+      "interleaved": 0,
+      "weak": 7836,
+      "durationSeconds": 1.338
+    },
+    "params": {
+      "testingWorkgroups": 493,
+      "maxWorkgroups": 744,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 24576,
+      "memStride": 1,
+      "stressLineSize": 64,
+      "stressTargetLines": 12,
+      "memStressIterations": 631,
+      "preStressIterations": 73,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "131": {
+    "CoRR Default": {
+      "seq": 8572668,
+      "interleaved": 0,
+      "weak": 3332,
+      "durationSeconds": 2.701
+    },
+    "RR Mutations Default": {
+      "seq": 8572586,
+      "interleaved": 0,
+      "weak": 3414,
+      "durationSeconds": 2.619
+    },
+    "params": {
+      "testingWorkgroups": 335,
+      "maxWorkgroups": 712,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 81920,
+      "memStride": 3,
+      "stressLineSize": 512,
+      "stressTargetLines": 5,
+      "memStressIterations": 815,
+      "preStressIterations": 76,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "132": {
+    "CoRR Default": {
+      "seq": 8261308,
+      "interleaved": 0,
+      "weak": 7492,
+      "durationSeconds": 1.207
+    },
+    "RR Mutations Default": {
+      "seq": 8261200,
+      "interleaved": 0,
+      "weak": 7600,
+      "durationSeconds": 1.256
+    },
+    "params": {
+      "testingWorkgroups": 323,
+      "maxWorkgroups": 650,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 512,
+      "memStride": 5,
+      "stressLineSize": 8,
+      "stressTargetLines": 2,
+      "memStressIterations": 532,
+      "preStressIterations": 58,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "133": {
+    "CoRR Default": {
+      "seq": 7876203,
+      "interleaved": 0,
+      "weak": 8597,
+      "durationSeconds": 1.226
+    },
+    "RR Mutations Default": {
+      "seq": 7876222,
+      "interleaved": 0,
+      "weak": 8578,
+      "durationSeconds": 1.275
+    },
+    "params": {
+      "testingWorkgroups": 308,
+      "maxWorkgroups": 773,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 3,
+      "stressLineSize": 16,
+      "stressTargetLines": 8,
+      "memStressIterations": 496,
+      "preStressIterations": 55,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "134": {
+    "CoRR Default": {
+      "seq": 18967042,
+      "interleaved": 0,
+      "weak": 2558,
+      "durationSeconds": 5.763
+    },
+    "RR Mutations Default": {
+      "seq": 18967208,
+      "interleaved": 0,
+      "weak": 2392,
+      "durationSeconds": 5.556
+    },
+    "params": {
+      "testingWorkgroups": 741,
+      "maxWorkgroups": 966,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 128,
+      "memStride": 6,
+      "stressLineSize": 4,
+      "stressTargetLines": 1,
+      "memStressIterations": 978,
+      "preStressIterations": 58,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "135": {
+    "CoRR Default": {
+      "seq": 12683891,
+      "interleaved": 0,
+      "weak": 13709,
+      "durationSeconds": 1.363
+    },
+    "RR Mutations Default": {
+      "seq": 12683964,
+      "interleaved": 0,
+      "weak": 13636,
+      "durationSeconds": 1.496
+    },
+    "params": {
+      "testingWorkgroups": 496,
+      "maxWorkgroups": 752,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 6144,
+      "memStride": 6,
+      "stressLineSize": 32,
+      "stressTargetLines": 6,
+      "memStressIterations": 312,
+      "preStressIterations": 114,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "136": {
+    "CoRR Default": {
+      "seq": 9957009,
+      "interleaved": 0,
+      "weak": 1391,
+      "durationSeconds": 2.932
+    },
+    "RR Mutations Default": {
+      "seq": 9956850,
+      "interleaved": 0,
+      "weak": 1550,
+      "durationSeconds": 2.904
+    },
+    "params": {
+      "testingWorkgroups": 389,
+      "maxWorkgroups": 993,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 1920,
+      "memStride": 2,
+      "stressLineSize": 4,
+      "stressTargetLines": 15,
+      "memStressIterations": 811,
+      "preStressIterations": 44,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "137": {
+    "CoRR Default": {
+      "seq": 11951045,
+      "interleaved": 0,
+      "weak": 4155,
+      "durationSeconds": 3.136
+    },
+    "RR Mutations Default": {
+      "seq": 11951158,
+      "interleaved": 0,
+      "weak": 4042,
+      "durationSeconds": 3.138
+    },
+    "params": {
+      "testingWorkgroups": 467,
+      "maxWorkgroups": 646,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1024,
+      "memStride": 6,
+      "stressLineSize": 32,
+      "stressTargetLines": 1,
+      "memStressIterations": 411,
+      "preStressIterations": 68,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "138": {
+    "CoRR Default": {
+      "seq": 22829668,
+      "interleaved": 0,
+      "weak": 5532,
+      "durationSeconds": 1.941
+    },
+    "RR Mutations Default": {
+      "seq": 22829317,
+      "interleaved": 0,
+      "weak": 5883,
+      "durationSeconds": 2.056
+    },
+    "params": {
+      "testingWorkgroups": 892,
+      "maxWorkgroups": 1017,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 1536,
+      "memStride": 5,
+      "stressLineSize": 4,
+      "stressTargetLines": 12,
+      "memStressIterations": 597,
+      "preStressIterations": 107,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "139": {
+    "CoRR Default": {
+      "seq": 9212264,
+      "interleaved": 0,
+      "weak": 3736,
+      "durationSeconds": 1.256
+    },
+    "RR Mutations Default": {
+      "seq": 9212290,
+      "interleaved": 0,
+      "weak": 3710,
+      "durationSeconds": 1.241
+    },
+    "params": {
+      "testingWorkgroups": 360,
+      "maxWorkgroups": 633,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 6144,
+      "memStride": 2,
+      "stressLineSize": 64,
+      "stressTargetLines": 3,
+      "memStressIterations": 169,
+      "preStressIterations": 30,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "140": {
+    "CoRR Default": {
+      "seq": 25339875,
+      "interleaved": 0,
+      "weak": 4125,
+      "durationSeconds": 5.85
+    },
+    "RR Mutations Default": {
+      "seq": 25339868,
+      "interleaved": 0,
+      "weak": 4132,
+      "durationSeconds": 5.727
+    },
+    "params": {
+      "testingWorkgroups": 990,
+      "maxWorkgroups": 990,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 14336,
+      "memStride": 5,
+      "stressLineSize": 32,
+      "stressTargetLines": 14,
+      "memStressIterations": 71,
+      "preStressIterations": 28,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "141": {
+    "CoRR Default": {
+      "seq": 21830353,
+      "interleaved": 0,
+      "weak": 6447,
+      "durationSeconds": 1.634
+    },
+    "RR Mutations Default": {
+      "seq": 21830545,
+      "interleaved": 0,
+      "weak": 6255,
+      "durationSeconds": 1.731
+    },
+    "params": {
+      "testingWorkgroups": 853,
+      "maxWorkgroups": 944,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 2560,
+      "memStride": 3,
+      "stressLineSize": 8,
+      "stressTargetLines": 10,
+      "memStressIterations": 308,
+      "preStressIterations": 98,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "142": {
+    "CoRR Default": {
+      "seq": 24290906,
+      "interleaved": 0,
+      "weak": 3494,
+      "durationSeconds": 5.613
+    },
+    "RR Mutations Default": {
+      "seq": 24291035,
+      "interleaved": 0,
+      "weak": 3365,
+      "durationSeconds": 5.512
+    },
+    "params": {
+      "testingWorkgroups": 949,
+      "maxWorkgroups": 972,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 32768,
+      "memStride": 4,
+      "stressLineSize": 64,
+      "stressTargetLines": 16,
+      "memStressIterations": 207,
+      "preStressIterations": 72,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "143": {
+    "CoRR Default": {
+      "seq": 10002700,
+      "interleaved": 0,
+      "weak": 6900,
+      "durationSeconds": 1.305
+    },
+    "RR Mutations Default": {
+      "seq": 10002301,
+      "interleaved": 0,
+      "weak": 7299,
+      "durationSeconds": 1.178
+    },
+    "params": {
+      "testingWorkgroups": 391,
+      "maxWorkgroups": 581,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 26624,
+      "memStride": 2,
+      "stressLineSize": 64,
+      "stressTargetLines": 13,
+      "memStressIterations": 200,
+      "preStressIterations": 7,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "144": {
+    "CoRR Default": {
+      "seq": 988012,
+      "interleaved": 0,
+      "weak": 10388,
+      "durationSeconds": 1.269
+    },
+    "RR Mutations Default": {
+      "seq": 987992,
+      "interleaved": 0,
+      "weak": 10408,
+      "durationSeconds": 1.294
+    },
+    "params": {
+      "testingWorkgroups": 39,
+      "maxWorkgroups": 599,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 1,
+      "stressLineSize": 64,
+      "stressTargetLines": 2,
+      "memStressIterations": 637,
+      "preStressIterations": 18,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "145": {
+    "CoRR Default": {
+      "seq": 6133699,
+      "interleaved": 0,
+      "weak": 10301,
+      "durationSeconds": 1.208
+    },
+    "RR Mutations Default": {
+      "seq": 6133672,
+      "interleaved": 0,
+      "weak": 10328,
+      "durationSeconds": 1.243
+    },
+    "params": {
+      "testingWorkgroups": 240,
+      "maxWorkgroups": 756,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 6144,
+      "memStride": 4,
+      "stressLineSize": 16,
+      "stressTargetLines": 12,
+      "memStressIterations": 25,
+      "preStressIterations": 42,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "146": {
+    "CoRR Default": {
+      "seq": 11438515,
+      "interleaved": 0,
+      "weak": 4685,
+      "durationSeconds": 1.473
+    },
+    "RR Mutations Default": {
+      "seq": 11438565,
+      "interleaved": 0,
+      "weak": 4635,
+      "durationSeconds": 1.539
+    },
+    "params": {
+      "testingWorkgroups": 447,
+      "maxWorkgroups": 629,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 262144,
+      "memStride": 6,
+      "stressLineSize": 512,
+      "stressTargetLines": 16,
+      "memStressIterations": 293,
+      "preStressIterations": 58,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "147": {
+    "CoRR Default": {
+      "seq": 1268681,
+      "interleaved": 0,
+      "weak": 11319,
+      "durationSeconds": 1.359
+    },
+    "RR Mutations Default": {
+      "seq": 1268507,
+      "interleaved": 0,
+      "weak": 11493,
+      "durationSeconds": 1.424
+    },
+    "params": {
+      "testingWorkgroups": 50,
+      "maxWorkgroups": 814,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 65536,
+      "memStride": 6,
+      "stressLineSize": 256,
+      "stressTargetLines": 8,
+      "memStressIterations": 698,
+      "preStressIterations": 42,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "148": {
+    "CoRR Default": {
+      "seq": 6111095,
+      "interleaved": 0,
+      "weak": 7305,
+      "durationSeconds": 2.226
+    },
+    "RR Mutations Default": {
+      "seq": 6111441,
+      "interleaved": 0,
+      "weak": 6959,
+      "durationSeconds": 2.036
+    },
+    "params": {
+      "testingWorkgroups": 239,
+      "maxWorkgroups": 305,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 14336,
+      "memStride": 7,
+      "stressLineSize": 32,
+      "stressTargetLines": 14,
+      "memStressIterations": 847,
+      "preStressIterations": 8,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "149": {
+    "CoRR Default": {
+      "seq": 5982985,
+      "interleaved": 0,
+      "weak": 7415,
+      "durationSeconds": 2.007
+    },
+    "RR Mutations Default": {
+      "seq": 5981829,
+      "interleaved": 0,
+      "weak": 8571,
+      "durationSeconds": 2.031
+    },
+    "params": {
+      "testingWorkgroups": 234,
+      "maxWorkgroups": 594,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 4096,
+      "memStride": 2,
+      "stressLineSize": 32,
+      "stressTargetLines": 4,
+      "memStressIterations": 469,
+      "preStressIterations": 16,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "randomSeed": "webgpu"
+}

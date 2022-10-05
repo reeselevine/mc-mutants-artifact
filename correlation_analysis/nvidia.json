@@ -1,0 +1,4953 @@
+{
+  "0": {
+    "Message Passing Coherency": {
+      "seq": 14064246,
+      "interleaved": 4952,
+      "weak": 36402,
+      "durationSeconds": 1.297
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 14073646,
+      "interleaved": 503,
+      "weak": 31451,
+      "durationSeconds": 1.225
+    },
+    "params": {
+      "testingWorkgroups": 551,
+      "maxWorkgroups": 736,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 131072,
+      "memStride": 5,
+      "stressLineSize": 1024,
+      "stressTargetLines": 4,
+      "memStressIterations": 360,
+      "preStressIterations": 30,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "1": {
+    "Message Passing Coherency": {
+      "seq": 21855666,
+      "interleaved": 27807,
+      "weak": 106927,
+      "durationSeconds": 1.344
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21735131,
+      "interleaved": 4220,
+      "weak": 251049,
+      "durationSeconds": 1.202
+    },
+    "params": {
+      "testingWorkgroups": 859,
+      "maxWorkgroups": 919,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 128,
+      "memStride": 3,
+      "stressLineSize": 4,
+      "stressTargetLines": 1,
+      "memStressIterations": 666,
+      "preStressIterations": 115,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "2": {
+    "Message Passing Coherency": {
+      "seq": 9339368,
+      "interleaved": 1440,
+      "weak": 3192,
+      "durationSeconds": 1.897
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 9336734,
+      "interleaved": 848,
+      "weak": 6418,
+      "durationSeconds": 1.899
+    },
+    "params": {
+      "testingWorkgroups": 365,
+      "maxWorkgroups": 796,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 65536,
+      "memStride": 6,
+      "stressLineSize": 128,
+      "stressTargetLines": 16,
+      "memStressIterations": 812,
+      "preStressIterations": 68,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "3": {
+    "Message Passing Coherency": {
+      "seq": 23393843,
+      "interleaved": 1369,
+      "weak": 3188,
+      "durationSeconds": 4.093
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 23392256,
+      "interleaved": 1003,
+      "weak": 5141,
+      "durationSeconds": 4.103
+    },
+    "params": {
+      "testingWorkgroups": 914,
+      "maxWorkgroups": 945,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 9216,
+      "memStride": 6,
+      "stressLineSize": 32,
+      "stressTargetLines": 9,
+      "memStressIterations": 963,
+      "preStressIterations": 118,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "4": {
+    "Message Passing Coherency": {
+      "seq": 7182136,
+      "interleaved": 1003,
+      "weak": 10461,
+      "durationSeconds": 1.049
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 7181880,
+      "interleaved": 684,
+      "weak": 11036,
+      "durationSeconds": 1.006
+    },
+    "params": {
+      "testingWorkgroups": 281,
+      "maxWorkgroups": 713,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 512,
+      "memStride": 5,
+      "stressLineSize": 16,
+      "stressTargetLines": 1,
+      "memStressIterations": 735,
+      "preStressIterations": 89,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "5": {
+    "Message Passing Coherency": {
+      "seq": 14154844,
+      "interleaved": 766,
+      "weak": 1190,
+      "durationSeconds": 2.461
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 14153106,
+      "interleaved": 405,
+      "weak": 3289,
+      "durationSeconds": 2.475
+    },
+    "params": {
+      "testingWorkgroups": 553,
+      "maxWorkgroups": 649,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 122880,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 15,
+      "memStressIterations": 449,
+      "preStressIterations": 73,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "6": {
+    "Message Passing Coherency": {
+      "seq": 14951416,
+      "interleaved": 2222,
+      "weak": 22362,
+      "durationSeconds": 1.48
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 14944893,
+      "interleaved": 1243,
+      "weak": 29864,
+      "durationSeconds": 1.493
+    },
+    "params": {
+      "testingWorkgroups": 585,
+      "maxWorkgroups": 816,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 10240,
+      "memStride": 4,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 547,
+      "preStressIterations": 128,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "7": {
+    "Message Passing Coherency": {
+      "seq": 528683,
+      "interleaved": 4244,
+      "weak": 4673,
+      "durationSeconds": 0.78
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 526505,
+      "interleaved": 798,
+      "weak": 10297,
+      "durationSeconds": 0.825
+    },
+    "params": {
+      "testingWorkgroups": 21,
+      "maxWorkgroups": 213,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 24576,
+      "memStride": 1,
+      "stressLineSize": 256,
+      "stressTargetLines": 3,
+      "memStressIterations": 779,
+      "preStressIterations": 104,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "8": {
+    "Message Passing Coherency": {
+      "seq": 22926969,
+      "interleaved": 1838,
+      "weak": 8793,
+      "durationSeconds": 4.05
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 22923865,
+      "interleaved": 1140,
+      "weak": 12595,
+      "durationSeconds": 4.058
+    },
+    "params": {
+      "testingWorkgroups": 896,
+      "maxWorkgroups": 1022,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 8192,
+      "memStride": 5,
+      "stressLineSize": 16,
+      "stressTargetLines": 16,
+      "memStressIterations": 1004,
+      "preStressIterations": 106,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "9": {
+    "Message Passing Coherency": {
+      "seq": 3315596,
+      "interleaved": 2889,
+      "weak": 9515,
+      "durationSeconds": 0.823
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 3310193,
+      "interleaved": 2433,
+      "weak": 15374,
+      "durationSeconds": 0.86
+    },
+    "params": {
+      "testingWorkgroups": 130,
+      "maxWorkgroups": 413,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 4096,
+      "memStride": 4,
+      "stressLineSize": 128,
+      "stressTargetLines": 1,
+      "memStressIterations": 205,
+      "preStressIterations": 114,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "10": {
+    "Message Passing Coherency": {
+      "seq": 3501233,
+      "interleaved": 1580,
+      "weak": 4387,
+      "durationSeconds": 1.149
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 3497562,
+      "interleaved": 1085,
+      "weak": 8553,
+      "durationSeconds": 1.193
+    },
+    "params": {
+      "testingWorkgroups": 137,
+      "maxWorkgroups": 576,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 28672,
+      "memStride": 7,
+      "stressLineSize": 64,
+      "stressTargetLines": 14,
+      "memStressIterations": 638,
+      "preStressIterations": 22,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "11": {
+    "Message Passing Coherency": {
+      "seq": 2642234,
+      "interleaved": 8937,
+      "weak": 36829,
+      "durationSeconds": 0.862
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 2639720,
+      "interleaved": 2119,
+      "weak": 46161,
+      "durationSeconds": 0.897
+    },
+    "params": {
+      "testingWorkgroups": 105,
+      "maxWorkgroups": 704,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 65536,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 8,
+      "memStressIterations": 113,
+      "preStressIterations": 2,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "12": {
+    "Message Passing Coherency": {
+      "seq": 16818724,
+      "interleaved": 2179,
+      "weak": 23897,
+      "durationSeconds": 1.433
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 16815397,
+      "interleaved": 1062,
+      "weak": 28341,
+      "durationSeconds": 1.424
+    },
+    "params": {
+      "testingWorkgroups": 658,
+      "maxWorkgroups": 707,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 2,
+      "stressLineSize": 256,
+      "stressTargetLines": 4,
+      "memStressIterations": 673,
+      "preStressIterations": 128,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "13": {
+    "Message Passing Coherency": {
+      "seq": 4894866,
+      "interleaved": 2208,
+      "weak": 18126,
+      "durationSeconds": 0.958
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 4895152,
+      "interleaved": 738,
+      "weak": 19310,
+      "durationSeconds": 0.921
+    },
+    "params": {
+      "testingWorkgroups": 192,
+      "maxWorkgroups": 307,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 212992,
+      "memStride": 4,
+      "stressLineSize": 512,
+      "stressTargetLines": 13,
+      "memStressIterations": 269,
+      "preStressIterations": 89,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "14": {
+    "Message Passing Coherency": {
+      "seq": 11466207,
+      "interleaved": 741,
+      "weak": 1852,
+      "durationSeconds": 2.297
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 11462799,
+      "interleaved": 647,
+      "weak": 5354,
+      "durationSeconds": 2.241
+    },
+    "params": {
+      "testingWorkgroups": 448,
+      "maxWorkgroups": 862,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 4,
+      "stressLineSize": 8,
+      "stressTargetLines": 16,
+      "memStressIterations": 402,
+      "preStressIterations": 103,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "15": {
+    "Message Passing Coherency": {
+      "seq": 21707560,
+      "interleaved": 503,
+      "weak": 737,
+      "durationSeconds": 3.768
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21706870,
+      "interleaved": 271,
+      "weak": 1659,
+      "durationSeconds": 3.829
+    },
+    "params": {
+      "testingWorkgroups": 848,
+      "maxWorkgroups": 943,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 14336,
+      "memStride": 5,
+      "stressLineSize": 32,
+      "stressTargetLines": 14,
+      "memStressIterations": 782,
+      "preStressIterations": 84,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "16": {
+    "Message Passing Coherency": {
+      "seq": 24800374,
+      "interleaved": 1179,
+      "weak": 4847,
+      "durationSeconds": 3.6
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 24798668,
+      "interleaved": 512,
+      "weak": 7220,
+      "durationSeconds": 3.578
+    },
+    "params": {
+      "testingWorkgroups": 969,
+      "maxWorkgroups": 999,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 81920,
+      "memStride": 1,
+      "stressLineSize": 512,
+      "stressTargetLines": 5,
+      "memStressIterations": 666,
+      "preStressIterations": 86,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "17": {
+    "Message Passing Coherency": {
+      "seq": 21224238,
+      "interleaved": 26655,
+      "weak": 99507,
+      "durationSeconds": 1.391
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21090040,
+      "interleaved": 5608,
+      "weak": 254752,
+      "durationSeconds": 1.388
+    },
+    "params": {
+      "testingWorkgroups": 834,
+      "maxWorkgroups": 927,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 3840,
+      "memStride": 4,
+      "stressLineSize": 8,
+      "stressTargetLines": 15,
+      "memStressIterations": 728,
+      "preStressIterations": 93,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "18": {
+    "Message Passing Coherency": {
+      "seq": 20879617,
+      "interleaved": 1539,
+      "weak": 8444,
+      "durationSeconds": 3.658
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 20876607,
+      "interleaved": 923,
+      "weak": 12070,
+      "durationSeconds": 3.621
+    },
+    "params": {
+      "testingWorkgroups": 816,
+      "maxWorkgroups": 844,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 57344,
+      "memStride": 3,
+      "stressLineSize": 128,
+      "stressTargetLines": 14,
+      "memStressIterations": 18,
+      "preStressIterations": 108,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "19": {
+    "Message Passing Coherency": {
+      "seq": 13576368,
+      "interleaved": 4388,
+      "weak": 38444,
+      "durationSeconds": 1.163
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 13554283,
+      "interleaved": 917,
+      "weak": 64000,
+      "durationSeconds": 1.116
+    },
+    "params": {
+      "testingWorkgroups": 532,
+      "maxWorkgroups": 699,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 262144,
+      "memStride": 4,
+      "stressLineSize": 512,
+      "stressTargetLines": 16,
+      "memStressIterations": 527,
+      "preStressIterations": 18,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "20": {
+    "Message Passing Coherency": {
+      "seq": 3323212,
+      "interleaved": 1670,
+      "weak": 3118,
+      "durationSeconds": 1.161
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 3318908,
+      "interleaved": 1126,
+      "weak": 7966,
+      "durationSeconds": 1.133
+    },
+    "params": {
+      "testingWorkgroups": 130,
+      "maxWorkgroups": 168,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 2048,
+      "memStride": 6,
+      "stressLineSize": 16,
+      "stressTargetLines": 4,
+      "memStressIterations": 219,
+      "preStressIterations": 103,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "21": {
+    "Message Passing Coherency": {
+      "seq": 21953559,
+      "interleaved": 1791,
+      "weak": 9450,
+      "durationSeconds": 1.408
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21954531,
+      "interleaved": 230,
+      "weak": 10039,
+      "durationSeconds": 1.337
+    },
+    "params": {
+      "testingWorkgroups": 858,
+      "maxWorkgroups": 939,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 2816,
+      "memStride": 1,
+      "stressLineSize": 8,
+      "stressTargetLines": 11,
+      "memStressIterations": 975,
+      "preStressIterations": 16,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "22": {
+    "Message Passing Coherency": {
+      "seq": 16762213,
+      "interleaved": 1497,
+      "weak": 4290,
+      "durationSeconds": 1.382
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 16760428,
+      "interleaved": 409,
+      "weak": 7163,
+      "durationSeconds": 1.419
+    },
+    "params": {
+      "testingWorkgroups": 655,
+      "maxWorkgroups": 722,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 28672,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 14,
+      "memStressIterations": 633,
+      "preStressIterations": 124,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "23": {
+    "Message Passing Coherency": {
+      "seq": 10929867,
+      "interleaved": 7394,
+      "weak": 96339,
+      "durationSeconds": 1.243
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 10923498,
+      "interleaved": 2706,
+      "weak": 107396,
+      "durationSeconds": 1.202
+    },
+    "params": {
+      "testingWorkgroups": 431,
+      "maxWorkgroups": 848,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 2560,
+      "memStride": 7,
+      "stressLineSize": 16,
+      "stressTargetLines": 5,
+      "memStressIterations": 104,
+      "preStressIterations": 2,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "24": {
+    "Message Passing Coherency": {
+      "seq": 20396912,
+      "interleaved": 3102,
+      "weak": 28786,
+      "durationSeconds": 1.38
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 20389090,
+      "interleaved": 691,
+      "weak": 39019,
+      "durationSeconds": 1.178
+    },
+    "params": {
+      "testingWorkgroups": 798,
+      "maxWorkgroups": 984,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 10240,
+      "memStride": 3,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 114,
+      "preStressIterations": 5,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "25": {
+    "Message Passing Coherency": {
+      "seq": 24337176,
+      "interleaved": 1867,
+      "weak": 6557,
+      "durationSeconds": 1.383
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 24337832,
+      "interleaved": 358,
+      "weak": 7410,
+      "durationSeconds": 1.276
+    },
+    "params": {
+      "testingWorkgroups": 951,
+      "maxWorkgroups": 990,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 20480,
+      "memStride": 2,
+      "stressLineSize": 64,
+      "stressTargetLines": 10,
+      "memStressIterations": 1020,
+      "preStressIterations": 50,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "26": {
+    "Message Passing Coherency": {
+      "seq": 10662322,
+      "interleaved": 1475,
+      "weak": 11403,
+      "durationSeconds": 1.153
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 10662979,
+      "interleaved": 604,
+      "weak": 11617,
+      "durationSeconds": 1.204
+    },
+    "params": {
+      "testingWorkgroups": 417,
+      "maxWorkgroups": 787,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 7168,
+      "memStride": 3,
+      "stressLineSize": 16,
+      "stressTargetLines": 14,
+      "memStressIterations": 913,
+      "preStressIterations": 88,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "27": {
+    "Message Passing Coherency": {
+      "seq": 12371537,
+      "interleaved": 2544,
+      "weak": 16319,
+      "durationSeconds": 0.926
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 12370434,
+      "interleaved": 502,
+      "weak": 19464,
+      "durationSeconds": 0.902
+    },
+    "params": {
+      "testingWorkgroups": 484,
+      "maxWorkgroups": 721,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 20480,
+      "memStride": 1,
+      "stressLineSize": 128,
+      "stressTargetLines": 5,
+      "memStressIterations": 228,
+      "preStressIterations": 51,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "28": {
+    "Message Passing Coherency": {
+      "seq": 20910377,
+      "interleaved": 1251,
+      "weak": 3572,
+      "durationSeconds": 3.676
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 20907399,
+      "interleaved": 1060,
+      "weak": 6741,
+      "durationSeconds": 3.628
+    },
+    "params": {
+      "testingWorkgroups": 817,
+      "maxWorkgroups": 1019,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 28672,
+      "memStride": 5,
+      "stressLineSize": 64,
+      "stressTargetLines": 14,
+      "memStressIterations": 43,
+      "preStressIterations": 31,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "29": {
+    "Message Passing Coherency": {
+      "seq": 9749833,
+      "interleaved": 1256,
+      "weak": 2511,
+      "durationSeconds": 1.895
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 9747864,
+      "interleaved": 575,
+      "weak": 5161,
+      "durationSeconds": 1.9
+    },
+    "params": {
+      "testingWorkgroups": 381,
+      "maxWorkgroups": 381,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 98304,
+      "memStride": 3,
+      "stressLineSize": 256,
+      "stressTargetLines": 12,
+      "memStressIterations": 485,
+      "preStressIterations": 24,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "30": {
+    "Message Passing Coherency": {
+      "seq": 9468495,
+      "interleaved": 731,
+      "weak": 2774,
+      "durationSeconds": 1.907
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 9467649,
+      "interleaved": 242,
+      "weak": 4109,
+      "durationSeconds": 1.88
+    },
+    "params": {
+      "testingWorkgroups": 370,
+      "maxWorkgroups": 466,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 81920,
+      "memStride": 1,
+      "stressLineSize": 512,
+      "stressTargetLines": 5,
+      "memStressIterations": 951,
+      "preStressIterations": 23,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "31": {
+    "Message Passing Coherency": {
+      "seq": 17915083,
+      "interleaved": 21098,
+      "weak": 111819,
+      "durationSeconds": 1.513
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 17832144,
+      "interleaved": 6728,
+      "weak": 209128,
+      "durationSeconds": 1.486
+    },
+    "params": {
+      "testingWorkgroups": 705,
+      "maxWorkgroups": 713,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 7,
+      "stressLineSize": 256,
+      "stressTargetLines": 4,
+      "memStressIterations": 389,
+      "preStressIterations": 0,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "32": {
+    "Message Passing Coherency": {
+      "seq": 9137445,
+      "interleaved": 630,
+      "weak": 1125,
+      "durationSeconds": 1.926
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 9135883,
+      "interleaved": 367,
+      "weak": 2950,
+      "durationSeconds": 1.905
+    },
+    "params": {
+      "testingWorkgroups": 357,
+      "maxWorkgroups": 497,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 1536,
+      "memStride": 3,
+      "stressLineSize": 16,
+      "stressTargetLines": 3,
+      "memStressIterations": 660,
+      "preStressIterations": 113,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "33": {
+    "Message Passing Coherency": {
+      "seq": 12577424,
+      "interleaved": 3959,
+      "weak": 39417,
+      "durationSeconds": 1.04
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 12559511,
+      "interleaved": 527,
+      "weak": 60762,
+      "durationSeconds": 0.988
+    },
+    "params": {
+      "testingWorkgroups": 493,
+      "maxWorkgroups": 715,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 4096,
+      "memStride": 2,
+      "stressLineSize": 16,
+      "stressTargetLines": 8,
+      "memStressIterations": 979,
+      "preStressIterations": 25,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "34": {
+    "Message Passing Coherency": {
+      "seq": 21622885,
+      "interleaved": 25112,
+      "weak": 112003,
+      "durationSeconds": 1.655
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21473988,
+      "interleaved": 7591,
+      "weak": 278421,
+      "durationSeconds": 1.528
+    },
+    "params": {
+      "testingWorkgroups": 850,
+      "maxWorkgroups": 915,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 40960,
+      "memStride": 6,
+      "stressLineSize": 256,
+      "stressTargetLines": 5,
+      "memStressIterations": 599,
+      "preStressIterations": 20,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "35": {
+    "Message Passing Coherency": {
+      "seq": 18120062,
+      "interleaved": 1088,
+      "weak": 3650,
+      "durationSeconds": 2.919
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 18118184,
+      "interleaved": 648,
+      "weak": 5968,
+      "durationSeconds": 2.799
+    },
+    "params": {
+      "testingWorkgroups": 708,
+      "maxWorkgroups": 851,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 14336,
+      "memStride": 2,
+      "stressLineSize": 32,
+      "stressTargetLines": 14,
+      "memStressIterations": 900,
+      "preStressIterations": 110,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "36": {
+    "Message Passing Coherency": {
+      "seq": 11328944,
+      "interleaved": 3685,
+      "weak": 33771,
+      "durationSeconds": 1.286
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 11314683,
+      "interleaved": 1153,
+      "weak": 50564,
+      "durationSeconds": 1.209
+    },
+    "params": {
+      "testingWorkgroups": 444,
+      "maxWorkgroups": 637,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 7,
+      "stressLineSize": 128,
+      "stressTargetLines": 4,
+      "memStressIterations": 412,
+      "preStressIterations": 40,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "37": {
+    "Message Passing Coherency": {
+      "seq": 2605782,
+      "interleaved": 2623,
+      "weak": 2795,
+      "durationSeconds": 0.929
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 2604271,
+      "interleaved": 1620,
+      "weak": 5309,
+      "durationSeconds": 0.914
+    },
+    "params": {
+      "testingWorkgroups": 102,
+      "maxWorkgroups": 421,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 81920,
+      "memStride": 7,
+      "stressLineSize": 512,
+      "stressTargetLines": 5,
+      "memStressIterations": 184,
+      "preStressIterations": 116,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "38": {
+    "Message Passing Coherency": {
+      "seq": 4115579,
+      "interleaved": 1819,
+      "weak": 4202,
+      "durationSeconds": 1.305
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 4112050,
+      "interleaved": 973,
+      "weak": 8577,
+      "durationSeconds": 1.243
+    },
+    "params": {
+      "testingWorkgroups": 161,
+      "maxWorkgroups": 439,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 16384,
+      "memStride": 6,
+      "stressLineSize": 64,
+      "stressTargetLines": 8,
+      "memStressIterations": 948,
+      "preStressIterations": 50,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "39": {
+    "Message Passing Coherency": {
+      "seq": 771341,
+      "interleaved": 8093,
+      "weak": 14166,
+      "durationSeconds": 0.86
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 756866,
+      "interleaved": 4360,
+      "weak": 32374,
+      "durationSeconds": 0.824
+    },
+    "params": {
+      "testingWorkgroups": 31,
+      "maxWorkgroups": 239,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 14336,
+      "memStride": 4,
+      "stressLineSize": 64,
+      "stressTargetLines": 7,
+      "memStressIterations": 893,
+      "preStressIterations": 48,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "40": {
+    "Message Passing Coherency": {
+      "seq": 11747251,
+      "interleaved": 752,
+      "weak": 2397,
+      "durationSeconds": 2.64
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 11745194,
+      "interleaved": 710,
+      "weak": 4496,
+      "durationSeconds": 2.619
+    },
+    "params": {
+      "testingWorkgroups": 459,
+      "maxWorkgroups": 633,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 53248,
+      "memStride": 5,
+      "stressLineSize": 128,
+      "stressTargetLines": 13,
+      "memStressIterations": 806,
+      "preStressIterations": 108,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "41": {
+    "Message Passing Coherency": {
+      "seq": 14480007,
+      "interleaved": 1889,
+      "weak": 7704,
+      "durationSeconds": 1.52
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 14477867,
+      "interleaved": 1063,
+      "weak": 10670,
+      "durationSeconds": 1.514
+    },
+    "params": {
+      "testingWorkgroups": 566,
+      "maxWorkgroups": 713,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 131072,
+      "memStride": 5,
+      "stressLineSize": 1024,
+      "stressTargetLines": 4,
+      "memStressIterations": 893,
+      "preStressIterations": 116,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "42": {
+    "Message Passing Coherency": {
+      "seq": 971045,
+      "interleaved": 616,
+      "weak": 1139,
+      "durationSeconds": 1.025
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 968872,
+      "interleaved": 387,
+      "weak": 3541,
+      "durationSeconds": 0.947
+    },
+    "params": {
+      "testingWorkgroups": 38,
+      "maxWorkgroups": 403,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 18432,
+      "memStride": 5,
+      "stressLineSize": 64,
+      "stressTargetLines": 9,
+      "memStressIterations": 420,
+      "preStressIterations": 96,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "43": {
+    "Message Passing Coherency": {
+      "seq": 21924830,
+      "interleaved": 2133,
+      "weak": 12237,
+      "durationSeconds": 1.354
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21926526,
+      "interleaved": 778,
+      "weak": 11896,
+      "durationSeconds": 1.332
+    },
+    "params": {
+      "testingWorkgroups": 857,
+      "maxWorkgroups": 936,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 49152,
+      "memStride": 2,
+      "stressLineSize": 128,
+      "stressTargetLines": 12,
+      "memStressIterations": 332,
+      "preStressIterations": 104,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "44": {
+    "Message Passing Coherency": {
+      "seq": 23803012,
+      "interleaved": 1024,
+      "weak": 3964,
+      "durationSeconds": 3.368
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 23802544,
+      "interleaved": 405,
+      "weak": 5051,
+      "durationSeconds": 3.235
+    },
+    "params": {
+      "testingWorkgroups": 930,
+      "maxWorkgroups": 988,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 1,
+      "stressLineSize": 512,
+      "stressTargetLines": 2,
+      "memStressIterations": 900,
+      "preStressIterations": 127,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "45": {
+    "Message Passing Coherency": {
+      "seq": 2871545,
+      "interleaved": 4010,
+      "weak": 17245,
+      "durationSeconds": 0.848
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 2858950,
+      "interleaved": 1250,
+      "weak": 32600,
+      "durationSeconds": 0.849
+    },
+    "params": {
+      "testingWorkgroups": 113,
+      "maxWorkgroups": 727,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 81920,
+      "memStride": 1,
+      "stressLineSize": 256,
+      "stressTargetLines": 10,
+      "memStressIterations": 682,
+      "preStressIterations": 55,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "46": {
+    "Message Passing Coherency": {
+      "seq": 14331550,
+      "interleaved": 916,
+      "weak": 3534,
+      "durationSeconds": 2.483
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 14329720,
+      "interleaved": 449,
+      "weak": 5831,
+      "durationSeconds": 2.515
+    },
+    "params": {
+      "testingWorkgroups": 560,
+      "maxWorkgroups": 872,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 61440,
+      "memStride": 1,
+      "stressLineSize": 128,
+      "stressTargetLines": 15,
+      "memStressIterations": 1024,
+      "preStressIterations": 35,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "47": {
+    "Message Passing Coherency": {
+      "seq": 10738367,
+      "interleaved": 1393,
+      "weak": 12240,
+      "durationSeconds": 1.46
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 10736139,
+      "interleaved": 841,
+      "weak": 15020,
+      "durationSeconds": 1.397
+    },
+    "params": {
+      "testingWorkgroups": 420,
+      "maxWorkgroups": 926,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 10240,
+      "memStride": 4,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 156,
+      "preStressIterations": 96,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "48": {
+    "Message Passing Coherency": {
+      "seq": 5320769,
+      "interleaved": 3476,
+      "weak": 26155,
+      "durationSeconds": 0.968
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 5314041,
+      "interleaved": 924,
+      "weak": 35435,
+      "durationSeconds": 0.932
+    },
+    "params": {
+      "testingWorkgroups": 209,
+      "maxWorkgroups": 283,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 10240,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 5,
+      "memStressIterations": 772,
+      "preStressIterations": 113,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "49": {
+    "Message Passing Coherency": {
+      "seq": 21293874,
+      "interleaved": 1661,
+      "weak": 3665,
+      "durationSeconds": 3.639
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21290589,
+      "interleaved": 1295,
+      "weak": 7316,
+      "durationSeconds": 3.328
+    },
+    "params": {
+      "testingWorkgroups": 832,
+      "maxWorkgroups": 930,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 128,
+      "memStride": 6,
+      "stressLineSize": 4,
+      "stressTargetLines": 1,
+      "memStressIterations": 848,
+      "preStressIterations": 84,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "50": {
+    "Message Passing Coherency": {
+      "seq": 944995,
+      "interleaved": 1392,
+      "weak": 813,
+      "durationSeconds": 0.843
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 938325,
+      "interleaved": 1427,
+      "weak": 7448,
+      "durationSeconds": 0.915
+    },
+    "params": {
+      "testingWorkgroups": 37,
+      "maxWorkgroups": 256,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1792,
+      "memStride": 5,
+      "stressLineSize": 4,
+      "stressTargetLines": 14,
+      "memStressIterations": 205,
+      "preStressIterations": 50,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "51": {
+    "Message Passing Coherency": {
+      "seq": 14902995,
+      "interleaved": 17377,
+      "weak": 81228,
+      "durationSeconds": 1.091
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 14849602,
+      "interleaved": 1813,
+      "weak": 150185,
+      "durationSeconds": 1.048
+    },
+    "params": {
+      "testingWorkgroups": 586,
+      "maxWorkgroups": 853,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 24576,
+      "memStride": 2,
+      "stressLineSize": 256,
+      "stressTargetLines": 3,
+      "memStressIterations": 337,
+      "preStressIterations": 1,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "52": {
+    "Message Passing Coherency": {
+      "seq": 13096568,
+      "interleaved": 12505,
+      "weak": 100527,
+      "durationSeconds": 1.506
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 13166702,
+      "interleaved": 1297,
+      "weak": 41601,
+      "durationSeconds": 1.423
+    },
+    "params": {
+      "testingWorkgroups": 516,
+      "maxWorkgroups": 875,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 13312,
+      "memStride": 6,
+      "stressLineSize": 32,
+      "stressTargetLines": 13,
+      "memStressIterations": 191,
+      "preStressIterations": 25,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "53": {
+    "Message Passing Coherency": {
+      "seq": 5530019,
+      "interleaved": 2851,
+      "weak": 22330,
+      "durationSeconds": 1.095
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 5516579,
+      "interleaved": 1612,
+      "weak": 37009,
+      "durationSeconds": 1.018
+    },
+    "params": {
+      "testingWorkgroups": 217,
+      "maxWorkgroups": 708,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 6144,
+      "memStride": 6,
+      "stressLineSize": 64,
+      "stressTargetLines": 3,
+      "memStressIterations": 657,
+      "preStressIterations": 111,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "54": {
+    "Message Passing Coherency": {
+      "seq": 11875923,
+      "interleaved": 937,
+      "weak": 1540,
+      "durationSeconds": 2.172
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 11873651,
+      "interleaved": 470,
+      "weak": 4279,
+      "durationSeconds": 2.215
+    },
+    "params": {
+      "testingWorkgroups": 464,
+      "maxWorkgroups": 491,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 15360,
+      "memStride": 3,
+      "stressLineSize": 32,
+      "stressTargetLines": 15,
+      "memStressIterations": 575,
+      "preStressIterations": 64,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "55": {
+    "Message Passing Coherency": {
+      "seq": 4371749,
+      "interleaved": 1445,
+      "weak": 4406,
+      "durationSeconds": 1.273
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 4367933,
+      "interleaved": 620,
+      "weak": 9047,
+      "durationSeconds": 1.265
+    },
+    "params": {
+      "testingWorkgroups": 171,
+      "maxWorkgroups": 825,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 6144,
+      "memStride": 1,
+      "stressLineSize": 32,
+      "stressTargetLines": 6,
+      "memStressIterations": 217,
+      "preStressIterations": 86,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "56": {
+    "Message Passing Coherency": {
+      "seq": 3066291,
+      "interleaved": 2107,
+      "weak": 3602,
+      "durationSeconds": 1.127
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 3064049,
+      "interleaved": 1018,
+      "weak": 6933,
+      "durationSeconds": 1.098
+    },
+    "params": {
+      "testingWorkgroups": 120,
+      "maxWorkgroups": 801,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 20480,
+      "memStride": 4,
+      "stressLineSize": 128,
+      "stressTargetLines": 5,
+      "memStressIterations": 653,
+      "preStressIterations": 85,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "57": {
+    "Message Passing Coherency": {
+      "seq": 17909864,
+      "interleaved": 1773,
+      "weak": 8363,
+      "durationSeconds": 1.919
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 17910023,
+      "interleaved": 510,
+      "weak": 9467,
+      "durationSeconds": 1.917
+    },
+    "params": {
+      "testingWorkgroups": 700,
+      "maxWorkgroups": 1021,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1536,
+      "memStride": 7,
+      "stressLineSize": 8,
+      "stressTargetLines": 6,
+      "memStressIterations": 735,
+      "preStressIterations": 14,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "58": {
+    "Message Passing Coherency": {
+      "seq": 15995440,
+      "interleaved": 1016,
+      "weak": 3544,
+      "durationSeconds": 2.765
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 15993422,
+      "interleaved": 609,
+      "weak": 5969,
+      "durationSeconds": 2.722
+    },
+    "params": {
+      "testingWorkgroups": 625,
+      "maxWorkgroups": 749,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 49152,
+      "memStride": 2,
+      "stressLineSize": 256,
+      "stressTargetLines": 6,
+      "memStressIterations": 855,
+      "preStressIterations": 42,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "59": {
+    "Message Passing Coherency": {
+      "seq": 1839626,
+      "interleaved": 4755,
+      "weak": 24419,
+      "durationSeconds": 0.92
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 1830321,
+      "interleaved": 2001,
+      "weak": 36478,
+      "durationSeconds": 0.916
+    },
+    "params": {
+      "testingWorkgroups": 73,
+      "maxWorkgroups": 863,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1792,
+      "memStride": 6,
+      "stressLineSize": 8,
+      "stressTargetLines": 7,
+      "memStressIterations": 860,
+      "preStressIterations": 77,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "60": {
+    "Message Passing Coherency": {
+      "seq": 3064397,
+      "interleaved": 2564,
+      "weak": 5039,
+      "durationSeconds": 1.003
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 3059004,
+      "interleaved": 2283,
+      "weak": 10713,
+      "durationSeconds": 1.028
+    },
+    "params": {
+      "testingWorkgroups": 120,
+      "maxWorkgroups": 342,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 61440,
+      "memStride": 7,
+      "stressLineSize": 128,
+      "stressTargetLines": 15,
+      "memStressIterations": 839,
+      "preStressIterations": 24,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "61": {
+    "Message Passing Coherency": {
+      "seq": 17522204,
+      "interleaved": 22270,
+      "weak": 93926,
+      "durationSeconds": 1.613
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 17410700,
+      "interleaved": 6298,
+      "weak": 221402,
+      "durationSeconds": 1.632
+    },
+    "params": {
+      "testingWorkgroups": 689,
+      "maxWorkgroups": 865,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 1536,
+      "memStride": 6,
+      "stressLineSize": 16,
+      "stressTargetLines": 3,
+      "memStressIterations": 805,
+      "preStressIterations": 41,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "62": {
+    "Message Passing Coherency": {
+      "seq": 24087252,
+      "interleaved": 927,
+      "weak": 1421,
+      "durationSeconds": 4.114
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 24085459,
+      "interleaved": 513,
+      "weak": 3628,
+      "durationSeconds": 4.128
+    },
+    "params": {
+      "testingWorkgroups": 941,
+      "maxWorkgroups": 993,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1024,
+      "memStride": 7,
+      "stressLineSize": 32,
+      "stressTargetLines": 1,
+      "memStressIterations": 155,
+      "preStressIterations": 88,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "63": {
+    "Message Passing Coherency": {
+      "seq": 12666607,
+      "interleaved": 1735,
+      "weak": 3658,
+      "durationSeconds": 1.422
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 12665127,
+      "interleaved": 683,
+      "weak": 6190,
+      "durationSeconds": 1.407
+    },
+    "params": {
+      "testingWorkgroups": 495,
+      "maxWorkgroups": 604,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 8192,
+      "memStride": 6,
+      "stressLineSize": 64,
+      "stressTargetLines": 4,
+      "memStressIterations": 282,
+      "preStressIterations": 95,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "64": {
+    "Message Passing Coherency": {
+      "seq": 4550433,
+      "interleaved": 1671,
+      "weak": 4696,
+      "durationSeconds": 1.411
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 4546621,
+      "interleaved": 1192,
+      "weak": 8987,
+      "durationSeconds": 1.36
+    },
+    "params": {
+      "testingWorkgroups": 178,
+      "maxWorkgroups": 942,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 7680,
+      "memStride": 5,
+      "stressLineSize": 16,
+      "stressTargetLines": 15,
+      "memStressIterations": 405,
+      "preStressIterations": 49,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "65": {
+    "Message Passing Coherency": {
+      "seq": 3245496,
+      "interleaved": 1843,
+      "weak": 3861,
+      "durationSeconds": 1.103
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 3239557,
+      "interleaved": 1322,
+      "weak": 10321,
+      "durationSeconds": 1.163
+    },
+    "params": {
+      "testingWorkgroups": 127,
+      "maxWorkgroups": 834,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 2560,
+      "memStride": 5,
+      "stressLineSize": 8,
+      "stressTargetLines": 10,
+      "memStressIterations": 70,
+      "preStressIterations": 94,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "66": {
+    "Message Passing Coherency": {
+      "seq": 19120372,
+      "interleaved": 1019,
+      "weak": 1809,
+      "durationSeconds": 3.257
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 19118805,
+      "interleaved": 517,
+      "weak": 3878,
+      "durationSeconds": 3.207
+    },
+    "params": {
+      "testingWorkgroups": 747,
+      "maxWorkgroups": 966,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1152,
+      "memStride": 5,
+      "stressLineSize": 4,
+      "stressTargetLines": 9,
+      "memStressIterations": 285,
+      "preStressIterations": 64,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "67": {
+    "Message Passing Coherency": {
+      "seq": 23015000,
+      "interleaved": 27126,
+      "weak": 151474,
+      "durationSeconds": 1.622
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 22985225,
+      "interleaved": 5486,
+      "weak": 202889,
+      "durationSeconds": 1.453
+    },
+    "params": {
+      "testingWorkgroups": 906,
+      "maxWorkgroups": 906,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 20480,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 10,
+      "memStressIterations": 217,
+      "preStressIterations": 34,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "68": {
+    "Message Passing Coherency": {
+      "seq": 6952723,
+      "interleaved": 2181,
+      "weak": 8296,
+      "durationSeconds": 0.967
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 6951999,
+      "interleaved": 668,
+      "weak": 10533,
+      "durationSeconds": 1.007
+    },
+    "params": {
+      "testingWorkgroups": 272,
+      "maxWorkgroups": 723,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 81920,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 10,
+      "memStressIterations": 419,
+      "preStressIterations": 61,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "69": {
+    "Message Passing Coherency": {
+      "seq": 2348662,
+      "interleaved": 1983,
+      "weak": 4555,
+      "durationSeconds": 1.156
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 2342643,
+      "interleaved": 1214,
+      "weak": 11343,
+      "durationSeconds": 1.118
+    },
+    "params": {
+      "testingWorkgroups": 92,
+      "maxWorkgroups": 726,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 1280,
+      "memStride": 3,
+      "stressLineSize": 8,
+      "stressTargetLines": 5,
+      "memStressIterations": 161,
+      "preStressIterations": 69,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "70": {
+    "Message Passing Coherency": {
+      "seq": 17202137,
+      "interleaved": 431,
+      "weak": 632,
+      "durationSeconds": 3.128
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 17201036,
+      "interleaved": 244,
+      "weak": 1920,
+      "durationSeconds": 3.077
+    },
+    "params": {
+      "testingWorkgroups": 672,
+      "maxWorkgroups": 842,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 2048,
+      "memStride": 4,
+      "stressLineSize": 16,
+      "stressTargetLines": 4,
+      "memStressIterations": 364,
+      "preStressIterations": 25,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "71": {
+    "Message Passing Coherency": {
+      "seq": 4580717,
+      "interleaved": 621,
+      "weak": 1062,
+      "durationSeconds": 1.562
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 4579123,
+      "interleaved": 343,
+      "weak": 2934,
+      "durationSeconds": 1.587
+    },
+    "params": {
+      "testingWorkgroups": 179,
+      "maxWorkgroups": 555,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 3,
+      "stressLineSize": 256,
+      "stressTargetLines": 2,
+      "memStressIterations": 554,
+      "preStressIterations": 127,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "72": {
+    "Message Passing Coherency": {
+      "seq": 18836190,
+      "interleaved": 1095,
+      "weak": 4315,
+      "durationSeconds": 3.047
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 18834890,
+      "interleaved": 479,
+      "weak": 6231,
+      "durationSeconds": 3.05
+    },
+    "params": {
+      "testingWorkgroups": 736,
+      "maxWorkgroups": 817,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 3840,
+      "memStride": 1,
+      "stressLineSize": 8,
+      "stressTargetLines": 15,
+      "memStressIterations": 85,
+      "preStressIterations": 0,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "73": {
+    "Message Passing Coherency": {
+      "seq": 21012543,
+      "interleaved": 1373,
+      "weak": 3684,
+      "durationSeconds": 3.341
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21009487,
+      "interleaved": 1063,
+      "weak": 7050,
+      "durationSeconds": 3.306
+    },
+    "params": {
+      "testingWorkgroups": 821,
+      "maxWorkgroups": 835,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1792,
+      "memStride": 4,
+      "stressLineSize": 4,
+      "stressTargetLines": 14,
+      "memStressIterations": 562,
+      "preStressIterations": 21,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "74": {
+    "Message Passing Coherency": {
+      "seq": 18891215,
+      "interleaved": 3365,
+      "weak": 23820,
+      "durationSeconds": 1.311
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 18898505,
+      "interleaved": 946,
+      "weak": 18949,
+      "durationSeconds": 1.311
+    },
+    "params": {
+      "testingWorkgroups": 739,
+      "maxWorkgroups": 885,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 1408,
+      "memStride": 2,
+      "stressLineSize": 4,
+      "stressTargetLines": 11,
+      "memStressIterations": 156,
+      "preStressIterations": 33,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "75": {
+    "Message Passing Coherency": {
+      "seq": 20452248,
+      "interleaved": 714,
+      "weak": 1438,
+      "durationSeconds": 3.23
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 20451381,
+      "interleaved": 194,
+      "weak": 2825,
+      "durationSeconds": 3.271
+    },
+    "params": {
+      "testingWorkgroups": 799,
+      "maxWorkgroups": 816,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 384,
+      "memStride": 1,
+      "stressLineSize": 4,
+      "stressTargetLines": 3,
+      "memStressIterations": 930,
+      "preStressIterations": 73,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "76": {
+    "Message Passing Coherency": {
+      "seq": 21399033,
+      "interleaved": 945,
+      "weak": 1622,
+      "durationSeconds": 3.788
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21397551,
+      "interleaved": 495,
+      "weak": 3554,
+      "durationSeconds": 3.836
+    },
+    "params": {
+      "testingWorkgroups": 836,
+      "maxWorkgroups": 961,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 4608,
+      "memStride": 6,
+      "stressLineSize": 16,
+      "stressTargetLines": 9,
+      "memStressIterations": 100,
+      "preStressIterations": 12,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "77": {
+    "Message Passing Coherency": {
+      "seq": 2522788,
+      "interleaved": 7500,
+      "weak": 29712,
+      "durationSeconds": 1.571
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 2501973,
+      "interleaved": 4001,
+      "weak": 54026,
+      "durationSeconds": 1.603
+    },
+    "params": {
+      "testingWorkgroups": 100,
+      "maxWorkgroups": 848,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 524288,
+      "memStride": 5,
+      "stressLineSize": 1024,
+      "stressTargetLines": 16,
+      "memStressIterations": 876,
+      "preStressIterations": 80,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "78": {
+    "Message Passing Coherency": {
+      "seq": 5446106,
+      "interleaved": 1896,
+      "weak": 4798,
+      "durationSeconds": 1.424
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 5443390,
+      "interleaved": 813,
+      "weak": 8597,
+      "durationSeconds": 1.51
+    },
+    "params": {
+      "testingWorkgroups": 213,
+      "maxWorkgroups": 317,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1536,
+      "memStride": 2,
+      "stressLineSize": 8,
+      "stressTargetLines": 6,
+      "memStressIterations": 126,
+      "preStressIterations": 51,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "79": {
+    "Message Passing Coherency": {
+      "seq": 7321950,
+      "interleaved": 7894,
+      "weak": 42956,
+      "durationSeconds": 1.277
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 7330479,
+      "interleaved": 1320,
+      "weak": 41001,
+      "durationSeconds": 1.152
+    },
+    "params": {
+      "testingWorkgroups": 288,
+      "maxWorkgroups": 682,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 2048,
+      "memStride": 3,
+      "stressLineSize": 32,
+      "stressTargetLines": 2,
+      "memStressIterations": 208,
+      "preStressIterations": 106,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "80": {
+    "Message Passing Coherency": {
+      "seq": 10381435,
+      "interleaved": 1409,
+      "weak": 10756,
+      "durationSeconds": 1.388
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 10383864,
+      "interleaved": 435,
+      "weak": 9301,
+      "durationSeconds": 1.291
+    },
+    "params": {
+      "testingWorkgroups": 406,
+      "maxWorkgroups": 946,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 16384,
+      "memStride": 2,
+      "stressLineSize": 32,
+      "stressTargetLines": 16,
+      "memStressIterations": 413,
+      "preStressIterations": 56,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "81": {
+    "Message Passing Coherency": {
+      "seq": 1502583,
+      "interleaved": 2677,
+      "weak": 5140,
+      "durationSeconds": 0.989
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 1495515,
+      "interleaved": 1940,
+      "weak": 12945,
+      "durationSeconds": 0.935
+    },
+    "params": {
+      "testingWorkgroups": 59,
+      "maxWorkgroups": 221,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 458752,
+      "memStride": 7,
+      "stressLineSize": 1024,
+      "stressTargetLines": 14,
+      "memStressIterations": 552,
+      "preStressIterations": 51,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "82": {
+    "Message Passing Coherency": {
+      "seq": 21516334,
+      "interleaved": 4713,
+      "weak": 34153,
+      "durationSeconds": 1.918
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21507608,
+      "interleaved": 1372,
+      "weak": 46220,
+      "durationSeconds": 1.748
+    },
+    "params": {
+      "testingWorkgroups": 842,
+      "maxWorkgroups": 851,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 7,
+      "stressLineSize": 64,
+      "stressTargetLines": 2,
+      "memStressIterations": 960,
+      "preStressIterations": 72,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "83": {
+    "Message Passing Coherency": {
+      "seq": 6113292,
+      "interleaved": 1515,
+      "weak": 3593,
+      "durationSeconds": 1.632
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 6109766,
+      "interleaved": 729,
+      "weak": 7905,
+      "durationSeconds": 1.674
+    },
+    "params": {
+      "testingWorkgroups": 239,
+      "maxWorkgroups": 401,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 10240,
+      "memStride": 4,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 974,
+      "preStressIterations": 35,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "84": {
+    "Message Passing Coherency": {
+      "seq": 19052717,
+      "interleaved": 4257,
+      "weak": 40626,
+      "durationSeconds": 1.567
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 19032492,
+      "interleaved": 872,
+      "weak": 64236,
+      "durationSeconds": 1.506
+    },
+    "params": {
+      "testingWorkgroups": 746,
+      "maxWorkgroups": 829,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 24576,
+      "memStride": 4,
+      "stressLineSize": 64,
+      "stressTargetLines": 12,
+      "memStressIterations": 355,
+      "preStressIterations": 78,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "85": {
+    "Message Passing Coherency": {
+      "seq": 24982217,
+      "interleaved": 1326,
+      "weak": 2057,
+      "durationSeconds": 4.424
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 24978112,
+      "interleaved": 1405,
+      "weak": 6083,
+      "durationSeconds": 4.39
+    },
+    "params": {
+      "testingWorkgroups": 976,
+      "maxWorkgroups": 982,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 3840,
+      "memStride": 7,
+      "stressLineSize": 8,
+      "stressTargetLines": 15,
+      "memStressIterations": 925,
+      "preStressIterations": 111,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "86": {
+    "Message Passing Coherency": {
+      "seq": 11415016,
+      "interleaved": 837,
+      "weak": 1747,
+      "durationSeconds": 1.448
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 11414996,
+      "interleaved": 137,
+      "weak": 2467,
+      "durationSeconds": 1.401
+    },
+    "params": {
+      "testingWorkgroups": 446,
+      "maxWorkgroups": 785,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1536,
+      "memStride": 1,
+      "stressLineSize": 16,
+      "stressTargetLines": 3,
+      "memStressIterations": 669,
+      "preStressIterations": 87,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "87": {
+    "Message Passing Coherency": {
+      "seq": 15674177,
+      "interleaved": 2440,
+      "weak": 16183,
+      "durationSeconds": 1.834
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 15677717,
+      "interleaved": 1540,
+      "weak": 13543,
+      "durationSeconds": 1.922
+    },
+    "params": {
+      "testingWorkgroups": 613,
+      "maxWorkgroups": 865,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 163840,
+      "memStride": 6,
+      "stressLineSize": 512,
+      "stressTargetLines": 10,
+      "memStressIterations": 302,
+      "preStressIterations": 99,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "88": {
+    "Message Passing Coherency": {
+      "seq": 12577946,
+      "interleaved": 15714,
+      "weak": 78340,
+      "durationSeconds": 1.262
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 12583754,
+      "interleaved": 1979,
+      "weak": 86267,
+      "durationSeconds": 1.242
+    },
+    "params": {
+      "testingWorkgroups": 495,
+      "maxWorkgroups": 546,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 8192,
+      "memStride": 2,
+      "stressLineSize": 128,
+      "stressTargetLines": 2,
+      "memStressIterations": 990,
+      "preStressIterations": 61,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "89": {
+    "Message Passing Coherency": {
+      "seq": 1095203,
+      "interleaved": 3218,
+      "weak": 2379,
+      "durationSeconds": 0.912
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 1089482,
+      "interleaved": 1511,
+      "weak": 9807,
+      "durationSeconds": 0.925
+    },
+    "params": {
+      "testingWorkgroups": 43,
+      "maxWorkgroups": 252,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 1,
+      "stressLineSize": 64,
+      "stressTargetLines": 2,
+      "memStressIterations": 177,
+      "preStressIterations": 85,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "90": {
+    "Message Passing Coherency": {
+      "seq": 5421472,
+      "interleaved": 1694,
+      "weak": 4034,
+      "durationSeconds": 1.571
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 5418626,
+      "interleaved": 967,
+      "weak": 7607,
+      "durationSeconds": 1.557
+    },
+    "params": {
+      "testingWorkgroups": 212,
+      "maxWorkgroups": 354,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 180224,
+      "memStride": 6,
+      "stressLineSize": 512,
+      "stressTargetLines": 11,
+      "memStressIterations": 144,
+      "preStressIterations": 96,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "91": {
+    "Message Passing Coherency": {
+      "seq": 21397608,
+      "interleaved": 1544,
+      "weak": 2448,
+      "durationSeconds": 1.715
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21396678,
+      "interleaved": 494,
+      "weak": 4428,
+      "durationSeconds": 1.733
+    },
+    "params": {
+      "testingWorkgroups": 836,
+      "maxWorkgroups": 932,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 2,
+      "memStressIterations": 265,
+      "preStressIterations": 95,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "92": {
+    "Message Passing Coherency": {
+      "seq": 15000081,
+      "interleaved": 493,
+      "weak": 1026,
+      "durationSeconds": 2.82
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 14999416,
+      "interleaved": 197,
+      "weak": 1987,
+      "durationSeconds": 2.748
+    },
+    "params": {
+      "testingWorkgroups": 586,
+      "maxWorkgroups": 800,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 6656,
+      "memStride": 1,
+      "stressLineSize": 16,
+      "stressTargetLines": 13,
+      "memStressIterations": 612,
+      "preStressIterations": 94,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "93": {
+    "Message Passing Coherency": {
+      "seq": 11651179,
+      "interleaved": 14434,
+      "weak": 59187,
+      "durationSeconds": 1.388
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 11572861,
+      "interleaved": 4415,
+      "weak": 147524,
+      "durationSeconds": 1.271
+    },
+    "params": {
+      "testingWorkgroups": 458,
+      "maxWorkgroups": 497,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 6144,
+      "memStride": 6,
+      "stressLineSize": 16,
+      "stressTargetLines": 12,
+      "memStressIterations": 394,
+      "preStressIterations": 52,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "94": {
+    "Message Passing Coherency": {
+      "seq": 21089117,
+      "interleaved": 1734,
+      "weak": 3549,
+      "durationSeconds": 3.886
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21085816,
+      "interleaved": 1439,
+      "weak": 7145,
+      "durationSeconds": 3.926
+    },
+    "params": {
+      "testingWorkgroups": 824,
+      "maxWorkgroups": 903,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 10240,
+      "memStride": 7,
+      "stressLineSize": 32,
+      "stressTargetLines": 10,
+      "memStressIterations": 299,
+      "preStressIterations": 94,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "95": {
+    "Message Passing Coherency": {
+      "seq": 608219,
+      "interleaved": 2642,
+      "weak": 3539,
+      "durationSeconds": 0.949
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 597600,
+      "interleaved": 3692,
+      "weak": 13108,
+      "durationSeconds": 1.001
+    },
+    "params": {
+      "testingWorkgroups": 24,
+      "maxWorkgroups": 770,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 49152,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 6,
+      "memStressIterations": 151,
+      "preStressIterations": 66,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "96": {
+    "Message Passing Coherency": {
+      "seq": 6646375,
+      "interleaved": 1279,
+      "weak": 8346,
+      "durationSeconds": 1.147
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 6647439,
+      "interleaved": 385,
+      "weak": 8176,
+      "durationSeconds": 1.052
+    },
+    "params": {
+      "testingWorkgroups": 260,
+      "maxWorkgroups": 694,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 3584,
+      "memStride": 2,
+      "stressLineSize": 8,
+      "stressTargetLines": 14,
+      "memStressIterations": 198,
+      "preStressIterations": 59,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "97": {
+    "Message Passing Coherency": {
+      "seq": 24113077,
+      "interleaved": 800,
+      "weak": 1323,
+      "durationSeconds": 3.633
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 24112373,
+      "interleaved": 219,
+      "weak": 2608,
+      "durationSeconds": 3.392
+    },
+    "params": {
+      "testingWorkgroups": 942,
+      "maxWorkgroups": 954,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 256,
+      "memStride": 2,
+      "stressLineSize": 4,
+      "stressTargetLines": 2,
+      "memStressIterations": 271,
+      "preStressIterations": 31,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "98": {
+    "Message Passing Coherency": {
+      "seq": 11925665,
+      "interleaved": 1190,
+      "weak": 2745,
+      "durationSeconds": 2.248
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 11924417,
+      "interleaved": 456,
+      "weak": 4727,
+      "durationSeconds": 2.337
+    },
+    "params": {
+      "testingWorkgroups": 466,
+      "maxWorkgroups": 795,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 2304,
+      "memStride": 3,
+      "stressLineSize": 8,
+      "stressTargetLines": 9,
+      "memStressIterations": 444,
+      "preStressIterations": 65,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "99": {
+    "Message Passing Coherency": {
+      "seq": 20742378,
+      "interleaved": 4555,
+      "weak": 40267,
+      "durationSeconds": 1.956
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 20716827,
+      "interleaved": 1081,
+      "weak": 69292,
+      "durationSeconds": 1.901
+    },
+    "params": {
+      "testingWorkgroups": 812,
+      "maxWorkgroups": 851,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 360448,
+      "memStride": 7,
+      "stressLineSize": 1024,
+      "stressTargetLines": 11,
+      "memStressIterations": 339,
+      "preStressIterations": 36,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "100": {
+    "Message Passing Coherency": {
+      "seq": 14384047,
+      "interleaved": 1061,
+      "weak": 2092,
+      "durationSeconds": 2.785
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 14382639,
+      "interleaved": 475,
+      "weak": 4086,
+      "durationSeconds": 2.809
+    },
+    "params": {
+      "testingWorkgroups": 562,
+      "maxWorkgroups": 696,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 22528,
+      "memStride": 3,
+      "stressLineSize": 64,
+      "stressTargetLines": 11,
+      "memStressIterations": 669,
+      "preStressIterations": 1,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "101": {
+    "Message Passing Coherency": {
+      "seq": 14510492,
+      "interleaved": 1040,
+      "weak": 3668,
+      "durationSeconds": 2.842
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 14508491,
+      "interleaved": 641,
+      "weak": 6068,
+      "durationSeconds": 2.784
+    },
+    "params": {
+      "testingWorkgroups": 567,
+      "maxWorkgroups": 789,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 256,
+      "memStride": 3,
+      "stressLineSize": 4,
+      "stressTargetLines": 2,
+      "memStressIterations": 617,
+      "preStressIterations": 44,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "102": {
+    "Message Passing Coherency": {
+      "seq": 25645428,
+      "interleaved": 1681,
+      "weak": 4091,
+      "durationSeconds": 4.215
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 25642403,
+      "interleaved": 1276,
+      "weak": 7521,
+      "durationSeconds": 4.16
+    },
+    "params": {
+      "testingWorkgroups": 1002,
+      "maxWorkgroups": 1011,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 4096,
+      "memStride": 5,
+      "stressLineSize": 16,
+      "stressTargetLines": 8,
+      "memStressIterations": 703,
+      "preStressIterations": 16,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "103": {
+    "Message Passing Coherency": {
+      "seq": 25623041,
+      "interleaved": 946,
+      "weak": 1613,
+      "durationSeconds": 4.41
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 25622045,
+      "interleaved": 394,
+      "weak": 3161,
+      "durationSeconds": 4.28
+    },
+    "params": {
+      "testingWorkgroups": 1001,
+      "maxWorkgroups": 1004,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 8192,
+      "memStride": 6,
+      "stressLineSize": 256,
+      "stressTargetLines": 1,
+      "memStressIterations": 669,
+      "preStressIterations": 3,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "104": {
+    "Message Passing Coherency": {
+      "seq": 18298828,
+      "interleaved": 1327,
+      "weak": 3845,
+      "durationSeconds": 3.134
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 18296410,
+      "interleaved": 1047,
+      "weak": 6543,
+      "durationSeconds": 3.124
+    },
+    "params": {
+      "testingWorkgroups": 715,
+      "maxWorkgroups": 875,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 106496,
+      "memStride": 4,
+      "stressLineSize": 256,
+      "stressTargetLines": 13,
+      "memStressIterations": 319,
+      "preStressIterations": 17,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "105": {
+    "Message Passing Coherency": {
+      "seq": 735950,
+      "interleaved": 3218,
+      "weak": 3232,
+      "durationSeconds": 0.926
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 734574,
+      "interleaved": 840,
+      "weak": 6986,
+      "durationSeconds": 0.946
+    },
+    "params": {
+      "testingWorkgroups": 29,
+      "maxWorkgroups": 143,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 131072,
+      "memStride": 4,
+      "stressLineSize": 1024,
+      "stressTargetLines": 4,
+      "memStressIterations": 426,
+      "preStressIterations": 53,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "106": {
+    "Message Passing Coherency": {
+      "seq": 9412256,
+      "interleaved": 11340,
+      "weak": 48404,
+      "durationSeconds": 1.303
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 9345613,
+      "interleaved": 4299,
+      "weak": 122088,
+      "durationSeconds": 1.321
+    },
+    "params": {
+      "testingWorkgroups": 370,
+      "maxWorkgroups": 988,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 896,
+      "memStride": 7,
+      "stressLineSize": 4,
+      "stressTargetLines": 7,
+      "memStressIterations": 330,
+      "preStressIterations": 82,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "107": {
+    "Message Passing Coherency": {
+      "seq": 978636,
+      "interleaved": 12499,
+      "weak": 7265,
+      "durationSeconds": 0.944
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 951683,
+      "interleaved": 4463,
+      "weak": 42254,
+      "durationSeconds": 0.957
+    },
+    "params": {
+      "testingWorkgroups": 39,
+      "maxWorkgroups": 952,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 2560,
+      "memStride": 1,
+      "stressLineSize": 8,
+      "stressTargetLines": 10,
+      "memStressIterations": 217,
+      "preStressIterations": 89,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "108": {
+    "Message Passing Coherency": {
+      "seq": 4397471,
+      "interleaved": 1859,
+      "weak": 3870,
+      "durationSeconds": 1.998
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 4394198,
+      "interleaved": 1226,
+      "weak": 7776,
+      "durationSeconds": 2.02
+    },
+    "params": {
+      "testingWorkgroups": 172,
+      "maxWorkgroups": 964,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 512,
+      "memStride": 4,
+      "stressLineSize": 8,
+      "stressTargetLines": 2,
+      "memStressIterations": 722,
+      "preStressIterations": 81,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "109": {
+    "Message Passing Coherency": {
+      "seq": 941072,
+      "interleaved": 2043,
+      "weak": 4085,
+      "durationSeconds": 1.412
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 936304,
+      "interleaved": 1236,
+      "weak": 9660,
+      "durationSeconds": 1.489
+    },
+    "params": {
+      "testingWorkgroups": 37,
+      "maxWorkgroups": 427,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 2,
+      "stressLineSize": 512,
+      "stressTargetLines": 2,
+      "memStressIterations": 770,
+      "preStressIterations": 51,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "110": {
+    "Message Passing Coherency": {
+      "seq": 15561293,
+      "interleaved": 850,
+      "weak": 2657,
+      "durationSeconds": 2.869
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 15559140,
+      "interleaved": 510,
+      "weak": 5150,
+      "durationSeconds": 2.767
+    },
+    "params": {
+      "testingWorkgroups": 608,
+      "maxWorkgroups": 747,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 5632,
+      "memStride": 2,
+      "stressLineSize": 16,
+      "stressTargetLines": 11,
+      "memStressIterations": 209,
+      "preStressIterations": 52,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "111": {
+    "Message Passing Coherency": {
+      "seq": 451489,
+      "interleaved": 2344,
+      "weak": 6967,
+      "durationSeconds": 0.987
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 451335,
+      "interleaved": 925,
+      "weak": 8540,
+      "durationSeconds": 0.885
+    },
+    "params": {
+      "testingWorkgroups": 18,
+      "maxWorkgroups": 130,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 1024,
+      "memStride": 1,
+      "stressLineSize": 8,
+      "stressTargetLines": 4,
+      "memStressIterations": 304,
+      "preStressIterations": 94,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "112": {
+    "Message Passing Coherency": {
+      "seq": 16490400,
+      "interleaved": 17592,
+      "weak": 106408,
+      "durationSeconds": 1.931
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 16503782,
+      "interleaved": 4780,
+      "weak": 105838,
+      "durationSeconds": 1.88
+    },
+    "params": {
+      "testingWorkgroups": 649,
+      "maxWorkgroups": 895,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 2048,
+      "memStride": 6,
+      "stressLineSize": 4,
+      "stressTargetLines": 16,
+      "memStressIterations": 750,
+      "preStressIterations": 85,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "113": {
+    "Message Passing Coherency": {
+      "seq": 12771247,
+      "interleaved": 710,
+      "weak": 2443,
+      "durationSeconds": 2.7
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 12769746,
+      "interleaved": 374,
+      "weak": 4280,
+      "durationSeconds": 2.695
+    },
+    "params": {
+      "testingWorkgroups": 499,
+      "maxWorkgroups": 591,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1536,
+      "memStride": 2,
+      "stressLineSize": 16,
+      "stressTargetLines": 3,
+      "memStressIterations": 85,
+      "preStressIterations": 67,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "114": {
+    "Message Passing Coherency": {
+      "seq": 7303383,
+      "interleaved": 9975,
+      "weak": 33842,
+      "durationSeconds": 0.946
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 7269173,
+      "interleaved": 1244,
+      "weak": 76783,
+      "durationSeconds": 1.022
+    },
+    "params": {
+      "testingWorkgroups": 287,
+      "maxWorkgroups": 765,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 2,
+      "stressLineSize": 512,
+      "stressTargetLines": 1,
+      "memStressIterations": 441,
+      "preStressIterations": 65,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "115": {
+    "Message Passing Coherency": {
+      "seq": 24672856,
+      "interleaved": 1576,
+      "weak": 3968,
+      "durationSeconds": 4.153
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 24669756,
+      "interleaved": 1270,
+      "weak": 7374,
+      "durationSeconds": 4.169
+    },
+    "params": {
+      "testingWorkgroups": 964,
+      "maxWorkgroups": 1021,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 5,
+      "stressLineSize": 128,
+      "stressTargetLines": 4,
+      "memStressIterations": 742,
+      "preStressIterations": 65,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "116": {
+    "Message Passing Coherency": {
+      "seq": 12412556,
+      "interleaved": 864,
+      "weak": 2580,
+      "durationSeconds": 2.504
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 12411281,
+      "interleaved": 453,
+      "weak": 4266,
+      "durationSeconds": 2.429
+    },
+    "params": {
+      "testingWorkgroups": 485,
+      "maxWorkgroups": 495,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 262144,
+      "memStride": 2,
+      "stressLineSize": 1024,
+      "stressTargetLines": 8,
+      "memStressIterations": 951,
+      "preStressIterations": 39,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "117": {
+    "Message Passing Coherency": {
+      "seq": 9336517,
+      "interleaved": 2381,
+      "weak": 5102,
+      "durationSeconds": 1.344
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 9333931,
+      "interleaved": 809,
+      "weak": 9260,
+      "durationSeconds": 1.346
+    },
+    "params": {
+      "testingWorkgroups": 365,
+      "maxWorkgroups": 814,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 16384,
+      "memStride": 7,
+      "stressLineSize": 128,
+      "stressTargetLines": 4,
+      "memStressIterations": 756,
+      "preStressIterations": 26,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "118": {
+    "Message Passing Coherency": {
+      "seq": 4342430,
+      "interleaved": 4526,
+      "weak": 30644,
+      "durationSeconds": 1.109
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 4323686,
+      "interleaved": 1683,
+      "weak": 52231,
+      "durationSeconds": 1.123
+    },
+    "params": {
+      "testingWorkgroups": 171,
+      "maxWorkgroups": 1013,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 16384,
+      "memStride": 7,
+      "stressLineSize": 256,
+      "stressTargetLines": 2,
+      "memStressIterations": 320,
+      "preStressIterations": 28,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "119": {
+    "Message Passing Coherency": {
+      "seq": 24341622,
+      "interleaved": 1179,
+      "weak": 2799,
+      "durationSeconds": 3.92
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 24339922,
+      "interleaved": 782,
+      "weak": 4896,
+      "durationSeconds": 3.842
+    },
+    "params": {
+      "testingWorkgroups": 951,
+      "maxWorkgroups": 1010,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 24576,
+      "memStride": 3,
+      "stressLineSize": 256,
+      "stressTargetLines": 3,
+      "memStressIterations": 963,
+      "preStressIterations": 126,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "120": {
+    "Message Passing Coherency": {
+      "seq": 18455365,
+      "interleaved": 852,
+      "weak": 1383,
+      "durationSeconds": 3.113
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 18454421,
+      "interleaved": 314,
+      "weak": 2865,
+      "durationSeconds": 3.155
+    },
+    "params": {
+      "testingWorkgroups": 721,
+      "maxWorkgroups": 897,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 45056,
+      "memStride": 3,
+      "stressLineSize": 128,
+      "stressTargetLines": 11,
+      "memStressIterations": 684,
+      "preStressIterations": 97,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "121": {
+    "Message Passing Coherency": {
+      "seq": 5107366,
+      "interleaved": 2480,
+      "weak": 10154,
+      "durationSeconds": 1.201
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 5103226,
+      "interleaved": 895,
+      "weak": 15879,
+      "durationSeconds": 1.119
+    },
+    "params": {
+      "testingWorkgroups": 200,
+      "maxWorkgroups": 991,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 3584,
+      "memStride": 7,
+      "stressLineSize": 16,
+      "stressTargetLines": 7,
+      "memStressIterations": 279,
+      "preStressIterations": 25,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "122": {
+    "Message Passing Coherency": {
+      "seq": 1298649,
+      "interleaved": 2711,
+      "weak": 4240,
+      "durationSeconds": 0.982
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 1296055,
+      "interleaved": 487,
+      "weak": 9058,
+      "durationSeconds": 0.966
+    },
+    "params": {
+      "testingWorkgroups": 51,
+      "maxWorkgroups": 338,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 3584,
+      "memStride": 1,
+      "stressLineSize": 16,
+      "stressTargetLines": 7,
+      "memStressIterations": 944,
+      "preStressIterations": 49,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "123": {
+    "Message Passing Coherency": {
+      "seq": 17795265,
+      "interleaved": 3288,
+      "weak": 44647,
+      "durationSeconds": 1.405
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 17783307,
+      "interleaved": 382,
+      "weak": 59511,
+      "durationSeconds": 1.223
+    },
+    "params": {
+      "testingWorkgroups": 697,
+      "maxWorkgroups": 978,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 5120,
+      "memStride": 1,
+      "stressLineSize": 32,
+      "stressTargetLines": 5,
+      "memStressIterations": 824,
+      "preStressIterations": 56,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "124": {
+    "Message Passing Coherency": {
+      "seq": 19069163,
+      "interleaved": 1048,
+      "weak": 1789,
+      "durationSeconds": 3.412
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 19067319,
+      "interleaved": 551,
+      "weak": 4130,
+      "durationSeconds": 3.501
+    },
+    "params": {
+      "testingWorkgroups": 745,
+      "maxWorkgroups": 1011,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 2048,
+      "memStride": 6,
+      "stressLineSize": 4,
+      "stressTargetLines": 16,
+      "memStressIterations": 144,
+      "preStressIterations": 38,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "125": {
+    "Message Passing Coherency": {
+      "seq": 9494559,
+      "interleaved": 2751,
+      "weak": 25890,
+      "durationSeconds": 1.1
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 9495163,
+      "interleaved": 1330,
+      "weak": 26707,
+      "durationSeconds": 1.129
+    },
+    "params": {
+      "testingWorkgroups": 372,
+      "maxWorkgroups": 820,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 40960,
+      "memStride": 2,
+      "stressLineSize": 128,
+      "stressTargetLines": 10,
+      "memStressIterations": 126,
+      "preStressIterations": 107,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "126": {
+    "Message Passing Coherency": {
+      "seq": 16416411,
+      "interleaved": 4607,
+      "weak": 39782,
+      "durationSeconds": 1.719
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 16392186,
+      "interleaved": 1087,
+      "weak": 67527,
+      "durationSeconds": 1.685
+    },
+    "params": {
+      "testingWorkgroups": 643,
+      "maxWorkgroups": 811,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1280,
+      "memStride": 7,
+      "stressLineSize": 8,
+      "stressTargetLines": 5,
+      "memStressIterations": 450,
+      "preStressIterations": 14,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "127": {
+    "Message Passing Coherency": {
+      "seq": 24495131,
+      "interleaved": 961,
+      "weak": 3108,
+      "durationSeconds": 3.776
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 24493299,
+      "interleaved": 584,
+      "weak": 5317,
+      "durationSeconds": 3.765
+    },
+    "params": {
+      "testingWorkgroups": 957,
+      "maxWorkgroups": 1012,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 1024,
+      "memStride": 2,
+      "stressLineSize": 16,
+      "stressTargetLines": 2,
+      "memStressIterations": 915,
+      "preStressIterations": 89,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "128": {
+    "Message Passing Coherency": {
+      "seq": 7446464,
+      "interleaved": 965,
+      "weak": 2171,
+      "durationSeconds": 1.905
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 7444979,
+      "interleaved": 696,
+      "weak": 3925,
+      "durationSeconds": 1.895
+    },
+    "params": {
+      "testingWorkgroups": 291,
+      "maxWorkgroups": 521,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 32768,
+      "memStride": 6,
+      "stressLineSize": 1024,
+      "stressTargetLines": 1,
+      "memStressIterations": 108,
+      "preStressIterations": 43,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "129": {
+    "Message Passing Coherency": {
+      "seq": 17044695,
+      "interleaved": 1179,
+      "weak": 3726,
+      "durationSeconds": 2.901
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 17042811,
+      "interleaved": 580,
+      "weak": 6209,
+      "durationSeconds": 2.889
+    },
+    "params": {
+      "testingWorkgroups": 666,
+      "maxWorkgroups": 807,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 393216,
+      "memStride": 2,
+      "stressLineSize": 1024,
+      "stressTargetLines": 12,
+      "memStressIterations": 732,
+      "preStressIterations": 40,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "130": {
+    "Message Passing Coherency": {
+      "seq": 12528550,
+      "interleaved": 13992,
+      "weak": 78258,
+      "durationSeconds": 1.2
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 12548201,
+      "interleaved": 1300,
+      "weak": 71299,
+      "durationSeconds": 1.052
+    },
+    "params": {
+      "testingWorkgroups": 493,
+      "maxWorkgroups": 744,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 24576,
+      "memStride": 1,
+      "stressLineSize": 64,
+      "stressTargetLines": 12,
+      "memStressIterations": 631,
+      "preStressIterations": 73,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "131": {
+    "Message Passing Coherency": {
+      "seq": 8572882,
+      "interleaved": 764,
+      "weak": 2354,
+      "durationSeconds": 2.218
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 8570407,
+      "interleaved": 613,
+      "weak": 4980,
+      "durationSeconds": 2.296
+    },
+    "params": {
+      "testingWorkgroups": 335,
+      "maxWorkgroups": 712,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 81920,
+      "memStride": 3,
+      "stressLineSize": 512,
+      "stressTargetLines": 5,
+      "memStressIterations": 815,
+      "preStressIterations": 76,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "132": {
+    "Message Passing Coherency": {
+      "seq": 8238799,
+      "interleaved": 3961,
+      "weak": 26040,
+      "durationSeconds": 1.083
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 8252593,
+      "interleaved": 798,
+      "weak": 15409,
+      "durationSeconds": 1.119
+    },
+    "params": {
+      "testingWorkgroups": 323,
+      "maxWorkgroups": 650,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 512,
+      "memStride": 5,
+      "stressLineSize": 8,
+      "stressTargetLines": 2,
+      "memStressIterations": 532,
+      "preStressIterations": 58,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "133": {
+    "Message Passing Coherency": {
+      "seq": 7849632,
+      "interleaved": 5280,
+      "weak": 29888,
+      "durationSeconds": 1.103
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 7838740,
+      "interleaved": 1527,
+      "weak": 44533,
+      "durationSeconds": 1.05
+    },
+    "params": {
+      "testingWorkgroups": 308,
+      "maxWorkgroups": 773,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 3,
+      "stressLineSize": 16,
+      "stressTargetLines": 8,
+      "memStressIterations": 496,
+      "preStressIterations": 55,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "134": {
+    "Message Passing Coherency": {
+      "seq": 18965795,
+      "interleaved": 1220,
+      "weak": 2585,
+      "durationSeconds": 3.349
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 18963681,
+      "interleaved": 950,
+      "weak": 4969,
+      "durationSeconds": 3.315
+    },
+    "params": {
+      "testingWorkgroups": 741,
+      "maxWorkgroups": 966,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 128,
+      "memStride": 6,
+      "stressLineSize": 4,
+      "stressTargetLines": 1,
+      "memStressIterations": 978,
+      "preStressIterations": 58,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "135": {
+    "Message Passing Coherency": {
+      "seq": 12691355,
+      "interleaved": 1807,
+      "weak": 4438,
+      "durationSeconds": 1.402
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 12688945,
+      "interleaved": 738,
+      "weak": 7917,
+      "durationSeconds": 1.517
+    },
+    "params": {
+      "testingWorkgroups": 496,
+      "maxWorkgroups": 752,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 6144,
+      "memStride": 6,
+      "stressLineSize": 32,
+      "stressTargetLines": 6,
+      "memStressIterations": 312,
+      "preStressIterations": 114,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "136": {
+    "Message Passing Coherency": {
+      "seq": 9955641,
+      "interleaved": 631,
+      "weak": 2128,
+      "durationSeconds": 2.218
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 9954483,
+      "interleaved": 327,
+      "weak": 3590,
+      "durationSeconds": 2.242
+    },
+    "params": {
+      "testingWorkgroups": 389,
+      "maxWorkgroups": 993,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 1920,
+      "memStride": 2,
+      "stressLineSize": 4,
+      "stressTargetLines": 15,
+      "memStressIterations": 811,
+      "preStressIterations": 44,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "137": {
+    "Message Passing Coherency": {
+      "seq": 11951596,
+      "interleaved": 1253,
+      "weak": 2351,
+      "durationSeconds": 2.666
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 11949613,
+      "interleaved": 640,
+      "weak": 4947,
+      "durationSeconds": 2.567
+    },
+    "params": {
+      "testingWorkgroups": 467,
+      "maxWorkgroups": 646,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 1024,
+      "memStride": 6,
+      "stressLineSize": 32,
+      "stressTargetLines": 1,
+      "memStressIterations": 411,
+      "preStressIterations": 68,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "138": {
+    "Message Passing Coherency": {
+      "seq": 22789095,
+      "interleaved": 3888,
+      "weak": 42217,
+      "durationSeconds": 1.915
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 22776984,
+      "interleaved": 939,
+      "weak": 57277,
+      "durationSeconds": 1.756
+    },
+    "params": {
+      "testingWorkgroups": 892,
+      "maxWorkgroups": 1017,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 1536,
+      "memStride": 5,
+      "stressLineSize": 4,
+      "stressTargetLines": 12,
+      "memStressIterations": 597,
+      "preStressIterations": 107,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "139": {
+    "Message Passing Coherency": {
+      "seq": 9202202,
+      "interleaved": 2050,
+      "weak": 11748,
+      "durationSeconds": 1.112
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 9199980,
+      "interleaved": 495,
+      "weak": 15525,
+      "durationSeconds": 1.092
+    },
+    "params": {
+      "testingWorkgroups": 360,
+      "maxWorkgroups": 633,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 6144,
+      "memStride": 2,
+      "stressLineSize": 64,
+      "stressTargetLines": 3,
+      "memStressIterations": 169,
+      "preStressIterations": 30,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "140": {
+    "Message Passing Coherency": {
+      "seq": 25338548,
+      "interleaved": 1512,
+      "weak": 3940,
+      "durationSeconds": 4.299
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 25336945,
+      "interleaved": 1088,
+      "weak": 5967,
+      "durationSeconds": 4.258
+    },
+    "params": {
+      "testingWorkgroups": 990,
+      "maxWorkgroups": 990,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 14336,
+      "memStride": 5,
+      "stressLineSize": 32,
+      "stressTargetLines": 14,
+      "memStressIterations": 71,
+      "preStressIterations": 28,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "141": {
+    "Message Passing Coherency": {
+      "seq": 21790554,
+      "interleaved": 4095,
+      "weak": 42151,
+      "durationSeconds": 1.674
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 21771697,
+      "interleaved": 642,
+      "weak": 64461,
+      "durationSeconds": 1.672
+    },
+    "params": {
+      "testingWorkgroups": 853,
+      "maxWorkgroups": 944,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 2560,
+      "memStride": 3,
+      "stressLineSize": 8,
+      "stressTargetLines": 10,
+      "memStressIterations": 308,
+      "preStressIterations": 98,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "142": {
+    "Message Passing Coherency": {
+      "seq": 24292011,
+      "interleaved": 832,
+      "weak": 1557,
+      "durationSeconds": 3.935
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 24290886,
+      "interleaved": 345,
+      "weak": 3169,
+      "durationSeconds": 3.88
+    },
+    "params": {
+      "testingWorkgroups": 949,
+      "maxWorkgroups": 972,
+      "shufflePct": 100,
+      "barrierPct": 100,
+      "memStressPct": 100,
+      "preStressPct": 0,
+      "scratchMemorySize": 32768,
+      "memStride": 4,
+      "stressLineSize": 64,
+      "stressTargetLines": 16,
+      "memStressIterations": 207,
+      "preStressIterations": 72,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "143": {
+    "Message Passing Coherency": {
+      "seq": 9973948,
+      "interleaved": 2970,
+      "weak": 32682,
+      "durationSeconds": 1.187
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 9976117,
+      "interleaved": 421,
+      "weak": 33062,
+      "durationSeconds": 1.182
+    },
+    "params": {
+      "testingWorkgroups": 391,
+      "maxWorkgroups": 581,
+      "shufflePct": 100,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 26624,
+      "memStride": 2,
+      "stressLineSize": 64,
+      "stressTargetLines": 13,
+      "memStressIterations": 200,
+      "preStressIterations": 7,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "144": {
+    "Message Passing Coherency": {
+      "seq": 987270,
+      "interleaved": 3209,
+      "weak": 7921,
+      "durationSeconds": 1.287
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 976587,
+      "interleaved": 1026,
+      "weak": 20787,
+      "durationSeconds": 1.299
+    },
+    "params": {
+      "testingWorkgroups": 39,
+      "maxWorkgroups": 599,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 100,
+      "preStressPct": 100,
+      "scratchMemorySize": 4096,
+      "memStride": 1,
+      "stressLineSize": 64,
+      "stressTargetLines": 2,
+      "memStressIterations": 637,
+      "preStressIterations": 18,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "145": {
+    "Message Passing Coherency": {
+      "seq": 6059599,
+      "interleaved": 9641,
+      "weak": 74760,
+      "durationSeconds": 1.115
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 6112322,
+      "interleaved": 1021,
+      "weak": 30657,
+      "durationSeconds": 1.077
+    },
+    "params": {
+      "testingWorkgroups": 240,
+      "maxWorkgroups": 756,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 6144,
+      "memStride": 4,
+      "stressLineSize": 16,
+      "stressTargetLines": 12,
+      "memStressIterations": 25,
+      "preStressIterations": 42,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "146": {
+    "Message Passing Coherency": {
+      "seq": 11369333,
+      "interleaved": 14496,
+      "weak": 59371,
+      "durationSeconds": 1.444
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 11291377,
+      "interleaved": 4465,
+      "weak": 147358,
+      "durationSeconds": 1.325
+    },
+    "params": {
+      "testingWorkgroups": 447,
+      "maxWorkgroups": 629,
+      "shufflePct": 0,
+      "barrierPct": 0,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 262144,
+      "memStride": 6,
+      "stressLineSize": 512,
+      "stressTargetLines": 16,
+      "memStressIterations": 293,
+      "preStressIterations": 58,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 0,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "147": {
+    "Message Passing Coherency": {
+      "seq": 1270747,
+      "interleaved": 2706,
+      "weak": 6547,
+      "durationSeconds": 1.099
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 1259312,
+      "interleaved": 2121,
+      "weak": 18567,
+      "durationSeconds": 1.151
+    },
+    "params": {
+      "testingWorkgroups": 50,
+      "maxWorkgroups": 814,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 65536,
+      "memStride": 6,
+      "stressLineSize": 256,
+      "stressTargetLines": 8,
+      "memStressIterations": 698,
+      "preStressIterations": 42,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 0,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "148": {
+    "Message Passing Coherency": {
+      "seq": 6112364,
+      "interleaved": 2154,
+      "weak": 3882,
+      "durationSeconds": 1.761
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 6106784,
+      "interleaved": 1540,
+      "weak": 10076,
+      "durationSeconds": 1.715
+    },
+    "params": {
+      "testingWorkgroups": 239,
+      "maxWorkgroups": 305,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 100,
+      "scratchMemorySize": 14336,
+      "memStride": 7,
+      "stressLineSize": 32,
+      "stressTargetLines": 14,
+      "memStressIterations": 847,
+      "preStressIterations": 8,
+      "stressStrategyBalancePct": 100,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 0,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 100
+    }
+  },
+  "149": {
+    "Message Passing Coherency": {
+      "seq": 5983609,
+      "interleaved": 1881,
+      "weak": 4910,
+      "durationSeconds": 1.685
+    },
+    "Message Passing Coherency One-Loc": {
+      "seq": 5980259,
+      "interleaved": 771,
+      "weak": 9370,
+      "durationSeconds": 1.694
+    },
+    "params": {
+      "testingWorkgroups": 234,
+      "maxWorkgroups": 594,
+      "shufflePct": 0,
+      "barrierPct": 100,
+      "memStressPct": 0,
+      "preStressPct": 0,
+      "scratchMemorySize": 4096,
+      "memStride": 2,
+      "stressLineSize": 32,
+      "stressTargetLines": 4,
+      "memStressIterations": 469,
+      "preStressIterations": 16,
+      "stressStrategyBalancePct": 0,
+      "memStressStoreFirstPct": 100,
+      "memStressStoreSecondPct": 100,
+      "preStressStoreFirstPct": 100,
+      "preStressStoreSecondPct": 0
+    }
+  },
+  "randomSeed": "webgpu"
+}

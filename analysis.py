@@ -1,7 +1,9 @@
 import argparse
 import json
 import math
-from os import listdir
+import csv
+import pandas
+from os import listdir, remove
 
 REVERSING_PO = "reversing_po"
 WEAKENING_PO = "weakening_po"
@@ -39,10 +41,40 @@ def load_stats(stats_path):
         return dataset
 
 def load_all_stats(stats_dir):
+    """
+    Load all stats files in the specified directory
+    """
     all_stats = []
     for stats_file in listdir(stats_dir):
         all_stats.append(DeviceStats(stats_file.split(".")[0], load_stats(stats_dir + "/" + stats_file)))
     return all_stats
+
+def correlate(dataset):
+    """
+    Converts a stats json file to a csv, for use with python data science modules, then finds
+    the correlation between the weak behaviors of the tests in the dataset.
+    """
+    data_file = open("temp.csv", 'w')
+    csv_writer = csv.writer(data_file)
+    first = True
+    for key in dataset:
+        if key != "randomSeed":
+            row = []
+            if first:
+                for test_key in dataset[key]:
+                    if test_key != "params":
+                        row.append(test_key)
+                first = False
+                csv_writer.writerow(row)
+                row = []
+            for test_key in dataset[key]:
+                if test_key != "params":
+                    row.append(dataset[key][test_key]["weak"])
+            csv_writer.writerow(row)
+    data_file.close()
+    df = pandas.read_csv("temp.csv")
+    remove("temp.csv")
+    return df.corr()
 
 def calculate_rate(stats, test_iter, test_key):
     value = stats[test_iter][test_key]["weak"]
@@ -54,11 +86,12 @@ def get_ceiling_rate(reproducibility, time_budget):
     num_weak_behaviors = math.ceil(-math.log(1 - reproducibility))
     return num_weak_behaviors/time_budget
 
-def merge_test_environments(all_stats, ceiling_rate):
+def merge_test_environments(all_stats, rep, budget):
     """
     Merge environments on a per test basis, finding the one that maximizes the number of reproducible tests
     """
-    initial_best = MaxReprTests(0, VERY_LARGE_RATE, 0)
+    ceiling_rate = get_ceiling_rate(rep, budget)
+    initial_best = MaxReprTests(0, VERY_LARGE_RATE, '0')
     tests = {}
     for test_key in all_stats[0].data["0"]:
         if test_key != "params":
@@ -127,21 +160,25 @@ def per_test_stats(dataset):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--action", required=True,  help="""Analysis to perform.
-                        mut-score: returns the mutation scores and average mutant death rates for a dataset.
-                        merge: combine test environments across multiple datasets""")
-    parser.add_argument("--stats_path", help="Path to the stats to analyze. For the mut-score action, must be a file. For the merge action, must be a directory.")
+                        mutation-score: returns the mutation scores and average mutant death rates for a dataset.
+                        merge: combine test environments across multiple datasets
+                        correation: show the correlation between the weak behaviors of tests in the dataset""")
+    parser.add_argument("--stats_path", help="Path to the stats to analyze. For the mutation-score and correlation actions, must be a file. For the merge action, must be a directory.")
     parser.add_argument("--rep", default="99.999", help="Level of reproducibility (merge action).")
     parser.add_argument("--budget", default="4", help="Time budget per test (seconds) (merge action)")
     args = parser.parse_args()
-    if args.action == "mut-score":
+    if args.action == "mutation-score":
         stats = load_stats(args.stats_path)
         result = per_test_stats(stats)[0]
         print(json.dumps(result, indent=4))
     elif args.action == "merge":
         all_stats = load_all_stats(args.stats_path)
-        ceiling_rate = get_ceiling_rate(float(args.rep)/100, float(args.budget))
-        rep_tests = merge_test_environments(all_stats, ceiling_rate)
+        rep_tests = merge_test_environments(all_stats, float(args.rep)/100, float(args.budget))
         print("Number of Reproducible Tests: {}".format(rep_tests))
+    elif args.action == "correlation":
+        stats = load_stats(args.stats_path)
+        correlation = correlate(stats)
+        print(correlation)
 
 if __name__ == "__main__":
     main()

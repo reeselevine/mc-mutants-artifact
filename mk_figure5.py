@@ -1,8 +1,7 @@
-import json
 import matplotlib.pyplot as plt
 import numpy as np
 from analysis import *
-from os import mkdir
+from os import mkdir, path
 
 INTEL = "intel"
 AMD = "amd"
@@ -25,58 +24,6 @@ REVERSING_PO_TESTS = 8
 WEAKENING_PO_TESTS = 6
 WEAKENING_SW_TESTS = 18
 ALL_TESTS = 32
-
-def load_stats(stats_path):
-    """
-    Load the file with the test run output
-    """
-    with open(stats_path, "r") as stats_file:
-        dataset = json.loads(stats_file.read())
-        return dataset
-
-def per_test_stats(dataset):
-    """
-    Finds the number of tests caught and the max rate of weak behaviors per test, for the given dataset
-    """
-    result = {}
-    for key in dataset:
-        if key != "randomSeed":
-            for testKey in dataset[key]:
-                if testKey != "params":
-                    value = dataset[key][testKey]["weak"]
-                    time = dataset[key][testKey]["durationSeconds"]
-                    rate = round(value/time, 3)
-                    if testKey not in result or result[testKey][1] < rate:
-                        result[testKey] = (key, rate)
-    reversing_po_rates = []
-    reversing_po_caught = 0
-    weakening_po_rates = []
-    weakening_po_caught = 0
-    weakening_sw_rates = []
-    weakening_sw_caught = 0
-    for key in result:
-        # Not the cleanest checking the key name, but reversing po mutants have "mutations" in their name
-        if "Mutations" in key:
-            reversing_po_rates.append(result[key][1])
-            if result[key][1] > 0:
-                reversing_po_caught += 1
-        # Weakening po mutants have "coherency" in their name
-        elif "Coherency" in key:
-            weakening_po_rates.append(result[key][1])
-            if result[key][1] > 0:
-                weakening_po_caught += 1
-        # if it's not one of the two mutants above, it must be a weakening sw mutant
-        else:
-            weakening_sw_rates.append(result[key][1])
-            if result[key][1] > 0:
-                weakening_sw_caught += 1
-    all_rates = reversing_po_rates + weakening_po_rates + weakening_sw_rates
-    to_return = dict()
-    to_return[REVERSING_PO] = {AVG_RATE: round(sum(reversing_po_rates)/len(reversing_po_rates), 3), CAUGHT: reversing_po_caught}
-    to_return[WEAKENING_PO] = {AVG_RATE: round(sum(weakening_po_rates)/len(weakening_po_rates), 3), CAUGHT: weakening_po_caught}
-    to_return[WEAKENING_SW] = {AVG_RATE: round(sum(weakening_sw_rates)/len(weakening_sw_rates), 3), CAUGHT: weakening_sw_caught}
-    to_return[ALL] = {AVG_RATE: round(sum(all_rates)/len(all_rates), 3), CAUGHT: reversing_po_caught + weakening_po_caught + weakening_sw_caught}
-    return (to_return, all_rates)
 
 def per_device_stats(environment):
     result = dict()
@@ -179,8 +126,10 @@ def avg_mutant_death_rate_subfigure(stats, mutant_type, fig_name, per_device=Tru
     plt.tight_layout(rect=[0, 0, 1, .93])
     plt.savefig("figures/figure5{}.pdf".format(fig_name))
 
-def make_figures(stats):
-    mkdir("figures")
+def main():
+    stats = all_stats()
+    if not path.exists("figures"):
+        mkdir("figures")
     mutation_score_subfigure(stats, REVERSING_PO, REVERSING_PO_TESTS, "a")
     avg_mutant_death_rate_subfigure(stats, REVERSING_PO, "b")
     mutation_score_subfigure(stats, WEAKENING_PO, WEAKENING_PO_TESTS, "c")
@@ -191,10 +140,6 @@ def make_figures(stats):
     avg_mutant_death_rate_subfigure(stats, ALL, "h")
     mutation_score_subfigure(stats, "N/A", ALL_TESTS * len(devices), "i", False)
     avg_mutant_death_rate_subfigure(stats, "N/A", "j", False)
-
-def main():
-    stats = all_stats()
-    make_figures(stats)
 
 if __name__ == "__main__":
     main()
