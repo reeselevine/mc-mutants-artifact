@@ -19,7 +19,7 @@ Along with using the hosted version of the website, it is possible to set up and
 
 All of the data collected and included in the paper are also included in this repository. Specifically, the folders `site_baseline`, `site`, `pte_baseline`, and `pte` contain the results for each of the four devices. `correlation_analysis` contains the results of running the mutants and the kernel that observes a bug in the three devices described in Section 5.4 of the paper.
 
-The scripts that we use to analyze the results are written in python, and require `matplotlib` and `numpy` to be installed.
+The scripts that we use to analyze the results are written in python, and require `matplotlib`, `numpy`, and `pandas` to be installed.
 
 To generate the graphs included in Figure 5 of the paper, run `mk_figure5.py`. The resulting pdfs will be written to the `figures/` directory. Similarily, `mk_figure6.py` creates Figure 6, and `mk_table4.py` prints out the data included in Table 4 of the paper. We will now describe the algorithms we use to generate these figures.
 
@@ -27,4 +27,11 @@ The other file included in this repository, `analysis.py`, contains code for par
 
 #### Mutation Scores and Mutant Death Rates
 
-Given a result file (e.g. `pte/amd.json`), running `analysis.py --action mutation-score --stats_path pte/amd.json` will print out the number of mutants that were caught by the tuning run, as well as the average mutant death rate. These numbers are broken down by mutant category and combined across all categories, as shown in Figure 5 of the paper.
+Given a result file (e.g. `pte/amd.json`), running `python3 analysis.py --action mutation-score --stats_path pte/amd.json` will print out the number of mutants that were caught by the tuning run, as well as the average mutant death rate. These numbers are broken down by mutant category and combined across all categories, as shown in Figure 5 of the paper.
+
+#### Merging Test Environments
+
+Given a directory of result files (e.g. `pte`), running `python3 analysis.py --action merge --stats_path pte` will print out the number of tests in the PTE datasets that are reproducible across the four devices at a given reproducibility score target and time budget, as described in Section 4.2 of the paper. In fact, the function `merge_test_environments` in `analysis.py` implements Algorithm 1 of the paper, combining environments on a per test basis. To change the reproducibility score target and time budget, command line arguments `--rep` and `--budget` can be used. Therefore, `python3 analysis.py --action merge --stats_path pte --rep 99.999 --budget 4` will find the number of tests that can be reproduced with 99.999% confidence at a time budget of 4 seconds per test.
+
+#### Correlation Analysis
+Given a result file (e.g. `correlation_analysis/amd.json`), running `python3 analysis.py --action correlation --stats_path correlation_analysis/amd.json` will print out a table showing the correlation between the tests in the dataset. For example, the result of the above command is a 4x4 table showing the correlation between an unmutated conformance test, `Message Passing Barrier Variant`, and its three mutant tests, as defined by Mutator 3 in Section 3.3 of the paper. Notice that while not all the tests are highly correlated, there is a 96.7% correlation between the mutant `Message Passing Barrier Variant 2` and the conformance test, which is the number reported in Table 4 of the paper for this bug. While we only use correlation analysis in our paper to show the relation between observing bugs in conformance tests and weak behaviors in mutants, it can also be used to show general correlation between any pairs of tests in a dataset.
