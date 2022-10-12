@@ -13,6 +13,8 @@ All of the results used in the paper were collected using WebGPU, which runs fro
 
 The tabs on the left side of the page contain links to many different litmus tests. Each include the ability to set parameters, run different configurations, and see results. To run the experiments included in the paper, go to the [Tuning Suite](https://gpuharbor.ucsc.edu/webgpu-mem-testing/tuning/) tab. There, you will see four preset buttons, "SITE Baseline", "SITE", "PTE Baseline", and "PTE". These presets correspond to the four environments described in Section 5.1 of the paper. Don't worry about setting any other parameters; once you've clicked the preset you'd like to run, press the "Start Tuning" button. When the experiment is complete, the results are available for download as a json file from the "All Runs: Statistics" button.
 
+Similarily, the buttons under the "Correlation Tests" heading can be used to replicate the correlation study in the paper (assuming access to the GPUs used). Each will run the same configuration used in the paper, and the results analysis below can be used to check the correlations between the conformance tests and mutants.
+
 Along with using the hosted version of the website, it is possible to set up and run the code locally. The code is located here: https://github.com/reeselevine/webgpu-litmus, and includes instructions for setting it up. As the hosted version of the website uses an origin trial token from Google to allow WebGPU to run on non-beta versions of Chrome, running it locally requires using the beta [Chrome Canary](https://www.google.com/chrome/canary/).
 
 ## Result Analysis
