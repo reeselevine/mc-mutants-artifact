@@ -15,7 +15,7 @@ The tabs on the left side of the page contain links to many different litmus tes
 
 Similarily, the buttons under the "Correlation Tests" heading can be used to replicate the correlation study in the paper (assuming access to the GPUs used). Each will run the same configuration used in the paper, and the results analysis below can be used to check the correlations between the conformance tests and mutants.
 
-Along with using the hosted version of the website, it is possible to set up and run the code locally. The code is located here: https://github.com/reeselevine/webgpu-litmus, and includes instructions for setting it up. As the hosted version of the website uses an origin trial token from Google to allow WebGPU to run on non-beta versions of Chrome, running it locally requires using the beta [Chrome Canary](https://www.google.com/chrome/canary/).
+Along with using the hosted version of the website, it is possible to set up and run the code locally. The code is located here: https://github.com/reeselevine/webgpu-litmus, and includes instructions for setting it up. As the hosted version of the website uses an origin trial token from Google to allow WebGPU to run on non-beta versions of Chrome, running it locally requires using the beta [Chrome Canary](https://www.google.com/chrome/canary/). On Chrome Canary, WebGPU must be enabled by going to `chrome://flags`, searching for `enable-unsafe-webgpu`, and switching it to "Enabled".
 
 ## Result Analysis
 
