@@ -75,17 +75,17 @@ def mutation_score_subfigure(stats, mutant_type, num_tests, fig_name, per_device
     y = np.arange(0, 110, 20)
     width = 0.2
     fig, ax = plt.subplots(1, 1, figsize=(5, 2))
-    ax.bar(x - 1.5 * width, site_baseline_score, width, label="SITE Baseline", color=SITE_BASELINE_COLOR)
-    ax.bar(x - .5 * width, site_score, width, label="SITE", color=SITE_COLOR)
-    ax.bar(x + .5 * width, pte_baseline_score, width, label="PTE Baseline", color=PTE_BASELINE_COLOR)
-    ax.bar(x + 1.5 * width, pte_score, width, label="PTE", color=PTE_COLOR)
+    ax.bar(x - 1.5 * width, site_baseline_score, width, label="Naive", color=SITE_BASELINE_COLOR)
+    ax.bar(x - .5 * width, site_score, width, label="Prior SOTA", color=SITE_COLOR)
+    ax.bar(x + .5 * width, pte_baseline_score, width, label="My work", color=PTE_BASELINE_COLOR)
+    ax.bar(x + 1.5 * width, pte_score, width, label="Synergized", color=PTE_COLOR)
     ax.set_ylim([0, 100])
     ax.set_yticks(y, pct_labels, fontsize=10)
     ax.set_xticks(x, labels)
-    ax.set_ylabel("Mutation Score", fontsize=10)
+    ax.set_ylabel("TE Effectiveness", fontsize=10)
     fig.legend(loc=(0.01, 0.87), fontsize=10, ncol=4)
     plt.tight_layout(rect=[0, 0, 1, .93])
-    plt.savefig("figures/figure5{}.pdf".format(fig_name))
+    plt.savefig("figures/figure5{}.png".format(fig_name))
 
 def avg_mutant_death_rate_subfigure(stats, mutant_type, fig_name, per_device=True):
     site_baseline_rates = []
